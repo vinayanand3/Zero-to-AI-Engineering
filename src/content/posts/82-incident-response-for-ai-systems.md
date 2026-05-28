@@ -36,9 +36,9 @@ But AI incidents can have different causes:
 
 This article explains how to think about AI incidents.
 
----
+<p class="section-break">. . .</p>
 
-# What Counts As An AI Incident?
+## What Counts As An AI Incident?
 
 An AI incident may include:
 
@@ -64,9 +64,9 @@ But teams should define severity levels.
 
 Clear severity helps decide response speed and escalation.
 
----
+<p class="section-break">. . .</p>
 
-# Step 1: Detect
+## Step 1: Detect
 
 Incidents may be detected through:
 
@@ -92,9 +92,9 @@ Good incident response starts before the incident.
 
 It starts with instrumentation.
 
----
+<p class="section-break">. . .</p>
 
-# Step 2: Mitigate
+## Step 2: Mitigate
 
 Mitigation means reducing harm quickly.
 
@@ -122,9 +122,9 @@ The first goal is limiting damage.
 
 After the system is stable, investigate deeper.
 
----
+<p class="section-break">. . .</p>
 
-# Step 3: Investigate
+## Step 3: Investigate
 
 Investigation asks:
 
@@ -166,9 +166,9 @@ Source document?
 
 AI incidents are often pipeline incidents.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4: Fix
+## Step 4: Fix
 
 The fix depends on the cause.
 
@@ -202,9 +202,9 @@ But many failures come from system design.
 
 Fix the specific failure mode.
 
----
+<p class="section-break">. . .</p>
 
-# Step 5: Learn
+## Step 5: Learn
 
 After the incident, write a postmortem.
 
@@ -236,9 +236,9 @@ If a tool permission failed, add a guardrail.
 
 If cost spiked, add an alert.
 
----
+<p class="section-break">. . .</p>
 
-# AI-Specific Questions
+## AI-Specific Questions
 
 For AI incidents, ask:
 
@@ -260,9 +260,9 @@ For AI incidents, ask:
 
 These questions turn incidents into improvements.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 AI incidents can be confusing because the failure may not live in one place.
 
@@ -282,7 +282,7 @@ The goal is to find the weakest system boundary.
 
 Good postmortems produce concrete improvements: new evals, better logging, safer fallbacks, clearer permissions, or stronger deployment checks.
 
-# Practical Example
+## Practical Example
 
 Suppose an assistant sends an incorrect answer to many users.
 
@@ -296,7 +296,7 @@ The lesson is not only "the prompt was bad."
 
 The lesson is that prompt changes need release discipline.
 
-# Mini Project
+## Mini Project
 
 Create an incident response checklist for an AI support assistant.
 
@@ -320,9 +320,9 @@ Include:
 
 This checklist is a production readiness asset.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI incidents include quality, safety, privacy, tool, retrieval, and cost failures.
 
@@ -338,9 +338,9 @@ This checklist is a production readiness asset.
 
 - AI incident response is part of production AI engineering.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have covered many production concerns.
 
@@ -348,4 +348,4 @@ Now we will combine them into a practical readiness checklist.
 
 In the next article, we will build:
 
-# A Production AI Readiness Checklist
+## A Production AI Readiness Checklist

@@ -31,9 +31,9 @@ Because if you misunderstand this foundational idea, every advanced AI concept l
 
 So before we talk about ChatGPT, transformers, or AI agents, we need to build the correct mental model first.
 
----
+<p class="section-break">. . .</p>
 
-# The Simplest Definition of AI
+## The Simplest Definition of AI
 
 At its core:
 
@@ -68,9 +68,9 @@ Examples:
 
 All of these are examples of AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# AI Is Actually a Huge Umbrella
+## AI Is Actually a Huge Umbrella
 
 One of the biggest beginner mistakes is thinking AI is a single technology.
 
@@ -84,9 +84,9 @@ AI → Machine Learning → Deep Learning → Generative AI
 
 Let’s break that down.
 
----
+<p class="section-break">. . .</p>
 
-# Artificial Intelligence (AI)
+## Artificial Intelligence (AI)
 
 AI is the broadest category.
 
@@ -118,9 +118,9 @@ IF temperature > 100:
 
 That is technically a very simple form of artificial intelligence.
 
----
+<p class="section-break">. . .</p>
 
-# Machine Learning (ML)
+## Machine Learning (ML)
 
 Machine Learning is a subset of AI.
 
@@ -149,9 +149,9 @@ This is why it’s called “machine learning.”
 
 The machine is learning patterns from data.
 
----
+<p class="section-break">. . .</p>
 
-# Deep Learning (DL)
+## Deep Learning (DL)
 
 Deep Learning is a subset of Machine Learning.
 
@@ -185,9 +185,9 @@ Deep learning is what enabled:
 
 Without deep learning, ChatGPT would not exist.
 
----
+<p class="section-break">. . .</p>
 
-# Generative AI
+## Generative AI
 
 Generative AI is the branch of AI focused on creating new content.
 
@@ -229,9 +229,9 @@ Instead of clicking buttons and navigating menus, we can simply communicate usin
 
 That is a massive shift in computing itself.
 
----
+<p class="section-break">. . .</p>
 
-# AI Is Not “Thinking” Like Humans
+## AI Is Not “Thinking” Like Humans
 
 This is extremely important to understand early.
 
@@ -266,9 +266,9 @@ This is why AI often _appears_ intelligent.
 
 But appearing intelligent and actually understanding are not necessarily the same thing.
 
----
+<p class="section-break">. . .</p>
 
-# Why AI Suddenly Exploded Recently
+## Why AI Suddenly Exploded Recently
 
 AI research has existed for decades.
 
@@ -276,9 +276,9 @@ So why did everything suddenly accelerate?
 
 Three major reasons changed everything:
 
----
+<p class="section-break">. . .</p>
 
-# 1. Massive Data
+## 1. Massive Data
 
 The internet created enormous amounts of training data:
 
@@ -297,9 +297,9 @@ The internet created enormous amounts of training data:
 
 AI systems suddenly had access to human knowledge at unprecedented scale.
 
----
+<p class="section-break">. . .</p>
 
-# 2. GPU Compute Power
+## 2. GPU Compute Power
 
 Training modern AI models requires enormous computational power.
 
@@ -318,9 +318,9 @@ Without GPUs:
 
 would not be practical.
 
----
+<p class="section-break">. . .</p>
 
-# 3. Transformer Architecture
+## 3. Transformer Architecture
 
 This is arguably the biggest breakthrough in modern AI.
 
@@ -347,9 +347,9 @@ Transformers changed the entire direction of AI research.
 
 We’ll spend multiple future articles understanding exactly why.
 
----
+<p class="section-break">. . .</p>
 
-# The Real Shift Happening Right Now
+## The Real Shift Happening Right Now
 
 Most people think AI is just another software trend.
 
@@ -387,9 +387,9 @@ AI is not just becoming a tool.
 
 It is becoming a new computing layer.
 
----
+<p class="section-break">. . .</p>
 
-# What Beginners Should Focus On First
+## What Beginners Should Focus On First
 
 If you are new to AI, don’t immediately jump into:
 
@@ -415,9 +415,9 @@ Understand:
 
 Once those foundations become clear, advanced concepts stop feeling intimidating.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI is a broad field, not a single technology.
     
@@ -434,13 +434,13 @@ Once those foundations become clear, advanced concepts stop feeling intimidating
 - AI is changing how humans interact with computers.
     
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand the high-level AI landscape, the next question becomes:
 
-# How Do Machines Actually Learn?
+## How Do Machines Actually Learn?
 
 That’s where neural networks enter the story.
 

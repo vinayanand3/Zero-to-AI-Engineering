@@ -36,9 +36,9 @@ This matters for humans.
 
 It matters even more for software systems.
 
----
+<p class="section-break">. . .</p>
 
-# Why Structure Matters
+## Why Structure Matters
 
 Imagine asking:
 
@@ -72,9 +72,9 @@ A structured output is better:
 
 The same information becomes easier to scan, store, and act on.
 
----
+<p class="section-break">. . .</p>
 
-# Start With The Desired Shape
+## Start With The Desired Shape
 
 If format matters, say it clearly.
 
@@ -96,9 +96,9 @@ Tell it what shape you need.
 
 This is one of the simplest ways to improve AI output quality.
 
----
+<p class="section-break">. . .</p>
 
-# Tables
+## Tables
 
 Tables are useful for comparison.
 
@@ -126,9 +126,9 @@ A paragraph is better for nuance.
 
 Choose the format based on the job.
 
----
+<p class="section-break">. . .</p>
 
-# Checklists
+## Checklists
 
 Checklists are useful for execution.
 
@@ -156,9 +156,9 @@ Good checklist prompts should include categories and expected level of detail.
 
 Otherwise, the model may create a generic list.
 
----
+<p class="section-break">. . .</p>
 
-# JSON
+## JSON
 
 JSON is useful when another system needs to consume the output.
 
@@ -189,9 +189,9 @@ Prompting helps.
 
 Validation protects.
 
----
+<p class="section-break">. . .</p>
 
-# Schemas And Field Definitions
+## Schemas And Field Definitions
 
 If you ask for structured output, define the fields.
 
@@ -217,9 +217,9 @@ They also make validation easier.
 
 If the model knows the allowed values, it is more likely to stay within them.
 
----
+<p class="section-break">. . .</p>
 
-# Structured Outputs Need Error Handling
+## Structured Outputs Need Error Handling
 
 In real applications, structured output should be treated as input from an unreliable source.
 
@@ -247,9 +247,9 @@ The code enforces structure.
 
 Both are needed when AI output is used inside software workflows.
 
----
+<p class="section-break">. . .</p>
 
-# Avoid Mixed Instructions
+## Avoid Mixed Instructions
 
 If you want structured output only, avoid asking for extra explanation.
 
@@ -271,9 +271,9 @@ First provide analysis in plain text. Then provide final JSON in a separate code
 
 But if another program will parse the output, keep the final response clean.
 
----
+<p class="section-break">. . .</p>
 
-# Structured Outputs For Summaries
+## Structured Outputs For Summaries
 
 Structured summaries are often better than generic summaries.
 
@@ -299,9 +299,9 @@ The structure tells the model what to look for.
 
 It also makes the output easier for people to use.
 
----
+<p class="section-break">. . .</p>
 
-# Structured Outputs For AI Workflows
+## Structured Outputs For AI Workflows
 
 In production AI applications, structured output is everywhere.
 
@@ -329,9 +329,9 @@ It becomes part of a workflow.
 
 That is why AI engineers care so much about output format.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take one unstructured prompt:
 
@@ -359,9 +359,9 @@ Different formats serve different purposes.
 
 Prompt engineering is partly choosing the right shape.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Structured outputs make AI responses easier to read, store, parse, and use.
 
@@ -379,9 +379,9 @@ Prompt engineering is partly choosing the right shape.
 
 - Prompting helps with structure, but code should enforce correctness.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we know how to design better prompts, we need to study what goes wrong.
 
@@ -389,4 +389,4 @@ Many prompt failures come from the same repeated mistakes.
 
 In the next article, we will explore:
 
-# Common Prompt Engineering Mistakes
+## Common Prompt Engineering Mistakes

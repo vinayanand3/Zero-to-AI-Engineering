@@ -26,9 +26,9 @@ In this article, we will break a good prompt into reusable parts.
 
 Once you understand these parts, you can design prompts for many different use cases.
 
----
+<p class="section-break">. . .</p>
 
-# The Core Parts Of A Good Prompt
+## The Core Parts Of A Good Prompt
 
 A strong prompt often includes:
 
@@ -56,9 +56,9 @@ The goal is not to make prompts longer.
 
 The goal is to make them clearer.
 
----
+<p class="section-break">. . .</p>
 
-# 1. Task
+## 1. Task
 
 The task tells the model what to do.
 
@@ -92,9 +92,9 @@ The task should be direct.
 
 If the model does not know the job, everything else becomes harder.
 
----
+<p class="section-break">. . .</p>
 
-# 2. Context
+## 2. Context
 
 Context explains the situation.
 
@@ -128,9 +128,9 @@ Useful context can include:
 
 Context helps the model understand why the task matters.
 
----
+<p class="section-break">. . .</p>
 
-# 3. Input Data
+## 3. Input Data
 
 Input data is the material the model should work with.
 
@@ -164,9 +164,9 @@ Summarize the meeting transcript below. Focus on decisions, action items, owners
 
 Then include the transcript.
 
----
+<p class="section-break">. . .</p>
 
-# 4. Constraints
+## 4. Constraints
 
 Constraints define boundaries.
 
@@ -196,9 +196,9 @@ Sometimes that works.
 
 Sometimes it creates the wrong output.
 
----
+<p class="section-break">. . .</p>
 
-# 5. Examples
+## 5. Examples
 
 Examples show the model what good output looks like.
 
@@ -220,9 +220,9 @@ They show the model the style, structure, and mapping you want.
 
 Later in this season, we will cover zero-shot, one-shot, and few-shot prompting in more detail.
 
----
+<p class="section-break">. . .</p>
 
-# 6. Output Format
+## 6. Output Format
 
 Output format tells the model how to return the answer.
 
@@ -248,9 +248,9 @@ If you need the result to be copied into another tool, format becomes even more 
 
 For production systems, structured outputs are often essential.
 
----
+<p class="section-break">. . .</p>
 
-# 7. Quality Criteria
+## 7. Quality Criteria
 
 Quality criteria tell the model how success will be judged.
 
@@ -282,9 +282,9 @@ Focus on security risks is a quality criterion.
 
 Both can matter.
 
----
+<p class="section-break">. . .</p>
 
-# A Complete Example
+## A Complete Example
 
 Here is a structured prompt:
 
@@ -308,9 +308,9 @@ Write about embeddings.
 
 The model now has a clear assignment.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Create a prompt template with these fields:
 
@@ -342,9 +342,9 @@ For example:
 
 You will quickly see which fields matter most for different tasks.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - A good prompt is a structured task brief.
 
@@ -360,9 +360,9 @@ You will quickly see which fields matter most for different tasks.
 
 - Strong prompts reduce guesswork.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 One of the most powerful prompt ingredients is examples.
 
@@ -370,4 +370,4 @@ Examples can teach the model what pattern to follow.
 
 In the next article, we will explore:
 
-# Zero-Shot, One-Shot, and Few-Shot Prompting
+## Zero-Shot, One-Shot, and Few-Shot Prompting

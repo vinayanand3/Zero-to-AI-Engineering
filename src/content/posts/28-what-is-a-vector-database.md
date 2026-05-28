@@ -32,9 +32,9 @@ You need a system that can store embeddings and search them quickly.
 
 That is where vector databases come in.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 A vector database is a database designed to store and search vectors.
 
@@ -60,9 +60,9 @@ The vector database is not the LLM.
 
 It is the retrieval layer that helps the LLM find useful information.
 
----
+<p class="section-break">. . .</p>
 
-# Why Normal Databases Are Not Enough
+## Why Normal Databases Are Not Enough
 
 Traditional databases are excellent for exact queries.
 
@@ -90,9 +90,9 @@ At large scale, that becomes too slow.
 
 Vector databases use specialized indexes to make similarity search efficient.
 
----
+<p class="section-break">. . .</p>
 
-# What Gets Stored?
+## What Gets Stored?
 
 A vector database usually stores more than just the vector.
 
@@ -130,9 +130,9 @@ The text helps answer.
 
 The metadata helps filter and cite.
 
----
+<p class="section-break">. . .</p>
 
-# Where Should The Original Text Live?
+## Where Should The Original Text Live?
 
 Some systems store the original text directly in the vector database.
 
@@ -152,9 +152,9 @@ Vectors help search.
 
 Text helps answer.
 
----
+<p class="section-break">. . .</p>
 
-# How a Vector Search Works
+## How a Vector Search Works
 
 A typical vector search flow looks like this:
 
@@ -174,9 +174,9 @@ The vector database is responsible for finding candidate knowledge.
 
 The LLM is responsible for generating the final answer using that knowledge.
 
----
+<p class="section-break">. . .</p>
 
-# Metadata Filtering
+## Metadata Filtering
 
 Metadata filtering is one of the most important vector database features.
 
@@ -198,9 +198,9 @@ Without metadata, the system may retrieve semantically related but incorrect inf
 
 Good RAG systems depend heavily on good metadata.
 
----
+<p class="section-break">. . .</p>
 
-# Updates And Deletes
+## Updates And Deletes
 
 Real knowledge changes.
 
@@ -226,9 +226,9 @@ How will new, changed, and deleted documents be handled?
 
 Retrieval quality depends on keeping the index fresh.
 
----
+<p class="section-break">. . .</p>
 
-# Vector Databases vs Embedding Models
+## Vector Databases vs Embedding Models
 
 Beginners sometimes confuse embedding models and vector databases.
 
@@ -252,9 +252,9 @@ A RAG system often uses all three:
 
 Understanding these roles helps you design systems clearly.
 
----
+<p class="section-break">. . .</p>
 
-# Do You Always Need A Vector Database?
+## Do You Always Need A Vector Database?
 
 Not always.
 
@@ -276,9 +276,9 @@ You may need indexing, filtering, updates, access control, and monitoring.
 
 Choose infrastructure based on the problem, not hype.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Imagine building a chatbot over a company handbook.
 
@@ -306,9 +306,9 @@ This exercise helps you think beyond vectors.
 
 A useful retrieval system stores enough information to search, filter, answer, and cite.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - A vector database stores and searches embedding vectors.
 
@@ -324,9 +324,9 @@ A useful retrieval system stores enough information to search, filter, answer, a
 
 - RAG systems often rely on vector databases for retrieval.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Before storing documents in a vector database, we need to prepare them.
 
@@ -336,4 +336,4 @@ So we split them into chunks.
 
 In the next article, we will explore:
 
-# Why Document Chunking Matters
+## Why Document Chunking Matters

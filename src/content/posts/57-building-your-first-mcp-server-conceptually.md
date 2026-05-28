@@ -30,9 +30,9 @@ How should safety boundaries work?
 
 That is the right starting point before implementation.
 
----
+<p class="section-break">. . .</p>
 
-# The Example Server
+## The Example Server
 
 Imagine we want to build a weather MCP server.
 
@@ -52,9 +52,9 @@ It only needs to expose focused capabilities.
 
 Simple servers are a good way to learn MCP design.
 
----
+<p class="section-break">. . .</p>
 
-# Define The Tools
+## Define The Tools
 
 The weather server might expose two tools:
 
@@ -84,9 +84,9 @@ Each tool should have:
 
 Good tools are specific and easy to understand.
 
----
+<p class="section-break">. . .</p>
 
-# Define Tool Inputs
+## Define Tool Inputs
 
 Tool inputs should be structured.
 
@@ -110,9 +110,9 @@ Input validation prevents messy tool calls from becoming confusing outputs.
 
 The model may generate the arguments, but the server should enforce requirements.
 
----
+<p class="section-break">. . .</p>
 
-# Define Tool Outputs
+## Define Tool Outputs
 
 Tool outputs should also be clear.
 
@@ -150,9 +150,9 @@ Do not return a huge raw API response if the model only needs a few fields.
 
 Clean outputs improve reliability.
 
----
+<p class="section-break">. . .</p>
 
-# Define Resources
+## Define Resources
 
 The weather server might expose resources too.
 
@@ -174,9 +174,9 @@ The assistant can use that context when explaining alerts to a user.
 
 Resources are useful when the model needs background information, not just live tool results.
 
----
+<p class="section-break">. . .</p>
 
-# Define Prompts
+## Define Prompts
 
 The server might expose prompts like:
 
@@ -202,9 +202,9 @@ This prompt helps the model use the server's tools consistently.
 
 It turns raw weather data into a user-friendly workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Define Safety Boundaries
+## Define Safety Boundaries
 
 Even a weather server needs boundaries.
 
@@ -224,9 +224,9 @@ Every MCP server should define what it can and cannot safely do.
 
 Safety boundaries are part of server design.
 
----
+<p class="section-break">. . .</p>
 
-# Start Read-Only When Learning
+## Start Read-Only When Learning
 
 For a first MCP server, read-only tools are usually a better learning path.
 
@@ -258,9 +258,9 @@ Start with read-only capabilities.
 
 Once the design is clear, add write actions carefully with validation and approval.
 
----
+<p class="section-break">. . .</p>
 
-# How A Host Would Use It
+## How A Host Would Use It
 
 An AI host connects to the weather server.
 
@@ -284,9 +284,9 @@ The user sees a simple response.
 
 Behind the scenes, MCP organized the connection.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design your own simple MCP server.
 
@@ -316,9 +316,9 @@ Define:
 
 This is the best way to understand MCP server design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP server design should start conceptually before code.
 
@@ -334,9 +334,9 @@ This is the best way to understand MCP server design.
 
 - A simple read-only server is a good first MCP design exercise.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we can design an MCP server conceptually, we need to talk about security.
 
@@ -346,4 +346,4 @@ That makes permissions and safeguards essential.
 
 In the next article, we will explore:
 
-# MCP Security and Permissions
+## MCP Security and Permissions

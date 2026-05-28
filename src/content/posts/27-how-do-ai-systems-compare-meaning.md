@@ -10,7 +10,7 @@ In the previous article, we learned that semantic search finds information by me
 
 But that raises an important question:
 
-# How does software compare meaning?
+## How does software compare meaning?
 
 Humans compare meaning naturally.
 
@@ -24,9 +24,9 @@ That is where vector similarity comes in.
 
 Vector similarity is the technique that allows AI systems to compare embeddings and decide which pieces of text are most related.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings Are Vectors
+## Embeddings Are Vectors
 
 An embedding is a vector.
 
@@ -50,9 +50,9 @@ If they are far apart, the meanings are likely different.
 
 That is the basic idea.
 
----
+<p class="section-break">. . .</p>
 
-# The Map Analogy Again
+## The Map Analogy Again
 
 Imagine a map.
 
@@ -74,9 +74,9 @@ The exact math can vary, but the intuition is simple:
 
 closer vectors usually mean more similar meaning.
 
----
+<p class="section-break">. . .</p>
 
-# Common Similarity Methods
+## Common Similarity Methods
 
 There are several ways to compare vectors.
 
@@ -102,9 +102,9 @@ Different systems may use different methods depending on the embedding model and
 
 As an AI engineer, the important habit is to know which similarity method your system uses.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Example
+## A Simple Example
 
 Suppose a user asks:
 
@@ -132,9 +132,9 @@ The LLM can use it as context.
 
 This is how vector similarity becomes useful in real applications.
 
----
+<p class="section-break">. . .</p>
 
-# Similarity Is Not The Same As Truth
+## Similarity Is Not The Same As Truth
 
 This is important.
 
@@ -154,9 +154,9 @@ Similarity is a starting point.
 
 It is not full understanding.
 
----
+<p class="section-break">. . .</p>
 
-# Top-K Retrieval
+## Top-K Retrieval
 
 Semantic search systems often return the top K results.
 
@@ -180,9 +180,9 @@ It affects cost, accuracy, latency, and context quality.
 
 This is one of the first knobs engineers tune in retrieval systems.
 
----
+<p class="section-break">. . .</p>
 
-# Ranking Matters
+## Ranking Matters
 
 Retrieval is not only about finding a relevant result.
 
@@ -206,9 +206,9 @@ As always, the engineering question is not whether a technique sounds advanced.
 
 The question is whether it improves the system for your use case.
 
----
+<p class="section-break">. . .</p>
 
-# Similarity Thresholds
+## Similarity Thresholds
 
 Some systems also use a similarity threshold.
 
@@ -228,9 +228,9 @@ Thresholds help retrieval systems know when not to answer.
 
 That is just as important as knowing when to answer.
 
----
+<p class="section-break">. . .</p>
 
-# Metadata Still Matters
+## Metadata Still Matters
 
 Vector similarity is powerful, but metadata can improve search.
 
@@ -256,9 +256,9 @@ Without metadata, the system might retrieve a similar but wrong policy.
 
 Good retrieval often combines vector similarity with filters.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Think of a question:
 
@@ -284,9 +284,9 @@ You would likely choose:
 
 That ranking is what vector search tries to do mathematically.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI systems compare meaning by comparing embedding vectors.
 
@@ -302,9 +302,9 @@ That ranking is what vector search tries to do mathematically.
 
 - Metadata filters make retrieval more precise.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand semantic search and vector similarity, we need a place to store and search embeddings efficiently.
 
@@ -312,4 +312,4 @@ That brings us to vector databases.
 
 In the next article, we will explore:
 
-# What Is a Vector Database?
+## What Is a Vector Database?

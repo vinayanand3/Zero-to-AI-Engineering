@@ -26,9 +26,9 @@ That is why model evaluation after fine-tuning is essential.
 
 If you change the model, you need evidence that the change helped.
 
----
+<p class="section-break">. . .</p>
 
-# What Are We Evaluating?
+## What Are We Evaluating?
 
 After fine-tuning, evaluate the model against the goal.
 
@@ -48,9 +48,9 @@ A generic "looks good" check is not enough.
 
 Fine-tuning should be judged against the behavior it was supposed to improve.
 
----
+<p class="section-break">. . .</p>
 
-# Use A Held-Out Test Set
+## Use A Held-Out Test Set
 
 You need examples the model did not train on.
 
@@ -76,9 +76,9 @@ A good test set should include:
 
 The test set is your reality check.
 
----
+<p class="section-break">. . .</p>
 
-# Compare Against A Baseline
+## Compare Against A Baseline
 
 Evaluation needs comparison.
 
@@ -108,9 +108,9 @@ Fine-tuning has cost and complexity.
 
 It should earn its place.
 
----
+<p class="section-break">. . .</p>
 
-# Check Regression
+## Check Regression
 
 A fine-tuned model may improve one task and hurt another.
 
@@ -130,9 +130,9 @@ Create tests for behaviors you want to preserve.
 
 Fine-tuning should not silently damage important capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# Human Evaluation
+## Human Evaluation
 
 Some qualities are hard to measure automatically.
 
@@ -164,9 +164,9 @@ Ask reviewers to explain failures.
 
 Unstructured opinions are less useful than consistent review criteria.
 
----
+<p class="section-break">. . .</p>
 
-# Automated Evaluation
+## Automated Evaluation
 
 Some tasks can be evaluated automatically.
 
@@ -192,9 +192,9 @@ But they may miss nuance.
 
 The best evaluation often combines automated checks with human review.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor After Deployment
+## Monitor After Deployment
 
 Evaluation does not end at launch.
 
@@ -220,9 +220,9 @@ Fine-tuned models can degrade in usefulness if the world changes around them.
 
 Monitoring helps you know when retraining, prompt changes, or data updates are needed.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 After fine-tuning, many teams make the mistake of asking only one question:
 
@@ -252,7 +252,7 @@ The goal is not to prove that fine-tuning worked once.
 
 The goal is to prove that it is safe to rely on.
 
-# Practical Example
+## Practical Example
 
 Imagine a fine-tuned model for classifying support tickets.
 
@@ -268,7 +268,7 @@ Evaluation should compare the target improvement against possible regressions.
 
 A fine-tuned model should be judged as a whole system component, not only by the metric it was optimized for.
 
-# Mini Project
+## Mini Project
 
 Design an evaluation plan for a fine-tuned support classifier.
 
@@ -292,9 +292,9 @@ Include:
 
 This exercise turns fine-tuning from a training task into an engineering workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning is incomplete without evaluation.
 
@@ -312,9 +312,9 @@ This exercise turns fine-tuning from a training task into an engineering workflo
 
 - Monitor after deployment.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand evaluation, we need to study what can go wrong.
 
@@ -322,4 +322,4 @@ Fine-tuning has predictable failure modes.
 
 In the next article, we will explore:
 
-# Fine-Tuning Failure Modes
+## Fine-Tuning Failure Modes

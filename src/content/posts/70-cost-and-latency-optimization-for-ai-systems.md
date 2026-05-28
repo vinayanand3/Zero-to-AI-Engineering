@@ -20,9 +20,9 @@ They affect model choice, prompt design, retrieval, tool use, caching, and infra
 
 Optimization is where AI engineering becomes practical systems engineering.
 
----
+<p class="section-break">. . .</p>
 
-# What Is Latency?
+## What Is Latency?
 
 Latency is how long the user waits for a response.
 
@@ -52,9 +52,9 @@ A coding agent running tests may take minutes.
 
 The acceptable latency depends on the task.
 
----
+<p class="section-break">. . .</p>
 
-# What Drives Cost?
+## What Drives Cost?
 
 Cost can come from many places:
 
@@ -84,9 +84,9 @@ Long prompts, unnecessary tool calls, and repeated model calls all matter.
 
 Optimization starts by measuring where cost is going.
 
----
+<p class="section-break">. . .</p>
 
-# Model Size Tradeoffs
+## Model Size Tradeoffs
 
 Bigger models often perform better.
 
@@ -108,9 +108,9 @@ Match model capability to task difficulty.
 
 This is one of the simplest cost optimization strategies.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Length Matters
+## Prompt Length Matters
 
 Long prompts cost more and may increase latency.
 
@@ -140,9 +140,9 @@ Avoid dumping entire documents when a few sections are enough.
 
 Prompt bloat is a real production issue.
 
----
+<p class="section-break">. . .</p>
 
-# Output Length Matters
+## Output Length Matters
 
 Output tokens also cost time and money.
 
@@ -164,9 +164,9 @@ Output length should match user need.
 
 Concise outputs can improve speed, cost, and usability.
 
----
+<p class="section-break">. . .</p>
 
-# Caching
+## Caching
 
 Caching stores results so they can be reused.
 
@@ -190,9 +190,9 @@ Do not serve stale answers when freshness matters.
 
 Caching is powerful when the data is stable and access rules are clear.
 
----
+<p class="section-break">. . .</p>
 
-# Retrieval Optimization
+## Retrieval Optimization
 
 RAG systems can be optimized too.
 
@@ -218,9 +218,9 @@ Optimization is not always about the model.
 
 Sometimes the best improvement is better retrieval.
 
----
+<p class="section-break">. . .</p>
 
-# Batching And Parallelism
+## Batching And Parallelism
 
 Some systems can improve throughput with batching.
 
@@ -238,9 +238,9 @@ Again, optimization is a tradeoff.
 
 Measure before deciding.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Cost and latency optimization should begin with measurement, not instinct.
 
@@ -264,7 +264,7 @@ This keeps the team from making the system more complex without meaningful impro
 
 Good optimization is evidence-driven.
 
-# Mini Project
+## Mini Project
 
 Choose an AI workflow:
 
@@ -298,9 +298,9 @@ For example:
 
 This is production AI thinking.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI systems must optimize for quality, cost, and latency.
 
@@ -318,12 +318,12 @@ This is production AI thinking.
 
 - Optimization requires measurement and tradeoff decisions.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we will combine the season into a practical design exercise.
 
 In the next article, we will work through:
 
-# Mini Project: Design a Fine-Tuning Strategy
+## Mini Project: Design a Fine-Tuning Strategy

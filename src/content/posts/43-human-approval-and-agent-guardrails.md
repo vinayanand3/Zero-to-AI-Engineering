@@ -26,9 +26,9 @@ Some actions should require approval.
 
 Some actions should never be allowed.
 
----
+<p class="section-break">. . .</p>
 
-# Why Guardrails Matter
+## Why Guardrails Matter
 
 Agents can make mistakes.
 
@@ -48,9 +48,9 @@ If the action is high-risk, the mistake can be serious.
 
 Guardrails reduce the chance that model mistakes become real-world damage.
 
----
+<p class="section-break">. . .</p>
 
-# Read Actions vs Write Actions
+## Read Actions vs Write Actions
 
 A useful distinction is read actions versus write actions.
 
@@ -84,9 +84,9 @@ Write actions are usually riskier.
 
 They often need confirmation, permissions, or stricter validation.
 
----
+<p class="section-break">. . .</p>
 
-# Approval Points
+## Approval Points
 
 An approval point is a moment where the agent must ask before continuing.
 
@@ -114,9 +114,9 @@ Then the system executes.
 
 This pattern is common in reliable agent workflows.
 
----
+<p class="section-break">. . .</p>
 
-# Risk Levels
+## Risk Levels
 
 Not every action needs the same level of control.
 
@@ -154,9 +154,9 @@ High-risk actions should require stronger approval.
 
 Risk levels make guardrails practical instead of vague.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Permissions
+## Tool Permissions
 
 Not every agent should have every tool.
 
@@ -176,9 +176,9 @@ Give the agent the minimum capabilities needed to complete the task.
 
 Less access means less risk.
 
----
+<p class="section-break">. . .</p>
 
-# Validate Tool Arguments
+## Validate Tool Arguments
 
 Guardrails also include validation.
 
@@ -206,9 +206,9 @@ Prompts guide behavior.
 
 Code enforces boundaries.
 
----
+<p class="section-break">. . .</p>
 
-# Step Limits
+## Step Limits
 
 Agents should often have step limits.
 
@@ -230,9 +230,9 @@ If an agent cannot finish within reasonable limits, it should stop and explain w
 
 This is better than silently looping or wasting resources.
 
----
+<p class="section-break">. . .</p>
 
-# Guardrails Should Be Tested
+## Guardrails Should Be Tested
 
 Guardrails are not useful if they only exist on paper.
 
@@ -264,9 +264,9 @@ Adversarial users reveal whether the system can be pushed into unsafe behavior.
 
 Both are useful before an agent is trusted with real actions.
 
----
+<p class="section-break">. . .</p>
 
-# Logging And Audit Trails
+## Logging And Audit Trails
 
 Agents should leave a record of important actions.
 
@@ -292,9 +292,9 @@ For business systems, audit trails can be essential.
 
 If something goes wrong, you need to know what happened.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design guardrails for an email agent.
 
@@ -322,9 +322,9 @@ Decide:
 
 You will see that agent safety is a product and engineering design problem.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Agents need guardrails because actions create risk.
 
@@ -340,9 +340,9 @@ You will see that agent safety is a product and engineering design problem.
 
 - Logs and audit trails make agent behavior inspectable.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand guardrails, we can look at agents working with more than one tool.
 
@@ -350,4 +350,4 @@ Real agents often need to coordinate several capabilities.
 
 In the next article, we will explore:
 
-# Multi-Tool AI Workflows
+## Multi-Tool AI Workflows

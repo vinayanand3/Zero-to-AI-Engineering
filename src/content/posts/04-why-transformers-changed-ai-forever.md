@@ -72,9 +72,9 @@ So in this article, we’re going to understand:
 
 Without unnecessary math.
 
----
+<p class="section-break">. . .</p>
 
-# The Problem Older AI Models Had
+## The Problem Older AI Models Had
 
 Before transformers, language models mostly relied on architectures called:
 
@@ -97,9 +97,9 @@ After all, humans also read sequentially.
 
 But there was a huge problem.
 
----
+<p class="section-break">. . .</p>
 
-# The Memory Problem
+## The Memory Problem
 
 Imagine reading this sentence:
 
@@ -134,9 +134,9 @@ The longer the sequence became:
 
 This became a massive limitation.
 
----
+<p class="section-break">. . .</p>
 
-# Sequential Processing Was Slow
+## Sequential Processing Was Slow
 
 Another problem:
 
@@ -166,13 +166,13 @@ Sequential architectures became a bottleneck.
 
 AI needed a fundamentally different approach.
 
----
+<p class="section-break">. . .</p>
 
-# Then Came the Transformer Paper
+## Then Came the Transformer Paper
 
 In 2017, researchers at Google published a paper called:
 
-# “Attention Is All You Need”
+## “Attention Is All You Need”
 
 That paper introduced transformers.
 
@@ -186,13 +186,13 @@ The key breakthrough was surprisingly elegant:
 
 This idea became the foundation of modern LLMs.
 
----
+<p class="section-break">. . .</p>
 
-# The Big Idea Behind Transformers
+## The Big Idea Behind Transformers
 
 Transformers are fundamentally about:
 
-# Understanding relationships between tokens using attention.
+## Understanding relationships between tokens using attention.
 
 That’s the core idea.
 
@@ -216,9 +216,9 @@ This allows models to:
 
 far better than previous architectures.
 
----
+<p class="section-break">. . .</p>
 
-# What Are Tokens?
+## What Are Tokens?
 
 Before going further, we need one important concept.
 
@@ -226,7 +226,7 @@ LLMs do not actually see words.
 
 They see:
 
-# tokens
+## tokens
 
 Tokens are small pieces of text.
 
@@ -266,9 +266,9 @@ Not meaning directly.
 
 Just tokens and relationships between them.
 
----
+<p class="section-break">. . .</p>
 
-# The Attention Mechanism
+## The Attention Mechanism
 
 Attention is the heart of transformers.
 
@@ -291,15 +291,15 @@ Attention allows the model to dynamically connect related concepts across long s
 
 This is enormously powerful.
 
----
+<p class="section-break">. . .</p>
 
-# Why Attention Matters So Much
+## Why Attention Matters So Much
 
 Attention solved multiple massive problems simultaneously.
 
----
+<p class="section-break">. . .</p>
 
-# 1. Better Context Understanding
+## 1. Better Context Understanding
 
 Transformers can connect information across:
 
@@ -325,9 +325,9 @@ This enabled:
 - and modern chat systems.
     
 
----
+<p class="section-break">. . .</p>
 
-# 2. Parallel Processing
+## 2. Parallel Processing
 
 Unlike RNNs, transformers process tokens in parallel.
 
@@ -342,9 +342,9 @@ That made training dramatically faster on GPUs.
 
 And GPU acceleration became critical for scaling modern AI.
 
----
+<p class="section-break">. . .</p>
 
-# 3. Long-Range Relationships
+## 3. Long-Range Relationships
 
 Transformers handle long-range dependencies much better.
 
@@ -372,13 +372,13 @@ This is why modern LLMs can:
 - and answer questions about earlier context.
     
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings: Turning Meaning Into Numbers
+## Embeddings: Turning Meaning Into Numbers
 
 Transformers also rely heavily on:
 
-# embeddings
+## embeddings
 
 Embeddings convert tokens into numerical vector representations.
 
@@ -411,9 +411,9 @@ We’ll dedicate an entire future article to embeddings because they are foundat
 - and AI retrieval architectures.
     
 
----
+<p class="section-break">. . .</p>
 
-# Positional Encoding: Giving Tokens Order
+## Positional Encoding: Giving Tokens Order
 
 There’s another challenge.
 
@@ -435,19 +435,19 @@ Very different meaning.
 
 This is solved using:
 
-# positional encoding
+## positional encoding
 
 Positional encoding gives tokens information about their position in the sequence.
 
 This helps the model preserve sentence structure and order.
 
----
+<p class="section-break">. . .</p>
 
-# Multi-Head Attention: Multiple Perspectives
+## Multi-Head Attention: Multiple Perspectives
 
 Modern transformers use:
 
-# multi-head attention
+## multi-head attention
 
 Very simplified:  
 the model examines relationships from multiple perspectives simultaneously.
@@ -469,9 +469,9 @@ Another may focus on:
 
 This allows richer contextual understanding.
 
----
+<p class="section-break">. . .</p>
 
-# Why Transformers Enabled ChatGPT
+## Why Transformers Enabled ChatGPT
 
 Transformers solved the core limitations that blocked earlier AI systems:
 
@@ -510,9 +510,9 @@ And when models became large enough, unexpected capabilities started emerging:
 
 This eventually led to modern LLMs.
 
----
+<p class="section-break">. . .</p>
 
-# The Crazy Part About Transformers
+## The Crazy Part About Transformers
 
 Here’s the interesting thing.
 
@@ -548,9 +548,9 @@ Today transformers power:
 
 One architecture fundamentally reshaped the entire AI industry.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Older AI systems struggled with memory and long context.
     
@@ -569,13 +569,13 @@ One architecture fundamentally reshaped the entire AI industry.
 - Transformers became the foundation of modern AI systems.
     
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand why transformers changed AI forever, the next major question becomes:
 
-# How Do LLMs Actually Generate Text?
+## How Do LLMs Actually Generate Text?
 
 Because surprisingly:
 

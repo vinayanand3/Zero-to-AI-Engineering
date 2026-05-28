@@ -36,9 +36,9 @@ Humans communicate through speech, visuals, documents, diagrams, screens, gestur
 
 AI systems are moving in that direction too.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 A multimodal AI system can process or generate more than one type of data.
 
@@ -62,9 +62,9 @@ Summarize what happens in this clip.
 
 Multimodal systems combine different forms of information into one workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Why Multimodal AI Matters
+## Why Multimodal AI Matters
 
 Many real tasks require multiple modalities.
 
@@ -82,9 +82,9 @@ If AI systems only understand text, they miss much of the context.
 
 Multimodal AI expands what systems can understand and do.
 
----
+<p class="section-break">. . .</p>
 
-# Multimodal Inputs
+## Multimodal Inputs
 
 A system may accept multiple input types.
 
@@ -110,9 +110,9 @@ The intuition is simple:
 
 The system needs a way to connect meaning across formats.
 
----
+<p class="section-break">. . .</p>
 
-# Multimodal Outputs
+## Multimodal Outputs
 
 Some systems can also generate multiple output types.
 
@@ -138,9 +138,9 @@ Or it might generate code and a visual explanation.
 
 Output modality depends on the product goal.
 
----
+<p class="section-break">. . .</p>
 
-# Multimodal Agents
+## Multimodal Agents
 
 Multimodal AI becomes especially powerful with agents.
 
@@ -168,9 +168,9 @@ The agent must understand what it sees, choose actions carefully, and avoid unsa
 
 Multimodal agents need strong guardrails.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluation Is Harder
+## Evaluation Is Harder
 
 Multimodal systems are harder to evaluate.
 
@@ -194,9 +194,9 @@ Evaluation must match the modality.
 
 A benchmark for text may not reveal visual reasoning failures.
 
----
+<p class="section-break">. . .</p>
 
-# Practical Use Cases
+## Practical Use Cases
 
 Multimodal AI is useful for:
 
@@ -224,9 +224,9 @@ The common theme is richer context.
 
 More modalities allow the system to work closer to how humans experience information.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Multimodal systems change the shape of product design.
 
@@ -254,7 +254,7 @@ How can they correct it?
 
 How do you prevent confident mistakes when perception is uncertain?
 
-# Practical Example
+## Practical Example
 
 Imagine an assistant that reads screenshots of software errors.
 
@@ -268,7 +268,7 @@ That means the product needs both multimodal capability and uncertainty handling
 
 Perception changes what the model can do, but it also changes how failures appear.
 
-# Mini Project
+## Mini Project
 
 Choose one multimodal assistant idea.
 
@@ -296,9 +296,9 @@ Define:
 
 This exercise shows that multimodal design is product design plus AI engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Multimodal AI systems work with multiple data types.
 
@@ -314,12 +314,12 @@ This exercise shows that multimodal design is product design plus AI engineering
 
 - Safety and guardrails become more important as systems can act on what they perceive.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Another major direction in AI is spending more computation at inference time to improve answers.
 
 In the next article, we will explore:
 
-# Reasoning Models and Test-Time Compute
+## Reasoning Models and Test-Time Compute

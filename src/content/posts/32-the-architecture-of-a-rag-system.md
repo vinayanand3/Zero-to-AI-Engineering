@@ -22,9 +22,9 @@ The quality of a RAG application depends on how well these pieces work together.
 
 In this article, we will break down the main architecture.
 
----
+<p class="section-break">. . .</p>
 
-# The Two Main Phases
+## The Two Main Phases
 
 A RAG system usually has two phases:
 
@@ -44,9 +44,9 @@ Some work happens live during the user request.
 
 Good architecture separates these responsibilities clearly.
 
----
+<p class="section-break">. . .</p>
 
-# Indexing Phase
+## Indexing Phase
 
 The indexing phase prepares documents for retrieval.
 
@@ -72,9 +72,9 @@ For example, if documents are chunked badly, retrieval may return incomplete or 
 
 If metadata is missing, filtering and citations become harder.
 
----
+<p class="section-break">. . .</p>
 
-# Answering Phase
+## Answering Phase
 
 The answering phase starts when a user asks a question.
 
@@ -102,9 +102,9 @@ It needs to be accurate, fast, and reliable.
 
 Latency matters here because the user is waiting.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 1: Knowledge Sources
+## Core Component 1: Knowledge Sources
 
 The knowledge source is where the information comes from.
 
@@ -134,9 +134,9 @@ RAG does not magically fix bad knowledge.
 
 It retrieves from it.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 2: Chunk Store
+## Core Component 2: Chunk Store
 
 After documents are loaded and chunked, each chunk needs to be stored.
 
@@ -166,9 +166,9 @@ The principle is simple:
 
 You need to retrieve the text and its source when answering.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 3: Retriever
+## Core Component 3: Retriever
 
 The retriever is responsible for finding relevant chunks.
 
@@ -192,9 +192,9 @@ Many RAG problems are actually retrieval problems.
 
 That is why debugging RAG often starts by inspecting retrieved chunks.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 4: Prompt Builder
+## Core Component 4: Prompt Builder
 
 The prompt builder combines:
 
@@ -220,9 +220,9 @@ That instruction helps reduce unsupported answers.
 
 The prompt builder turns retrieval results into usable model input.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 5: Citations And Source Display
+## Core Component 5: Citations And Source Display
 
 Many RAG applications should show where an answer came from.
 
@@ -248,9 +248,9 @@ For internal tools, source display can be just as important as the answer itself
 
 Users often need to know not only what the answer is, but where it came from.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 6: Generator
+## Core Component 6: Generator
 
 The generator is the LLM.
 
@@ -274,9 +274,9 @@ Changing the model may help.
 
 But if retrieval is poor, a better model may still struggle.
 
----
+<p class="section-break">. . .</p>
 
-# Core Component 7: Evaluation
+## Core Component 7: Evaluation
 
 RAG systems need evaluation.
 
@@ -298,9 +298,9 @@ Production RAG needs test questions, expected sources, and quality checks.
 
 We will cover evaluation later in this season.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Draw a simple RAG architecture:
 
@@ -330,9 +330,9 @@ You will likely find many points:
 
 That is why RAG is a system design problem.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - RAG has an indexing phase and an answering phase.
 
@@ -348,12 +348,12 @@ That is why RAG is a system design problem.
 
 - RAG systems must be evaluated, not just demonstrated.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand RAG architecture, we can walk through a simple build.
 
 In the next article, we will explore:
 
-# Building a Simple RAG System
+## Building a Simple RAG System

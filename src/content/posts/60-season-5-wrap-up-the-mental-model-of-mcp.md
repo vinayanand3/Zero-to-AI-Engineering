@@ -32,9 +32,9 @@ They need secure ways to interact with external systems.
 
 MCP gives these interactions a more standard protocol shape.
 
----
+<p class="section-break">. . .</p>
 
-# MCP In One Sentence
+## MCP In One Sentence
 
 MCP is a protocol that helps AI applications connect to external context and capabilities through servers that expose tools, resources, and prompts.
 
@@ -54,9 +54,9 @@ It creates an interoperability layer.
 
 That is the mental model.
 
----
+<p class="section-break">. . .</p>
 
-# Why MCP Exists
+## Why MCP Exists
 
 MCP exists because custom integrations do not scale well.
 
@@ -76,9 +76,9 @@ This encourages reusable servers and cleaner boundaries.
 
 It is an infrastructure idea for the agentic AI era.
 
----
+<p class="section-break">. . .</p>
 
-# Hosts, Clients, And Servers
+## Hosts, Clients, And Servers
 
 The architecture has three main roles.
 
@@ -102,9 +102,9 @@ The client manages connection.
 
 The server owns integration logic.
 
----
+<p class="section-break">. . .</p>
 
-# Tools, Resources, And Prompts
+## Tools, Resources, And Prompts
 
 The core MCP primitives are:
 
@@ -132,9 +132,9 @@ MCP does not introduce a completely separate world.
 
 It organizes ideas we have already learned.
 
----
+<p class="section-break">. . .</p>
 
-# Data Layer And Transport Layer
+## Data Layer And Transport Layer
 
 MCP has a data layer and a transport layer.
 
@@ -154,9 +154,9 @@ This separation helps MCP work across different environments.
 
 Local development tools and remote enterprise services can both fit into the model.
 
----
+<p class="section-break">. . .</p>
 
-# Discovery Before Use
+## Discovery Before Use
 
 One important MCP idea is discovery.
 
@@ -174,9 +174,9 @@ But discovery is not the same as permission.
 
 A discovered tool still needs authorization, validation, and sometimes user approval.
 
----
+<p class="section-break">. . .</p>
 
-# Resources Provide Context
+## Resources Provide Context
 
 Resources help AI systems read useful information.
 
@@ -208,9 +208,9 @@ MCP exposes resources.
 
 Hosts decide how to use them.
 
----
+<p class="section-break">. . .</p>
 
-# Prompts Package Workflows
+## Prompts Package Workflows
 
 MCP prompts turn reusable prompt workflows into server-exposed primitives.
 
@@ -234,9 +234,9 @@ They can become discoverable workflow templates exposed by servers.
 
 That makes AI workflows easier to reuse.
 
----
+<p class="section-break">. . .</p>
 
-# Security Is Central
+## Security Is Central
 
 MCP can expose powerful capabilities.
 
@@ -266,9 +266,9 @@ Engineers must still design permissions, guardrails, and monitoring.
 
 The more capable the system, the more important the safeguards.
 
----
+<p class="section-break">. . .</p>
 
-# MCP And Future AI Systems
+## MCP And Future AI Systems
 
 MCP points toward a future where AI systems connect to many capabilities through reusable servers.
 
@@ -294,9 +294,9 @@ MCP is part of the foundation.
 
 It is not the whole building.
 
----
+<p class="section-break">. . .</p>
 
-# The Season 5 Mental Model
+## The Season 5 Mental Model
 
 Here is the complete mental model:
 
@@ -324,9 +324,9 @@ Security and permissions keep the system bounded.
 
 That is MCP from an AI engineering perspective.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a complete MCP-based assistant on paper.
 
@@ -362,9 +362,9 @@ This exercise connects the whole season.
 
 It also prepares you for production AI engineering later in the series.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP standardizes how AI applications connect to tools, resources, and prompts.
 
@@ -384,13 +384,13 @@ It also prepares you for production AI engineering later in the series.
 
 - MCP is an interoperability layer for connected AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand prompting, retrieval, agents, tools, and MCP, we are ready for another major area:
 
-# Fine-Tuning and Optimization
+## Fine-Tuning and Optimization
 
 In Season 6, we will study how models can be adapted and optimized.
 
@@ -412,5 +412,4 @@ We will cover:
 
 The next article will begin with:
 
-# What Is Fine-Tuning?
-
+## What Is Fine-Tuning?

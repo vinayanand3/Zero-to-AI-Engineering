@@ -22,9 +22,9 @@ You need a way to notice important changes, ignore noise, test what matters, and
 
 That is what this article is about.
 
----
+<p class="section-break">. . .</p>
 
-# Separate Signal From Noise
+## Separate Signal From Noise
 
 Not every AI update matters.
 
@@ -52,9 +52,9 @@ Ask:
 
 This helps separate useful signal from noise.
 
----
+<p class="section-break">. . .</p>
 
-# Follow Concepts, Not Only Tools
+## Follow Concepts, Not Only Tools
 
 Tools change quickly.
 
@@ -94,9 +94,9 @@ What problem does it actually solve?
 
 Conceptual understanding prevents tool-chasing.
 
----
+<p class="section-break">. . .</p>
 
-# Build A Source System
+## Build A Source System
 
 Choose a small set of reliable sources.
 
@@ -122,9 +122,9 @@ When something seems important, trace it back to the source.
 
 Primary sources reduce distortion.
 
----
+<p class="section-break">. . .</p>
 
-# Use A Weekly Review
+## Use A Weekly Review
 
 Instead of reacting every day, schedule a weekly review.
 
@@ -146,9 +146,9 @@ You do not need to chase every headline immediately.
 
 You need a process for continuous learning.
 
----
+<p class="section-break">. . .</p>
 
-# Test Before Adopting
+## Test Before Adopting
 
 Do not adopt tools only because they are popular.
 
@@ -172,9 +172,9 @@ Compare against your baseline.
 
 Adoption should follow evidence.
 
----
+<p class="section-break">. . .</p>
 
-# Keep A Learning Log
+## Keep A Learning Log
 
 Maintain a simple learning log.
 
@@ -198,9 +198,9 @@ Over time, your learning log becomes a personal AI engineering knowledge base.
 
 It also helps you see patterns across the field.
 
----
+<p class="section-break">. . .</p>
 
-# Avoid Identity-Based Tool Choices
+## Avoid Identity-Based Tool Choices
 
 Do not become attached to one model, framework, or vendor as an identity.
 
@@ -218,9 +218,9 @@ The goal is not loyalty to tools.
 
 The goal is solving problems well.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Keeping up with AI should become a system, not a mood.
 
@@ -246,7 +246,7 @@ Over time, you will notice that many announcements are variations on familiar id
 
 That recognition is one sign that you are developing engineering judgment.
 
-# Practical Example
+## Practical Example
 
 Create a weekly AI review note with three sections:
 
@@ -266,7 +266,7 @@ For anything you ignore, write one sentence explaining why.
 
 This keeps curiosity connected to action.
 
-# One More Check
+## One More Check
 
 Protect deep work.
 
@@ -278,7 +278,7 @@ The goal is a steady learning loop: read, test, build, reflect, and repeat.
 
 That loop is sustainable because it turns attention into practical judgment.
 
-# Mini Project
+## Mini Project
 
 Create your AI learning system.
 
@@ -296,9 +296,9 @@ Define:
 
 This is how you keep learning without drowning in updates.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - You cannot follow everything in AI.
 
@@ -316,12 +316,12 @@ This is how you keep learning without drowning in updates.
 
 - Avoid identity-based attachment to tools.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that you know how to keep learning, it is time to design your own path forward.
 
 In the next article, we will build:
 
-# Your AI Engineering Learning Roadmap
+## Your AI Engineering Learning Roadmap

@@ -36,9 +36,9 @@ Are retrieval results getting worse?
 
 Production AI requires continuous attention.
 
----
+<p class="section-break">. . .</p>
 
-# Why Quality Changes
+## Why Quality Changes
 
 AI quality can change for many reasons.
 
@@ -68,9 +68,9 @@ It is part of production AI.
 
 Monitoring helps you detect change before it becomes a major issue.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor User Feedback
+## Monitor User Feedback
 
 User feedback is a useful signal.
 
@@ -98,9 +98,9 @@ If thumbs-down rates rise after a model change, investigate.
 
 If users repeatedly edit the same field, the system may be producing weak outputs.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor Retrieval Quality
+## Monitor Retrieval Quality
 
 For RAG systems, monitor retrieval.
 
@@ -126,9 +126,9 @@ Monitor the context pipeline.
 
 RAG systems fail upstream before generation fails downstream.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor Tool Use
+## Monitor Tool Use
 
 For agents, monitor tool behavior.
 
@@ -158,9 +158,9 @@ Agents depend on their tools.
 
 Tool health is agent health.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor Cost And Latency
+## Monitor Cost And Latency
 
 Quality also includes cost and speed.
 
@@ -186,9 +186,9 @@ A system may still answer correctly, but become too slow or too expensive.
 
 Production monitoring should include operational metrics, not only answer quality.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor Drift
+## Monitor Drift
 
 Drift means the real world changes away from your assumptions.
 
@@ -210,9 +210,9 @@ Monitoring helps identify when the system needs updates.
 
 This may mean updating prompts, retraining, refreshing indexes, or expanding eval sets.
 
----
+<p class="section-break">. . .</p>
 
-# Review Failure Samples
+## Review Failure Samples
 
 Dashboards are useful, but sampled review is also important.
 
@@ -236,9 +236,9 @@ For example, users may be asking a new workflow the product does not support.
 
 That becomes a product insight, not just an AI issue.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Monitoring is different from evaluation.
 
@@ -264,7 +264,7 @@ If latency spikes, trace the workflow.
 
 Monitoring is useful only when someone owns the response.
 
-# Practical Example
+## Practical Example
 
 Suppose answer ratings drop after a new help center release.
 
@@ -282,13 +282,13 @@ The next step is not panic.
 
 The next step is sampling failures and updating the system based on evidence.
 
-# One More Check
+## One More Check
 
 Every monitored metric should have an owner and a response path.
 
 If nobody knows what to do when a metric moves, the dashboard is decoration.
 
-# Mini Project
+## Mini Project
 
 Design monitoring for an AI support assistant.
 
@@ -314,9 +314,9 @@ Then decide who reviews these metrics weekly.
 
 Monitoring only helps if someone acts on it.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI quality changes over time.
 
@@ -332,12 +332,12 @@ Monitoring only helps if someone acts on it.
 
 - Monitoring must lead to action.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 One of the most important production risks is hallucination.
 
 In the next article, we will explore:
 
-# Handling Hallucinations in Production
+## Handling Hallucinations in Production

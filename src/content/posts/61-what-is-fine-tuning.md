@@ -30,9 +30,9 @@ It also makes it more expensive, more complex, and easier to misuse.
 
 So before we treat fine-tuning as a magic upgrade button, we need to understand what it actually is.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 Fine-tuning is additional training performed on an already trained model.
 
@@ -56,9 +56,9 @@ For example, you might fine-tune a model to:
 
 Fine-tuning is about adaptation.
 
----
+<p class="section-break">. . .</p>
 
-# Training From Scratch vs Fine-Tuning
+## Training From Scratch vs Fine-Tuning
 
 Training from scratch starts with a model that has not learned useful patterns yet.
 
@@ -80,9 +80,9 @@ You teach them your codebase conventions, review style, and process expectations
 
 That is the spirit of fine-tuning.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tuning vs Prompting
+## Fine-Tuning vs Prompting
 
 Prompting gives instructions at inference time.
 
@@ -106,9 +106,9 @@ Most teams should start with prompting.
 
 Fine-tuning becomes interesting when prompting cannot reliably produce the behavior you need.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tuning vs RAG
+## Fine-Tuning vs RAG
 
 RAG gives the model external knowledge at answer time.
 
@@ -134,9 +134,9 @@ Use retrieval for changing knowledge.
 
 Use fine-tuning for repeated behavior and task patterns.
 
----
+<p class="section-break">. . .</p>
 
-# What Actually Changes?
+## What Actually Changes?
 
 In traditional fine-tuning, model weights are updated.
 
@@ -156,9 +156,9 @@ The model is not becoming a database.
 
 It is learning patterns from examples.
 
----
+<p class="section-break">. . .</p>
 
-# Why Fine-Tuning Can Help
+## Why Fine-Tuning Can Help
 
 Fine-tuning can help when you need consistency.
 
@@ -176,9 +176,9 @@ In these cases, repeated examples can shape the model's behavior.
 
 The model learns the pattern more deeply than a prompt alone may provide.
 
----
+<p class="section-break">. . .</p>
 
-# Why Fine-Tuning Can Be Risky
+## Why Fine-Tuning Can Be Risky
 
 Fine-tuning can also make things worse.
 
@@ -198,9 +198,9 @@ That is dangerous.
 
 Fine-tuned models still need testing, monitoring, and human judgment.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Here is a practical way to think about fine-tuning as an engineer.
 
@@ -228,7 +228,7 @@ The engineering mistake is treating fine-tuning like a magic improvement button.
 
 The engineering habit is treating it like a controlled change to model behavior.
 
-# Mini Project
+## Mini Project
 
 Think of three AI problems:
 
@@ -250,9 +250,9 @@ The third may be prompt engineering first, then fine-tuning if consistency is po
 
 This decision habit matters.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning is additional training on an already trained model.
 
@@ -268,9 +268,9 @@ This decision habit matters.
 
 - Fine-tuning is powerful, but it requires good data and evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand what fine-tuning is, the next question is more important:
 
@@ -278,4 +278,4 @@ When should you actually use it?
 
 In the next article, we will explore:
 
-# When Should You Fine-Tune a Model?
+## When Should You Fine-Tune a Model?

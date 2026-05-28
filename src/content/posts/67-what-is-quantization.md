@@ -24,9 +24,9 @@ Quantization is one of the major techniques used in AI optimization.
 
 It can help models run on less expensive hardware, use less memory, and respond faster.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 Quantization reduces the numerical precision used to store or compute with model parameters.
 
@@ -50,9 +50,9 @@ Quantization is not free.
 
 It improves efficiency, but may reduce accuracy or output quality if pushed too far.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Analogy
+## A Simple Analogy
 
 Imagine measuring temperature.
 
@@ -80,9 +80,9 @@ The engineering question is:
 
 How much precision can we remove before quality becomes unacceptable?
 
----
+<p class="section-break">. . .</p>
 
-# Why Quantization Matters
+## Why Quantization Matters
 
 Quantization matters because deployment constraints are real.
 
@@ -106,9 +106,9 @@ Reducing memory and compute requirements can make deployment more practical.
 
 This is why quantization is a production engineering topic, not only a research topic.
 
----
+<p class="section-break">. . .</p>
 
-# Quantization And Memory
+## Quantization And Memory
 
 Model memory usage depends heavily on parameter precision.
 
@@ -124,9 +124,9 @@ It can also make local inference more practical.
 
 But memory savings must be balanced against quality.
 
----
+<p class="section-break">. . .</p>
 
-# Quantization And Speed
+## Quantization And Speed
 
 Quantization can improve speed, depending on hardware and implementation.
 
@@ -148,9 +148,9 @@ Software implementation matters.
 
 Benchmarking matters.
 
----
+<p class="section-break">. . .</p>
 
-# Quality Tradeoffs
+## Quality Tradeoffs
 
 Quantization can reduce quality.
 
@@ -178,9 +178,9 @@ Do not assume a quantized model is acceptable just because it runs faster.
 
 Test it on your real tasks.
 
----
+<p class="section-break">. . .</p>
 
-# Quantization Is A Deployment Decision
+## Quantization Is A Deployment Decision
 
 Quantization is usually part of deployment strategy.
 
@@ -206,9 +206,9 @@ For high-stakes analysis, it may not be.
 
 Optimization always has context.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Quantization is often discussed as if it is only a model compression trick.
 
@@ -232,7 +232,7 @@ Measure quality, latency, memory use, and failure patterns together.
 
 Optimization without evaluation is just guessing faster.
 
-# Practical Example
+## Practical Example
 
 Suppose you deploy a local assistant on a laptop.
 
@@ -248,7 +248,7 @@ This is why you should not ask only whether quantization works.
 
 Ask whether it works for this product, this user expectation, and this risk level.
 
-# Mini Project
+## Mini Project
 
 Imagine deploying an internal chatbot.
 
@@ -278,9 +278,9 @@ Write the decision criteria:
 
 This is how AI engineers think about optimization.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Quantization reduces numerical precision to make models smaller and more efficient.
 
@@ -296,12 +296,12 @@ This is how AI engineers think about optimization.
 
 - Quantization is a deployment tradeoff, not a free upgrade.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Fine-tuning, LoRA, and quantization all require evaluation.
 
 In the next article, we will explore:
 
-# Model Evaluation After Fine-Tuning
+## Model Evaluation After Fine-Tuning

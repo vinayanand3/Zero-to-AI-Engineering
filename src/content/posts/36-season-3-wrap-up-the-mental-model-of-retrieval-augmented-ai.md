@@ -22,9 +22,9 @@ Because many real AI applications are not useful unless they can search, retriev
 
 This is the foundation of retrieval-augmented AI.
 
----
+<p class="section-break">. . .</p>
 
-# The Big Problem
+## The Big Problem
 
 LLMs are powerful, but they do not automatically know your documents.
 
@@ -50,9 +50,9 @@ So real AI applications need a way to find the right information at the right ti
 
 That is the problem Season 3 solved.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings Make Meaning Searchable
+## Embeddings Make Meaning Searchable
 
 We started with embeddings.
 
@@ -74,9 +74,9 @@ With embeddings, systems can understand that:
 
 Embeddings are the bridge between human meaning and machine search.
 
----
+<p class="section-break">. . .</p>
 
-# Semantic Search Finds Related Information
+## Semantic Search Finds Related Information
 
 Semantic search uses embeddings to retrieve information by meaning.
 
@@ -98,9 +98,9 @@ This is especially important for knowledge bases, support systems, research tool
 
 Semantic search is the retrieval foundation for many AI applications.
 
----
+<p class="section-break">. . .</p>
 
-# Vector Similarity Compares Meaning
+## Vector Similarity Compares Meaning
 
 To perform semantic search, the system compares vectors.
 
@@ -120,9 +120,9 @@ A retrieved chunk can be related but still not answer the question.
 
 This is why retrieval systems need evaluation, metadata, filtering, and careful design.
 
----
+<p class="section-break">. . .</p>
 
-# Vector Databases Store Searchable Knowledge
+## Vector Databases Store Searchable Knowledge
 
 Vector databases store embeddings and make similarity search efficient.
 
@@ -150,9 +150,9 @@ It helps the system find relevant knowledge before the LLM generates an answer.
 
 This separation of roles is central to RAG architecture.
 
----
+<p class="section-break">. . .</p>
 
-# Chunking Shapes Retrieval Quality
+## Chunking Shapes Retrieval Quality
 
 We learned that documents need to be split into chunks.
 
@@ -174,9 +174,9 @@ Chunking is not a boring preprocessing step.
 
 It is a major quality decision.
 
----
+<p class="section-break">. . .</p>
 
-# Retrieval Pipelines Connect The Pieces
+## Retrieval Pipelines Connect The Pieces
 
 A retrieval pipeline has two sides:
 
@@ -198,9 +198,9 @@ If any step is weak, the final answer can suffer.
 
 That is why retrieval is a systems problem.
 
----
+<p class="section-break">. . .</p>
 
-# RAG Combines Retrieval And Generation
+## RAG Combines Retrieval And Generation
 
 RAG stands for Retrieval-Augmented Generation.
 
@@ -224,9 +224,9 @@ But it does not eliminate errors automatically.
 
 RAG still needs careful design.
 
----
+<p class="section-break">. . .</p>
 
-# RAG Architecture Has Multiple Components
+## RAG Architecture Has Multiple Components
 
 A RAG system usually includes:
 
@@ -258,9 +258,9 @@ This is one of the biggest mindset shifts in AI engineering:
 
 The model matters, but the system around the model matters just as much.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluation Makes RAG Reliable
+## Evaluation Makes RAG Reliable
 
 We also learned how to evaluate RAG.
 
@@ -290,9 +290,9 @@ Without evaluation, a RAG system is just a demo.
 
 With evaluation, it becomes an engineering system.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Modes Teach Us How To Debug
+## Failure Modes Teach Us How To Debug
 
 Finally, we studied common RAG failure modes:
 
@@ -322,9 +322,9 @@ Inspect documents, chunks, retrieval results, metadata filters, prompts, and fin
 
 RAG debugging is pipeline debugging.
 
----
+<p class="section-break">. . .</p>
 
-# The Season 3 Mental Model
+## The Season 3 Mental Model
 
 Here is the full mental model:
 
@@ -348,9 +348,9 @@ Failure analysis tells us where the system broke.
 
 That is retrieval-augmented AI.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a RAG system on paper for one knowledge source:
 
@@ -384,9 +384,9 @@ Write:
 
 This will force you to connect every idea from the season.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Season 3 explained how AI systems retrieve external knowledge.
 
@@ -404,9 +404,9 @@ This will force you to connect every idea from the season.
 
 - Reliable AI applications depend on the full pipeline, not just the model.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we can prompt models and give them external knowledge, the next major step is action.
 
@@ -424,8 +424,8 @@ They can coordinate workflows.
 
 That brings us to Season 4:
 
-# AI Agents and Tool Calling
+## AI Agents and Tool Calling
 
 In the next article, we will begin with:
 
-# What Is Tool Calling in AI?
+## What Is Tool Calling in AI?

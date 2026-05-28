@@ -28,9 +28,9 @@ Before an LLM can answer using your documents, your system needs to retrieve the
 
 That is what the retrieval pipeline does.
 
----
+<p class="section-break">. . .</p>
 
-# The Two Sides Of Retrieval
+## The Two Sides Of Retrieval
 
 A retrieval pipeline usually has two main sides:
 
@@ -52,9 +52,9 @@ If ingestion is poor, querying will be poor.
 
 If querying is poor, the LLM receives weak context.
 
----
+<p class="section-break">. . .</p>
 
-# Ingestion Step 1: Load Documents
+## Ingestion Step 1: Load Documents
 
 First, the system loads documents.
 
@@ -84,9 +84,9 @@ Real documents may have messy formatting, tables, headers, footers, images, or s
 
 Document loading is often the first place retrieval quality can suffer.
 
----
+<p class="section-break">. . .</p>
 
-# Ingestion Step 2: Clean And Normalize
+## Ingestion Step 2: Clean And Normalize
 
 Next, the system cleans the content.
 
@@ -114,9 +114,9 @@ This chain matters.
 
 RAG quality begins before the LLM ever sees a prompt.
 
----
+<p class="section-break">. . .</p>
 
-# Ingestion Step 3: Chunk Documents
+## Ingestion Step 3: Chunk Documents
 
 After cleaning, the system splits documents into chunks.
 
@@ -138,9 +138,9 @@ Each chunk becomes a searchable unit.
 
 The retrieval system is only as good as the chunks it can retrieve.
 
----
+<p class="section-break">. . .</p>
 
-# Ingestion Step 4: Create Embeddings
+## Ingestion Step 4: Create Embeddings
 
 Next, each chunk is converted into an embedding.
 
@@ -162,9 +162,9 @@ The actual numbers are not meant for humans to interpret.
 
 They are used for similarity search.
 
----
+<p class="section-break">. . .</p>
 
-# Ingestion Step 5: Store In A Vector Database
+## Ingestion Step 5: Store In A Vector Database
 
 The chunk, embedding, and metadata are stored.
 
@@ -190,9 +190,9 @@ This creates the searchable knowledge base.
 
 Once ingestion is complete, the system is ready to answer user queries.
 
----
+<p class="section-break">. . .</p>
 
-# Ingestion Step 6: Reindex When Knowledge Changes
+## Ingestion Step 6: Reindex When Knowledge Changes
 
 Retrieval pipelines are not one-time scripts.
 
@@ -216,9 +216,9 @@ If the index is stale, retrieval can return outdated context.
 
 Outdated context leads to outdated answers.
 
----
+<p class="section-break">. . .</p>
 
-# Query Step 1: Embed The User Question
+## Query Step 1: Embed The User Question
 
 When a user asks a question, the system converts the question into an embedding.
 
@@ -234,9 +234,9 @@ Now the system can compare the question vector to stored chunk vectors.
 
 This is where semantic search begins.
 
----
+<p class="section-break">. . .</p>
 
-# Query Step 2: Search For Similar Chunks
+## Query Step 2: Search For Similar Chunks
 
 The vector database searches for chunks with embeddings similar to the query embedding.
 
@@ -260,9 +260,9 @@ For example:
 
 The goal is to retrieve context that is relevant and trustworthy.
 
----
+<p class="section-break">. . .</p>
 
-# Query Step 3: Return Context
+## Query Step 3: Return Context
 
 The retrieved chunks are returned to the application.
 
@@ -286,9 +286,9 @@ In RAG, this handoff is critical.
 
 The LLM can only answer well if the retrieved context is useful.
 
----
+<p class="section-break">. . .</p>
 
-# Query Step 4: Inspect And Improve
+## Query Step 4: Inspect And Improve
 
 Retrieval pipelines should be observable.
 
@@ -318,9 +318,9 @@ Good retrieval pipelines are not black boxes.
 
 They leave a trail you can debug.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a retrieval pipeline for a small FAQ chatbot.
 
@@ -344,9 +344,9 @@ Write the steps:
 
 This exercise gives you the full retrieval mental model.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Retrieval pipelines have ingestion and querying sides.
 
@@ -362,9 +362,9 @@ This exercise gives you the full retrieval mental model.
 
 - RAG depends heavily on retrieval pipeline quality.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we are ready to define RAG clearly.
 
@@ -380,4 +380,4 @@ We have all the pieces:
 
 In the next article, we will answer:
 
-# What Is RAG?
+## What Is RAG?

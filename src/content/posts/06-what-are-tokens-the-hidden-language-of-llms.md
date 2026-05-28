@@ -6,13 +6,13 @@ season: 1
 slug: "06-what-are-tokens-the-hidden-language-of-llms"
 pubDate: "2026-01-06"
 ---
-### What Are Tokens? The Hidden Language of LLMs
+#### What Are Tokens? The Hidden Language of LLMs
 
 In the previous article, we learned that Large Language Models generate text by predicting the next token.
 
 That raises an obvious question:
 
-### What exactly is a token?
+#### What exactly is a token?
 
 Most beginners assume LLMs read words the same way humans do.
 
@@ -36,9 +36,9 @@ Why do models sometimes struggle with character counting?
 
 The answer often comes back to tokens.
 
----
+<p class="section-break">. . .</p>
 
-### The Simplest Definition
+#### The Simplest Definition
 
 A token is a small piece of text that an AI model uses as a basic unit.
 
@@ -80,9 +80,9 @@ The model does not care whether humans consider something a full word.
 
 It cares about the token pieces created by its tokenizer.
 
----
+<p class="section-break">. . .</p>
 
-### Why Do LLMs Use Tokens Instead Of Words?
+#### Why Do LLMs Use Tokens Instead Of Words?
 
 Human language is messy.
 
@@ -114,9 +114,9 @@ it can handle words related to autobiography, biography, and graph-based terms m
 
 Tokenization gives models a practical way to process open-ended language.
 
----
+<p class="section-break">. . .</p>
 
-### Tokenization Is Like Cutting Text Into Lego Pieces
+#### Tokenization Is Like Cutting Text Into Lego Pieces
 
 One useful analogy is Lego blocks.
 
@@ -153,9 +153,9 @@ Some are fragments:
 
 This lets the model work with normal language, code, math expressions, and strange inputs using the same general system.
 
----
+<p class="section-break">. . .</p>
 
-### Tokens And Cost
+#### Tokens And Cost
 
 Many AI APIs charge based on tokens.
 
@@ -184,9 +184,9 @@ Tokens are not just a technical detail.
 
 They are part of the economics of AI systems.
 
----
+<p class="section-break">. . .</p>
 
-### Tokens And Context Windows
+#### Tokens And Context Windows
 
 Tokens also explain context windows.
 
@@ -218,9 +218,9 @@ The model is not carrying infinite memory.
 
 It is working within a token budget.
 
----
+<p class="section-break">. . .</p>
 
-### Tokens And Strange Model Behavior
+#### Tokens And Strange Model Behavior
 
 Tokens also explain why LLMs sometimes struggle with tasks that seem simple to humans.
 
@@ -244,9 +244,9 @@ This is also why prompts involving exact formatting, hidden characters, or unusu
 
 The token representation may not match your visual intuition.
 
----
+<p class="section-break">. . .</p>
 
-### Tokens In Code
+#### Tokens In Code
 
 Tokens are especially important in coding assistants.
 
@@ -274,9 +274,9 @@ They have learned the statistical structure of code.
 
 They know which token sequences commonly appear in working programs.
 
----
+<p class="section-break">. . .</p>
 
-### Visual Explanation
+#### Visual Explanation
 
 Imagine a three-step pipeline:
 
@@ -304,9 +304,9 @@ The model lives in numbers.
 
 The tokenizer is the bridge between human language and model computation.
 
----
+<p class="section-break">. . .</p>
 
-### Mini Project
+#### Mini Project
 
 Try this simple exercise.
 
@@ -333,9 +333,9 @@ You are not only asking, “What should I prompt?”
 
 You are asking, “How much information am I asking the system to process?”
 
----
+<p class="section-break">. . .</p>
 
-### Key Takeaways
+#### Key Takeaways
 
 - LLMs process tokens, not raw words.
 - A token can be a word, part of a word, punctuation, or symbol.
@@ -345,9 +345,9 @@ You are asking, “How much information am I asking the system to process?”
 - Some strange LLM behavior comes from the difference between human text and tokenized text.
 - Tokenization is the bridge between language and computation.
 
----
+<p class="section-break">. . .</p>
 
-### What’s Next
+#### What’s Next
 
 Tokens explain how text enters the model.
 
@@ -363,4 +363,4 @@ It needs to compare concepts numerically.
 
 That brings us to one of the most important ideas in modern AI:
 
-### Embeddings
+#### Embeddings

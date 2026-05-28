@@ -22,9 +22,9 @@ The goal is not to make fine-tuning sound easy.
 
 The goal is to help you know when it is worth considering.
 
----
+<p class="section-break">. . .</p>
 
-# Start With The Problem
+## Start With The Problem
 
 Before choosing fine-tuning, ask:
 
@@ -46,9 +46,9 @@ Fine-tuning solves some problems well.
 
 It is not the answer to every problem.
 
----
+<p class="section-break">. . .</p>
 
-# Use Fine-Tuning For Repeated Patterns
+## Use Fine-Tuning For Repeated Patterns
 
 Fine-tuning is strongest when the model must learn a repeated pattern.
 
@@ -72,9 +72,9 @@ If you only need one custom answer, use a prompt.
 
 If you need the same behavior thousands of times, fine-tuning may become useful.
 
----
+<p class="section-break">. . .</p>
 
-# Use RAG For Changing Knowledge
+## Use RAG For Changing Knowledge
 
 If the problem is missing or changing knowledge, use retrieval first.
 
@@ -100,9 +100,9 @@ Use RAG so the system can retrieve current information.
 
 Fine-tuning should not be used as a database.
 
----
+<p class="section-break">. . .</p>
 
-# Use Prompting First For Simple Behavior
+## Use Prompting First For Simple Behavior
 
 If the desired behavior can be described clearly in a prompt, start there.
 
@@ -126,9 +126,9 @@ Fine-tuning is heavier.
 
 Start with the lighter tool.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tune When Consistency Matters
+## Fine-Tune When Consistency Matters
 
 Fine-tuning can help when consistency matters more than flexibility.
 
@@ -148,9 +148,9 @@ Even a fine-tuned model can produce invalid output.
 
 Software should enforce formats when possible.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tune When You Have Good Data
+## Fine-Tune When You Have Good Data
 
 Fine-tuning requires data.
 
@@ -180,9 +180,9 @@ Before fine-tuning, ask:
 
 If the data is weak, fine-tuning may amplify the weakness.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tune When Evaluation Is Ready
+## Fine-Tune When Evaluation Is Ready
 
 Do not fine-tune without evaluation.
 
@@ -206,9 +206,9 @@ The model may look better on a few examples and worse on many others.
 
 Evaluation protects you from that mistake.
 
----
+<p class="section-break">. . .</p>
 
-# A Practical Decision Framework
+## A Practical Decision Framework
 
 Ask these questions:
 
@@ -234,9 +234,9 @@ If not, fix that first.
 
 This framework will prevent many bad fine-tuning decisions.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 In real teams, the fine-tuning decision often becomes emotional.
 
@@ -268,7 +268,7 @@ If the successful examples can be made reliable with prompting or retrieval, sta
 
 If the successful behavior is hard to express in a prompt but easy to demonstrate with many examples, fine-tuning becomes a stronger option.
 
-# Mini Project
+## Mini Project
 
 Classify each problem:
 
@@ -294,9 +294,9 @@ Likely answers:
 
 5. Prompting first, then fine-tuning if needed
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning should not be the first solution for every AI problem.
 
@@ -312,12 +312,12 @@ Likely answers:
 
 - The right solution depends on the failure mode.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we know when fine-tuning may help, we need to compare the major options directly.
 
 In the next article, we will explore:
 
-# Fine-Tuning vs RAG vs Prompt Engineering
+## Fine-Tuning vs RAG vs Prompt Engineering

@@ -22,9 +22,9 @@ This matters because a server often knows the best way to work with its own tool
 
 Instead of leaving every user to invent prompts from scratch, the server can provide useful prompt workflows.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 An MCP prompt is a reusable instruction template exposed by a server.
 
@@ -54,9 +54,9 @@ The client can retrieve the prompt and fill in the argument.
 
 The model then receives a structured workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Prompts vs Tools
+## Prompts vs Tools
 
 Prompts and tools are different.
 
@@ -82,9 +82,9 @@ The prompt organizes the workflow.
 
 The tools execute parts of it.
 
----
+<p class="section-break">. . .</p>
 
-# Prompts vs Resources
+## Prompts vs Resources
 
 Resources provide data.
 
@@ -108,9 +108,9 @@ The model needs information and instructions.
 
 MCP lets servers expose both through standard primitives.
 
----
+<p class="section-break">. . .</p>
 
-# Why Server-Provided Prompts Matter
+## Why Server-Provided Prompts Matter
 
 The server often knows its domain.
 
@@ -126,9 +126,9 @@ They help users and models interact with the server more effectively.
 
 This is similar to a prompt library, but attached to the system that provides the relevant capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# User-Controlled Workflows
+## User-Controlled Workflows
 
 Prompts are often user-controlled.
 
@@ -156,9 +156,9 @@ Users do not need to remember every possible prompt.
 
 They can choose from templates.
 
----
+<p class="section-break">. . .</p>
 
-# Embedded Resources
+## Embedded Resources
 
 Prompts can also include or reference resources.
 
@@ -178,9 +178,9 @@ Instead of a generic prompt, the server can provide a workflow tailored to its o
 
 That is where MCP prompts become especially useful.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Security
+## Prompt Security
 
 Prompts can also create risk.
 
@@ -200,9 +200,9 @@ Software enforces boundaries.
 
 MCP prompts are useful, but they still need validation, permissions, and evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# Prompts Should Match Server Capabilities
+## Prompts Should Match Server Capabilities
 
 An MCP prompt is most useful when it matches what the server can actually provide.
 
@@ -218,9 +218,9 @@ They should guide the model toward actions and context the server can support.
 
 This makes prompts practical instead of generic.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design three prompts for a project management MCP server.
 
@@ -246,9 +246,9 @@ For each prompt, define:
 
 This exercise connects prompt engineering to MCP design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP prompts are reusable instruction templates exposed by servers.
 
@@ -264,12 +264,12 @@ This exercise connects prompt engineering to MCP design.
 
 - Prompt security and validation still matter.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand tools, resources, and prompts, we can design a simple MCP server conceptually.
 
 In the next article, we will walk through:
 
-# Building Your First MCP Server Conceptually
+## Building Your First MCP Server Conceptually

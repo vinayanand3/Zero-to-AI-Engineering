@@ -28,9 +28,9 @@ You stop guessing.
 
 You inspect the pipeline.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 1: Bad Source Documents
+## Failure Mode 1: Bad Source Documents
 
 RAG cannot reliably answer from bad knowledge.
 
@@ -58,9 +58,9 @@ It is a knowledge quality problem.
 
 Good RAG begins with good source material.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 2: Poor Chunking
+## Failure Mode 2: Poor Chunking
 
 Chunking mistakes are extremely common.
 
@@ -80,9 +80,9 @@ If RAG answers are vague or incomplete, inspect the chunks.
 
 The problem may have started before embeddings were created.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 3: Wrong Retrieval
+## Failure Mode 3: Wrong Retrieval
 
 Sometimes the system retrieves the wrong chunks.
 
@@ -106,9 +106,9 @@ Wrong context leads to weak answers.
 
 Always check what was retrieved before blaming the LLM.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 4: Missing Metadata
+## Failure Mode 4: Missing Metadata
 
 Metadata often seems optional at first.
 
@@ -140,9 +140,9 @@ The meaning is similar, but the answer is wrong.
 
 Metadata prevents many of these mistakes.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 5: Too Much Retrieved Context
+## Failure Mode 5: Too Much Retrieved Context
 
 Retrieving more chunks does not always improve answers.
 
@@ -166,9 +166,9 @@ Sometimes the fix is better retrieval.
 
 Quality beats quantity.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 6: The Answer Is Not In The Documents
+## Failure Mode 6: The Answer Is Not In The Documents
 
 Users will ask questions your documents do not answer.
 
@@ -186,9 +186,9 @@ Your evaluation set should include unanswerable questions.
 
 RAG systems need refusal behavior, not just answer behavior.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 7: The Model Ignores Context
+## Failure Mode 7: The Model Ignores Context
 
 Sometimes retrieval is good, but generation is bad.
 
@@ -212,9 +212,9 @@ Prompt design matters in RAG.
 
 The model needs to know how to use retrieved context.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 8: Stale Indexes
+## Failure Mode 8: Stale Indexes
 
 Documents change.
 
@@ -242,9 +242,9 @@ A RAG system needs an update process:
 
 Without this, the system slowly becomes wrong.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 9: Permission Leaks
+## Failure Mode 9: Permission Leaks
 
 RAG systems often search private information.
 
@@ -264,9 +264,9 @@ Do not rely on the model to hide sensitive information after it has already seen
 
 The safer design is to prevent unauthorized context from being retrieved in the first place.
 
----
+<p class="section-break">. . .</p>
 
-# How to Debug RAG
+## How to Debug RAG
 
 When a RAG answer fails, use this order:
 
@@ -290,9 +290,9 @@ Many RAG failures happen earlier in the pipeline.
 
 Debug from source to answer.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take a failed or imaginary RAG answer.
 
@@ -314,9 +314,9 @@ Even with a small example, this exercise builds the right habit.
 
 RAG debugging is pipeline debugging.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - RAG can fail at many points in the pipeline.
 
@@ -336,12 +336,12 @@ RAG debugging is pipeline debugging.
 
 - Debug RAG from source documents to final answer.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have now covered the major foundations of embeddings, semantic search, vector databases, chunking, retrieval, RAG, evaluation, and failure modes.
 
 In the final article of Season 3, we will connect everything into one mental model:
 
-# The Mental Model of Retrieval-Augmented AI
+## The Mental Model of Retrieval-Augmented AI

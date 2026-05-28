@@ -26,9 +26,9 @@ Then the result is returned to the model.
 
 This article walks through that loop step by step.
 
----
+<p class="section-break">. . .</p>
 
-# Step 1: Define The Tool
+## Step 1: Define The Tool
 
 Before the model can call a tool, the developer defines it.
 
@@ -62,9 +62,9 @@ Arguments:
 
 The model uses this definition to understand when the tool may be useful.
 
----
+<p class="section-break">. . .</p>
 
-# Step 2: The User Makes A Request
+## Step 2: The User Makes A Request
 
 The user asks something.
 
@@ -86,9 +86,9 @@ The model should not guess.
 
 It should call the order status tool.
 
----
+<p class="section-break">. . .</p>
 
-# Step 3: The Model Chooses A Tool
+## Step 3: The Model Chooses A Tool
 
 The model selects:
 
@@ -110,9 +110,9 @@ The model proposes the tool call.
 
 The application executes it.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4: The Application Validates The Call
+## Step 4: The Application Validates The Call
 
 Before running the tool, the application should validate the request.
 
@@ -138,9 +138,9 @@ Never treat model output as automatically safe.
 
 Tool calls are model-generated requests, and requests need validation.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4.5: Ask For Confirmation When Needed
+## Step 4.5: Ask For Confirmation When Needed
 
 Some tool calls should pause for user confirmation.
 
@@ -168,9 +168,9 @@ It also gives the user a chance to catch mistakes before the system changes some
 
 Confirmation is one of the simplest and most effective guardrails for tool-calling systems.
 
----
+<p class="section-break">. . .</p>
 
-# Step 5: The Tool Runs
+## Step 5: The Tool Runs
 
 If validation passes, the application runs the tool.
 
@@ -189,9 +189,9 @@ This result is returned to the model as tool output.
 
 The model can now use real information instead of guessing.
 
----
+<p class="section-break">. . .</p>
 
-# Step 6: The Model Responds To The User
+## Step 6: The Model Responds To The User
 
 The model receives the tool result and writes a natural response.
 
@@ -209,9 +209,9 @@ Natural conversation on the surface.
 
 Structured software execution underneath.
 
----
+<p class="section-break">. . .</p>
 
-# Step 7: Log The Tool Call
+## Step 7: Log The Tool Call
 
 Tool calls should be logged.
 
@@ -245,9 +245,9 @@ If the assistant gives a wrong answer, you need to know whether:
 
 Without logs, tool-calling systems are hard to debug.
 
----
+<p class="section-break">. . .</p>
 
-# What Can Go Wrong?
+## What Can Go Wrong?
 
 Tool calling can fail in several ways.
 
@@ -269,9 +269,9 @@ This is why tool-calling systems need guardrails and evaluation.
 
 The loop is powerful, but it must be engineered carefully.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Results Should Be Clear
+## Tool Results Should Be Clear
 
 The tool output should be easy for the model to interpret.
 
@@ -297,9 +297,9 @@ Tool design is not only about input arguments.
 
 Return format matters too.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a tool call flow for:
 
@@ -323,9 +323,9 @@ You will notice that a simple user request requires multiple engineering decisio
 
 That is tool calling in practice.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Tool calling follows a structured loop.
 
@@ -341,9 +341,9 @@ That is tool calling in practice.
 
 - Tool calls should be logged and evaluated.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Tool calling gives models access to capabilities.
 
@@ -355,4 +355,4 @@ That brings us to agents.
 
 In the next article, we will explore:
 
-# What Is an AI Agent?
+## What Is an AI Agent?

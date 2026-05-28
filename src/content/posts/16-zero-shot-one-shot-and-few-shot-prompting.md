@@ -34,9 +34,9 @@ A few examples.
 
 That is the basic idea.
 
----
+<p class="section-break">. . .</p>
 
-# Zero-Shot Prompting
+## Zero-Shot Prompting
 
 Zero-shot prompting means asking the model to do a task without giving examples.
 
@@ -62,9 +62,9 @@ For many everyday tasks, zero-shot prompting is enough.
 
 You do not always need examples.
 
----
+<p class="section-break">. . .</p>
 
-# When Zero-Shot Works Well
+## When Zero-Shot Works Well
 
 Zero-shot prompting works well for common tasks like:
 
@@ -96,9 +96,9 @@ The audience is defined.
 
 The model has enough information to proceed.
 
----
+<p class="section-break">. . .</p>
 
-# When Zero-Shot Breaks Down
+## When Zero-Shot Breaks Down
 
 Zero-shot prompting becomes weaker when the task has a specific pattern the model may not infer.
 
@@ -118,9 +118,9 @@ If your severity levels are specific to your company, the model needs examples o
 
 Zero-shot prompting fails when the model has to guess your hidden rules.
 
----
+<p class="section-break">. . .</p>
 
-# One-Shot Prompting
+## One-Shot Prompting
 
 One-shot prompting means giving one example before asking the model to perform the task.
 
@@ -152,9 +152,9 @@ The model sees:
 
 One example can often improve consistency.
 
----
+<p class="section-break">. . .</p>
 
-# Few-Shot Prompting
+## Few-Shot Prompting
 
 Few-shot prompting means giving several examples.
 
@@ -190,9 +190,9 @@ It also shows boundaries between categories.
 
 Few-shot prompting is especially useful for classification, extraction, formatting, and style transfer.
 
----
+<p class="section-break">. . .</p>
 
-# Examples Teach The Shape Of The Output
+## Examples Teach The Shape Of The Output
 
 Examples do not just teach content.
 
@@ -212,9 +212,9 @@ Do not include long explanations in examples if you want short answers.
 
 The model learns from the pattern you show.
 
----
+<p class="section-break">. . .</p>
 
-# Choosing Good Examples
+## Choosing Good Examples
 
 Good examples should be:
 
@@ -240,9 +240,9 @@ Not too many means you avoid filling the context window with unnecessary example
 
 Examples are useful, but they still consume tokens.
 
----
+<p class="section-break">. . .</p>
 
-# When Examples Can Hurt
+## When Examples Can Hurt
 
 Examples are powerful, but they can also bias the model in the wrong direction.
 
@@ -268,9 +268,9 @@ Good examples guide.
 
 Bad examples mislead.
 
----
+<p class="section-break">. . .</p>
 
-# A Practical Before And After
+## A Practical Before And After
 
 Weak prompt:
 
@@ -300,9 +300,9 @@ Task:
 
 The better prompt shows exactly what transformation should happen.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Choose a repeated task you do often.
 
@@ -330,9 +330,9 @@ Compare the outputs.
 
 You will start to feel when examples help and when they are unnecessary.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Zero-shot prompting uses no examples.
 
@@ -348,9 +348,9 @@ You will start to feel when examples help and when they are unnecessary.
 
 - Good examples should be clear, consistent, and representative.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Examples are one way to guide a model.
 
@@ -362,4 +362,4 @@ Now we will learn how context changes the quality of AI responses.
 
 In the next article, we will explore:
 
-# How Context Changes AI Responses
+## How Context Changes AI Responses

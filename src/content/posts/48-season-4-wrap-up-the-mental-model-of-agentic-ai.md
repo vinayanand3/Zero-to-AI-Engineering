@@ -26,9 +26,9 @@ They become workflow systems.
 
 That is the core idea of agentic AI.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Calling Is The Foundation
+## Tool Calling Is The Foundation
 
 We began with tool calling.
 
@@ -60,9 +60,9 @@ Software controls actions.
 
 That is how we keep tool use structured and safe.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Extend LLMs
+## Tools Extend LLMs
 
 LLMs need tools because generation alone is not enough.
 
@@ -88,9 +88,9 @@ But tools also increase risk.
 
 The more powerful the tool, the stronger the guardrails need to be.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Calling Is A Loop
+## Tool Calling Is A Loop
 
 Tool calling follows a structured process:
 
@@ -118,9 +118,9 @@ The tool performs work.
 
 The application enforces rules.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Work Toward Goals
+## Agents Work Toward Goals
 
 An AI agent is a system that can work toward a goal by deciding steps, using tools, and adapting based on results.
 
@@ -146,9 +146,9 @@ But it also makes them harder to control and evaluate.
 
 Autonomy creates responsibility.
 
----
+<p class="section-break">. . .</p>
 
-# The Agent Loop
+## The Agent Loop
 
 The core agent loop is:
 
@@ -174,9 +174,9 @@ This loop appears in coding agents, research agents, support agents, personal as
 
 It is the basic engine of agentic behavior.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Need State And Memory
+## Agents Need State And Memory
 
 Agents need state to track the current task.
 
@@ -206,9 +206,9 @@ Sensitive memory creates privacy risk.
 
 Useful agent memory is selective, inspectable, and governed by clear rules.
 
----
+<p class="section-break">. . .</p>
 
-# Guardrails Make Agents Safer
+## Guardrails Make Agents Safer
 
 Agents need guardrails because they can act.
 
@@ -240,9 +240,9 @@ For important systems, do not rely on prompt instructions alone.
 
 Use code, permissions, and process.
 
----
+<p class="section-break">. . .</p>
 
-# Multi-Tool And Multi-Agent Workflows
+## Multi-Tool And Multi-Agent Workflows
 
 Real workflows often require multiple tools.
 
@@ -260,9 +260,9 @@ They add cost, latency, coordination problems, and debugging complexity.
 
 Use the simplest architecture that works.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluation Is Essential
+## Evaluation Is Essential
 
 Agents need evaluation because they can fail in many ways.
 
@@ -290,9 +290,9 @@ An agent that gets the right answer through unsafe steps is still a problem.
 
 Agent evaluation must inspect both outcomes and behavior.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Modes Become Design Requirements
+## Failure Modes Become Design Requirements
 
 We ended the season by studying common agent failure modes:
 
@@ -326,9 +326,9 @@ Failures are not just bugs.
 
 They are signals about what the system needs.
 
----
+<p class="section-break">. . .</p>
 
-# The Season 4 Mental Model
+## The Season 4 Mental Model
 
 Here is the full mental model:
 
@@ -354,9 +354,9 @@ Failure modes guide better system design.
 
 That is agentic AI from an engineering perspective.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design an agentic system on paper.
 
@@ -394,9 +394,9 @@ This exercise connects the entire season.
 
 It forces you to think like an AI engineer, not just a prompt writer.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Season 4 moved from AI responses to AI actions.
 
@@ -412,9 +412,9 @@ It forces you to think like an AI engineer, not just a prompt writer.
 
 - Reliable agentic systems are workflow systems with controlled autonomy.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we are ready for Season 5.
 
@@ -430,5 +430,4 @@ In Season 5, we will learn how the ecosystem around those tools is evolving.
 
 In the next article, we will begin with:
 
-# What Is MCP?
-
+## What Is MCP?

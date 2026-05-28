@@ -40,11 +40,11 @@ is built on top of neural networks.
 
 So before we talk about transformers or large language models, we first need to understand:
 
-# How does a machine actually learn?
+## How does a machine actually learn?
 
----
+<p class="section-break">. . .</p>
 
-# Traditional Programming vs Machine Learning
+## Traditional Programming vs Machine Learning
 
 Let’s start with something familiar.
 
@@ -103,9 +103,9 @@ That quickly becomes unmanageable.
 
 So instead of manually writing rules, machine learning flips the process.
 
----
+<p class="section-break">. . .</p>
 
-# The Big Shift in Machine Learning
+## The Big Shift in Machine Learning
 
 Instead of:
 
@@ -139,9 +139,9 @@ The model gradually learns what features correlate with cats.
 
 That learning process is what neural networks are designed to do extremely well.
 
----
+<p class="section-break">. . .</p>
 
-# What Is a Neural Network?
+## What Is a Neural Network?
 
 At a very high level:
 
@@ -170,9 +170,9 @@ The name “neural network” comes from the fact that its structure was loosely
 
 But modern neural networks are mathematical systems, not digital brains.
 
----
+<p class="section-break">. . .</p>
 
-# The Simplest Mental Model
+## The Simplest Mental Model
 
 Imagine teaching a child to recognize dogs.
 
@@ -198,9 +198,9 @@ Neural networks work similarly.
 
 Except instead of biological neurons, they use mathematical layers and numerical weights.
 
----
+<p class="section-break">. . .</p>
 
-# The Core Components of a Neural Network
+## The Core Components of a Neural Network
 
 At the simplest level, neural networks contain:
 
@@ -217,9 +217,9 @@ At the simplest level, neural networks contain:
 
 Let’s simplify each one.
 
----
+<p class="section-break">. . .</p>
 
-# Inputs
+## Inputs
 
 Inputs are the information entering the system.
 
@@ -244,9 +244,9 @@ Even images.
 
 Even sound.
 
----
+<p class="section-break">. . .</p>
 
-# Weights
+## Weights
 
 Weights are the most important part of learning.
 
@@ -263,9 +263,9 @@ This is extremely important:
 
 > Neural networks learn by continuously updating weights.
 
----
+<p class="section-break">. . .</p>
 
-# Neurons
+## Neurons
 
 A neuron receives inputs, processes them, and produces an output.
 
@@ -279,9 +279,9 @@ Individually, neurons are simple.
 
 But when millions or billions of them work together, powerful behavior emerges.
 
----
+<p class="section-break">. . .</p>
 
-# Layers
+## Layers
 
 Neural networks contain multiple layers.
 
@@ -320,9 +320,9 @@ Later layers:
 
 The network gradually builds understanding hierarchically.
 
----
+<p class="section-break">. . .</p>
 
-# Output Layer
+## Output Layer
 
 The final layer produces the prediction.
 
@@ -339,9 +339,9 @@ This output is compared against the correct answer during training.
 
 That comparison drives learning.
 
----
+<p class="section-break">. . .</p>
 
-# So How Does Learning Actually Happen?
+## So How Does Learning Actually Happen?
 
 This is the heart of machine learning.
 
@@ -371,9 +371,9 @@ Over time:
 - and patterns become stronger.
     
 
----
+<p class="section-break">. . .</p>
 
-# Loss Functions: Measuring Mistakes
+## Loss Functions: Measuring Mistakes
 
 The model needs a way to measure:  
 “How wrong was I?”
@@ -394,9 +394,9 @@ Training is basically the process of minimizing loss.
 
 The model continuously tries to reduce its mistakes.
 
----
+<p class="section-break">. . .</p>
 
-# Backpropagation (Without the Scary Math)
+## Backpropagation (Without the Scary Math)
 
 Backpropagation sounds intimidating, but the core idea is simple.
 
@@ -421,9 +421,9 @@ Then:
 
 This happens at enormous scale inside modern AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# Why Deep Learning Became So Powerful
+## Why Deep Learning Became So Powerful
 
 Earlier machine learning systems often required humans to manually define features.
 
@@ -446,9 +446,9 @@ That’s why deep learning suddenly became effective for:
 - and complex reasoning tasks.
     
 
----
+<p class="section-break">. . .</p>
 
-# Why Bigger Models Often Perform Better
+## Why Bigger Models Often Perform Better
 
 Modern AI systems contain:
 
@@ -483,9 +483,9 @@ But bigger models also require:
 
 This is why training frontier AI systems is extremely expensive.
 
----
+<p class="section-break">. . .</p>
 
-# Neural Networks Are Pattern Compression Machines
+## Neural Networks Are Pattern Compression Machines
 
 One of the best ways to think about neural networks is this:
 
@@ -506,9 +506,9 @@ That compressed knowledge later allows:
 
 This idea becomes extremely important once we reach transformers and LLMs later in the series.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Neural networks learn patterns from data.
     
@@ -525,13 +525,13 @@ This idea becomes extremely important once we reach transformers and LLMs later 
 - Large AI models contain enormous numbers of learned parameters.
     
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand how machines learn patterns, we can finally approach the next major breakthrough:
 
-# Why Transformers Changed AI Forever
+## Why Transformers Changed AI Forever
 
 And honestly?
 

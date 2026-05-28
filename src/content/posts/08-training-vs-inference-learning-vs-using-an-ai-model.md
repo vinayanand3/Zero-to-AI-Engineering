@@ -10,7 +10,7 @@ So far in this series, we have talked about neural networks, transformers, token
 
 But there is one distinction that beginners must understand early:
 
-# training vs inference
+## training vs inference
 
 These two words appear constantly in AI engineering.
 
@@ -28,9 +28,9 @@ Running inference can still be expensive, but it is usually focused on serving p
 
 If you confuse these two, modern AI systems become much harder to understand.
 
----
+<p class="section-break">. . .</p>
 
-# The Student Analogy
+## The Student Analogy
 
 Imagine a student preparing for an exam.
 
@@ -54,9 +54,9 @@ During training, the model learns patterns from data.
 
 During inference, the model uses those learned patterns to produce outputs.
 
----
+<p class="section-break">. . .</p>
 
-# What Happens During Training?
+## What Happens During Training?
 
 Training is the process of adjusting a model's internal parameters.
 
@@ -88,9 +88,9 @@ If it predicts poorly, the training process updates the model.
 
 Over time, the model becomes better at predicting language patterns.
 
----
+<p class="section-break">. . .</p>
 
-# Training Is Expensive
+## Training Is Expensive
 
 Training modern AI models requires enormous resources.
 
@@ -120,9 +120,9 @@ For most AI engineers, the practical path is not training a frontier model from 
 
 It is learning how to use, adapt, evaluate, and deploy existing models effectively.
 
----
+<p class="section-break">. . .</p>
 
-# What Happens During Inference?
+## What Happens During Inference?
 
 Inference is what happens when you use a trained model.
 
@@ -152,9 +152,9 @@ The model is not usually updating its core weights during this process.
 
 It is applying what it already learned.
 
----
+<p class="section-break">. . .</p>
 
-# Why Inference Still Matters
+## Why Inference Still Matters
 
 Beginners sometimes assume training is the hard part and inference is easy.
 
@@ -188,9 +188,9 @@ That requires serious infrastructure.
 
 In real AI products, inference engineering is where a lot of practical work happens.
 
----
+<p class="section-break">. . .</p>
 
-# Training vs Fine-Tuning
+## Training vs Fine-Tuning
 
 There is another term you will hear:
 
@@ -228,9 +228,9 @@ Fine-tuning is additional learning.
 
 Inference is using.
 
----
+<p class="section-break">. . .</p>
 
-# Does ChatGPT Learn From Every Conversation?
+## Does ChatGPT Learn From Every Conversation?
 
 This is a common beginner question.
 
@@ -254,9 +254,9 @@ The model is using temporary context, not necessarily learning permanently.
 
 This distinction becomes important when we talk about memory, agents, and personalization later.
 
----
+<p class="section-break">. . .</p>
 
-# Visual Explanation
+## Visual Explanation
 
 Think of training and inference as two phases:
 
@@ -278,9 +278,9 @@ Of course, real systems can be more complex.
 
 But this mental model will carry you very far.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Look at three AI tools you use.
 
@@ -302,9 +302,9 @@ When an image generator creates an image from a prompt, that is inference.
 
 This helps you separate using AI from building or modifying AI models.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Training is when a model learns from data.
 
@@ -322,9 +322,9 @@ This helps you separate using AI from building or modifying AI models.
 
 - Conversation context is not the same as permanent learning.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand training and inference, we need to talk about the hardware behind modern AI.
 
@@ -336,5 +336,4 @@ Why are they connected to the AI boom?
 
 In the next article, we will explore:
 
-# Why GPUs Matter In Modern AI
-
+## Why GPUs Matter In Modern AI

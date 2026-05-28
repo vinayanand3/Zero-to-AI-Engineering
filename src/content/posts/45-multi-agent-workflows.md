@@ -30,9 +30,9 @@ But multi-agent systems also add complexity.
 
 They should be used carefully.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 A multi-agent workflow is a system where multiple AI agents coordinate to complete a task.
 
@@ -66,9 +66,9 @@ Check accuracy and clarity.
 
 Each agent has a focused job.
 
----
+<p class="section-break">. . .</p>
 
-# Why Use Multiple Agents?
+## Why Use Multiple Agents?
 
 Multiple agents can help when a task has distinct phases.
 
@@ -94,9 +94,9 @@ A planner agent can create a path before an executor acts.
 
 But this only helps if the system is designed well.
 
----
+<p class="section-break">. . .</p>
 
-# The Cost Of Multi-Agent Systems
+## The Cost Of Multi-Agent Systems
 
 Multi-agent workflows are not automatically better.
 
@@ -124,9 +124,9 @@ Often, one well-designed agent or a deterministic pipeline is enough.
 
 Use multiple agents when specialization clearly improves quality or safety.
 
----
+<p class="section-break">. . .</p>
 
-# Start With One Agent First
+## Start With One Agent First
 
 A practical rule is to start simple.
 
@@ -146,9 +146,9 @@ Multi-agent design should solve a specific problem.
 
 It should not be added just because it sounds advanced.
 
----
+<p class="section-break">. . .</p>
 
-# Common Multi-Agent Pattern: Planner And Executor
+## Common Multi-Agent Pattern: Planner And Executor
 
 One common pattern is planner and executor.
 
@@ -178,9 +178,9 @@ Runs the tools and completes each step.
 
 This separation can help keep execution aligned with a plan.
 
----
+<p class="section-break">. . .</p>
 
-# Common Pattern: Generator And Reviewer
+## Common Pattern: Generator And Reviewer
 
 Another useful pattern is generator and reviewer.
 
@@ -212,9 +212,9 @@ But the reviewer can also miss problems.
 
 You still need real tests and human review for important work.
 
----
+<p class="section-break">. . .</p>
 
-# Common Pattern: Specialist Agents
+## Common Pattern: Specialist Agents
 
 Some workflows use specialists.
 
@@ -240,9 +240,9 @@ Specialist agents should have clear responsibilities and output formats.
 
 Otherwise, the system becomes messy.
 
----
+<p class="section-break">. . .</p>
 
-# Coordination Matters
+## Coordination Matters
 
 Multi-agent systems need coordination.
 
@@ -264,9 +264,9 @@ Without coordination, agents may talk past each other.
 
 The architecture matters more than the number of agents.
 
----
+<p class="section-break">. . .</p>
 
-# Shared Context Can Be A Problem
+## Shared Context Can Be A Problem
 
 Multi-agent systems need to decide what information is shared.
 
@@ -294,9 +294,9 @@ The reviewer agent can pass issues and recommendations.
 
 Each handoff should be clear and compact.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a multi-agent workflow for writing a technical article.
 
@@ -330,9 +330,9 @@ That final question is important.
 
 Multi-agent design should be justified.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Multi-agent workflows use multiple agents with different roles.
 
@@ -346,9 +346,9 @@ Multi-agent design should be justified.
 
 - Do not use multiple agents when a simpler workflow is enough.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Agents can be powerful, but they are hard to judge by demos alone.
 
@@ -356,4 +356,4 @@ We need to evaluate them.
 
 In the next article, we will explore:
 
-# How to Evaluate AI Agents
+## How to Evaluate AI Agents

@@ -160,6 +160,14 @@ main {
   border-top: 1px solid var(--line);
 }
 
+.article .section-break {
+  margin: 2.5rem 0;
+  color: var(--muted);
+  font-size: 1rem;
+  letter-spacing: 0.28em;
+  text-align: center;
+}
+
 .article pre {
   overflow-x: auto;
   padding: 1rem;

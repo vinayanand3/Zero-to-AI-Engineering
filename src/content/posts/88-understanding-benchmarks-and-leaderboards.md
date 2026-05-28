@@ -24,9 +24,9 @@ But they can also mislead.
 
 To think clearly about AI progress, you need to understand what benchmarks measure, what they miss, and how leaderboards can distort incentives.
 
----
+<p class="section-break">. . .</p>
 
-# What Is A Benchmark?
+## What Is A Benchmark?
 
 A benchmark is a standardized test.
 
@@ -60,9 +60,9 @@ If multiple models take the same test, we can compare scores.
 
 That is useful, but only within the benchmark's limits.
 
----
+<p class="section-break">. . .</p>
 
-# What Benchmarks Measure
+## What Benchmarks Measure
 
 Benchmarks measure specific tasks under specific conditions.
 
@@ -86,9 +86,9 @@ What exactly is being measured?
 
 The answer defines what the score means.
 
----
+<p class="section-break">. . .</p>
 
-# What Benchmarks Miss
+## What Benchmarks Miss
 
 Benchmarks often miss production concerns.
 
@@ -118,9 +118,9 @@ Benchmarks are one signal.
 
 They are not the whole truth.
 
----
+<p class="section-break">. . .</p>
 
-# Leaderboards Can Be Useful
+## Leaderboards Can Be Useful
 
 Leaderboards collect benchmark scores.
 
@@ -140,9 +140,9 @@ It is the top model on that benchmark under those rules.
 
 That distinction matters.
 
----
+<p class="section-break">. . .</p>
 
-# Benchmark Overfitting
+## Benchmark Overfitting
 
 Benchmark overfitting happens when systems become optimized for a benchmark rather than general usefulness.
 
@@ -158,9 +158,9 @@ Good benchmark performance is useful.
 
 But if the benchmark becomes the target, it can distort progress.
 
----
+<p class="section-break">. . .</p>
 
-# Contamination
+## Contamination
 
 Data contamination happens when benchmark examples appear in training data.
 
@@ -174,9 +174,9 @@ When evaluating claims, ask whether contamination was considered.
 
 A high score is more meaningful when the test data is truly unseen.
 
----
+<p class="section-break">. . .</p>
 
-# Build Your Own Evals
+## Build Your Own Evals
 
 For engineering work, public benchmarks are not enough.
 
@@ -192,9 +192,9 @@ Public benchmarks help you choose candidates.
 
 Your evals help you choose what works for your system.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Benchmarks are useful when they help you ask better questions.
 
@@ -222,7 +222,7 @@ A leaderboard can help you choose candidates.
 
 It should not be the final deployment decision.
 
-# Practical Example
+## Practical Example
 
 Suppose two models are close on a public leaderboard.
 
@@ -236,13 +236,13 @@ The leaderboard helped you identify candidates, but your own system requirements
 
 This is why benchmarks should inform architecture, not replace it.
 
-# One More Check
+## One More Check
 
 When a leaderboard changes, do not assume your stack should change immediately.
 
 First ask whether the improvement is large, relevant, stable, and worth the migration cost.
 
-# Mini Project
+## Mini Project
 
 Choose a model leaderboard.
 
@@ -264,9 +264,9 @@ This benchmark is useful for X, but not enough for Y.
 
 That is benchmark literacy.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Benchmarks are standardized tests for AI systems.
 
@@ -282,9 +282,9 @@ That is benchmark literacy.
 
 - Production systems need custom evals that match real use cases.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 AI is not only text anymore.
 
@@ -292,4 +292,4 @@ Modern systems increasingly work across images, audio, video, and actions.
 
 In the next article, we will explore:
 
-# Multimodal AI Systems Explained
+## Multimodal AI Systems Explained

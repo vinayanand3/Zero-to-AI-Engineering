@@ -24,9 +24,9 @@ Show the model many examples of instructions and good responses.
 
 Over time, the model learns the pattern of helpful instruction following.
 
----
+<p class="section-break">. . .</p>
 
-# The Basic Idea
+## The Basic Idea
 
 An instruction-tuning example usually contains:
 
@@ -66,9 +66,9 @@ Bug
 
 The model learns to map instructions to appropriate responses.
 
----
+<p class="section-break">. . .</p>
 
-# Why Instruction Tuning Matters
+## Why Instruction Tuning Matters
 
 Base language models learn to predict text.
 
@@ -92,9 +92,9 @@ This is part of why chat models feel different from raw text completion models.
 
 They have been shaped to respond to instructions.
 
----
+<p class="section-break">. . .</p>
 
-# Instruction Tuning vs Prompt Engineering
+## Instruction Tuning vs Prompt Engineering
 
 Prompt engineering gives an instruction at inference time.
 
@@ -116,9 +116,9 @@ The two work together.
 
 Even instruction-tuned models still need good prompts.
 
----
+<p class="section-break">. . .</p>
 
-# What Makes A Good Instruction Example?
+## What Makes A Good Instruction Example?
 
 A good instruction example is clear.
 
@@ -144,9 +144,9 @@ If formats vary randomly, the model learns inconsistency.
 
 Instruction tuning depends on example quality.
 
----
+<p class="section-break">. . .</p>
 
-# Domain-Specific Instruction Tuning
+## Domain-Specific Instruction Tuning
 
 Instruction tuning can be general or domain-specific.
 
@@ -172,9 +172,9 @@ But high-stakes domains require careful evaluation and expert review.
 
 The model may follow instructions better, but it can still be wrong.
 
----
+<p class="section-break">. . .</p>
 
-# Instruction Tuning Does Not Add Fresh Knowledge
+## Instruction Tuning Does Not Add Fresh Knowledge
 
 Instruction tuning can teach behavior.
 
@@ -194,9 +194,9 @@ Prompting for task direction.
 
 Good systems often combine all three.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Instruction tuning is easiest to understand when you compare it to onboarding a teammate.
 
@@ -218,7 +218,7 @@ If one example refuses safely and another guesses, the model receives a mixed si
 
 Instruction tuning rewards consistency in the training examples.
 
-# Practical Example
+## Practical Example
 
 Suppose you want an assistant that rewrites rough engineering notes into release notes.
 
@@ -234,7 +234,7 @@ The model is not merely learning the phrase "write release notes."
 
 It is learning what good release notes look like in your environment.
 
-# Mini Project
+## Mini Project
 
 Create five instruction-tuning examples for a writing assistant.
 
@@ -264,9 +264,9 @@ After writing five examples, check whether the response style is consistent.
 
 Consistency is the lesson.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Instruction tuning trains models on instruction-response examples.
 
@@ -282,9 +282,9 @@ Consistency is the lesson.
 
 - Domain-specific instruction tuning needs careful evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Fine-tuning an entire model can be expensive.
 
@@ -292,4 +292,4 @@ So engineers often use more efficient adaptation methods.
 
 In the next article, we will explore:
 
-# What Is LoRA?
+## What Is LoRA?

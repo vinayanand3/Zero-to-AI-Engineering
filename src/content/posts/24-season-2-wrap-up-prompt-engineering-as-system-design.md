@@ -24,9 +24,9 @@ It sits between human intent and model behavior.
 
 It shapes how the system understands tasks, uses context, produces outputs, and fits into workflows.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Engineering Is Structured Communication
+## Prompt Engineering Is Structured Communication
 
 We began Season 2 by redefining prompt engineering.
 
@@ -50,9 +50,9 @@ This simple mental model is more useful than memorizing prompt tricks.
 
 If you can clearly define the job, the model has a better chance of doing it well.
 
----
+<p class="section-break">. . .</p>
 
-# Clear Instructions Are The Foundation
+## Clear Instructions Are The Foundation
 
 We learned that vague prompts create vague outputs.
 
@@ -80,9 +80,9 @@ But it dramatically improves the starting point.
 
 Prompt quality begins with clarity.
 
----
+<p class="section-break">. . .</p>
 
-# Good Prompts Have Parts
+## Good Prompts Have Parts
 
 We broke prompts into reusable components:
 
@@ -114,9 +114,9 @@ Prompts are interfaces between humans and models.
 
 Designing that interface well matters.
 
----
+<p class="section-break">. . .</p>
 
-# Examples Teach Patterns
+## Examples Teach Patterns
 
 Zero-shot, one-shot, and few-shot prompting taught us how examples guide model behavior.
 
@@ -142,9 +142,9 @@ Examples are especially useful for classification, extraction, rewriting, and st
 
 They are a practical way to teach the model the shape of the task.
 
----
+<p class="section-break">. . .</p>
 
-# Context Controls Usefulness
+## Context Controls Usefulness
 
 Context was one of the most important ideas in Season 2.
 
@@ -164,9 +164,9 @@ Prompt engineering decides what should be placed inside that window.
 
 That is why context management is one of the most important AI engineering skills.
 
----
+<p class="section-break">. . .</p>
 
-# Reasoning Needs Process
+## Reasoning Needs Process
 
 We also learned that reasoning prompts improve when they include structure.
 
@@ -196,9 +196,9 @@ Good reasoning prompts do not just ask for conclusions.
 
 They define how the conclusion should be reached.
 
----
+<p class="section-break">. . .</p>
 
-# Code Prompting Requires Verification
+## Code Prompting Requires Verification
 
 Prompting for code generation taught us an important lesson:
 
@@ -228,9 +228,9 @@ The model accelerates development.
 
 Verification makes it engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Structured Outputs Turn Text Into Workflow Data
+## Structured Outputs Turn Text Into Workflow Data
 
 Structured output prompting showed us how AI responses can become more useful.
 
@@ -260,9 +260,9 @@ Structured outputs turn language generation into workflow automation.
 
 That is a major step toward building AI applications.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Mistakes Are Design Mistakes
+## Prompt Mistakes Are Design Mistakes
 
 We covered common prompt engineering mistakes:
 
@@ -292,9 +292,9 @@ If the task environment is unclear, the model's behavior becomes unstable.
 
 Better prompts create better operating conditions.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Libraries Make Workflows Reusable
+## Prompt Libraries Make Workflows Reusable
 
 Prompt libraries turn repeated prompting into reusable assets.
 
@@ -322,9 +322,9 @@ It also allows teams to improve prompts over time.
 
 Prompt libraries are one of the simplest ways to make AI usage more systematic.
 
----
+<p class="section-break">. . .</p>
 
-# Workflows Are The Bridge To AI Applications
+## Workflows Are The Bridge To AI Applications
 
 The mini project showed how multiple prompts can work together.
 
@@ -346,9 +346,9 @@ A real AI application may chain together prompts, retrieval, tools, validation, 
 
 This is where prompt engineering becomes system design.
 
----
+<p class="section-break">. . .</p>
 
-# The Big Picture
+## The Big Picture
 
 Here is the Season 2 mental model:
 
@@ -380,9 +380,9 @@ Prompting is powerful.
 
 But prompting alone is not enough for many real-world AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Prompt engineering is structured communication with AI systems.
 
@@ -402,15 +402,15 @@ But prompting alone is not enough for many real-world AI systems.
 
 - Prompt workflows are the bridge from prompting to AI application design.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we are ready for Season 3.
 
 Season 3 moves beyond prompting into one of the most important areas of practical AI engineering:
 
-# Embeddings, Vector Databases, And RAG
+## Embeddings, Vector Databases, And RAG
 
 In Season 1, we introduced embeddings as a way to turn meaning into numbers.
 
@@ -436,4 +436,4 @@ We will learn:
 
 In the next article, we will begin with:
 
-# Why Embeddings Matter for Real AI Applications
+## Why Embeddings Matter for Real AI Applications

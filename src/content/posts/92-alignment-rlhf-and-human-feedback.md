@@ -22,9 +22,9 @@ We will talk about human feedback, preference data, and RLHF.
 
 RLHF stands for Reinforcement Learning from Human Feedback.
 
----
+<p class="section-break">. . .</p>
 
-# What Is Alignment?
+## What Is Alignment?
 
 Alignment asks:
 
@@ -52,9 +52,9 @@ It includes product decisions, policy decisions, human feedback, evaluation, and
 
 For practical AI engineers, alignment means designing systems that behave reliably and responsibly.
 
----
+<p class="section-break">. . .</p>
 
-# Why Pretraining Is Not Enough
+## Why Pretraining Is Not Enough
 
 Pretraining teaches models patterns from large datasets.
 
@@ -76,9 +76,9 @@ Additional training and feedback help shape behavior.
 
 Instruction tuning and RLHF are part of that shaping process.
 
----
+<p class="section-break">. . .</p>
 
-# Human Feedback
+## Human Feedback
 
 Human feedback helps teach models what good behavior looks like.
 
@@ -102,9 +102,9 @@ For example:
 
 If humans consistently prefer concise, accurate answers over rambling ones, the model can be trained toward that behavior.
 
----
+<p class="section-break">. . .</p>
 
-# Preference Data
+## Preference Data
 
 Preference data often compares outputs.
 
@@ -130,9 +130,9 @@ This data helps train systems to produce outputs humans prefer.
 
 Preference data is powerful because it captures qualities that are hard to define with exact labels.
 
----
+<p class="section-break">. . .</p>
 
-# What Is RLHF?
+## What Is RLHF?
 
 RLHF stands for Reinforcement Learning from Human Feedback.
 
@@ -154,9 +154,9 @@ The model is then tuned toward behavior people rate as better.
 
 RLHF is one way to align models with human expectations.
 
----
+<p class="section-break">. . .</p>
 
-# RLHF Is Not Perfect
+## RLHF Is Not Perfect
 
 RLHF has limitations.
 
@@ -176,9 +176,9 @@ That is why alignment remains difficult.
 
 RLHF helps, but it does not solve everything.
 
----
+<p class="section-break">. . .</p>
 
-# Alignment In Applications
+## Alignment In Applications
 
 Application developers also make alignment decisions.
 
@@ -202,9 +202,9 @@ It is also done through product design, prompts, guardrails, tools, evaluation, 
 
 Every AI application has alignment choices.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Alignment is not only a research topic.
 
@@ -238,7 +238,7 @@ Human feedback is not only for training labs.
 
 It is also how production teams learn what good behavior means in context.
 
-# Practical Example
+## Practical Example
 
 Imagine a writing assistant inside a company.
 
@@ -258,7 +258,7 @@ That decision can be expressed through policy, prompts, examples, feedback, and 
 
 Alignment becomes practical when the team defines what good behavior means for the workflow.
 
-# Mini Project
+## Mini Project
 
 Create preference criteria for a tutoring assistant.
 
@@ -282,9 +282,9 @@ Now compare two sample answers using that rubric.
 
 This is a small version of preference evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Alignment is about making AI systems behave according to human goals and constraints.
 
@@ -300,12 +300,12 @@ This is a small version of preference evaluation.
 
 - Application design also shapes alignment through prompts, guardrails, tools, and evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Another major decision in AI engineering is whether to use open-source or closed models.
 
 In the next article, we will explore:
 
-# Open-Source vs Closed AI Models
+## Open-Source vs Closed AI Models

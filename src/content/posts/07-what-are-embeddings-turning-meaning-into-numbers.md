@@ -30,7 +30,7 @@ So how does a machine represent meaning?
 
 The answer is:
 
-# embeddings
+## embeddings
 
 Embeddings are one of the most important ideas in modern AI.
 
@@ -40,9 +40,9 @@ But the core intuition is simple:
 
 > An embedding turns meaning into numbers.
 
----
+<p class="section-break">. . .</p>
 
-# Why Meaning Needs To Become Numbers
+## Why Meaning Needs To Become Numbers
 
 Computers do not naturally understand words.
 
@@ -74,9 +74,9 @@ They do not represent meaning.
 
 Embeddings solve this by placing concepts into a numerical space where similar ideas are closer together.
 
----
+<p class="section-break">. . .</p>
 
-# The Map Analogy
+## The Map Analogy
 
 Imagine a map.
 
@@ -108,9 +108,9 @@ The distance between embeddings tells us something about similarity.
 
 That is the big idea.
 
----
+<p class="section-break">. . .</p>
 
-# What Does An Embedding Look Like?
+## What Does An Embedding Look Like?
 
 An embedding is usually a list of numbers.
 
@@ -134,9 +134,9 @@ A face is represented by the pattern across many pixels.
 
 An embedding represents meaning through the pattern across many numbers.
 
----
+<p class="section-break">. . .</p>
 
-# Words, Sentences, And Documents Can All Have Embeddings
+## Words, Sentences, And Documents Can All Have Embeddings
 
 Embeddings are not limited to single words.
 
@@ -176,9 +176,9 @@ But they are semantically related.
 
 Embeddings help AI systems recognize that relationship.
 
----
+<p class="section-break">. . .</p>
 
-# Why Embeddings Matter For LLMs
+## Why Embeddings Matter For LLMs
 
 Inside an LLM, tokens are converted into numerical representations before the transformer processes them.
 
@@ -212,9 +212,9 @@ Embeddings provide numerical meaning.
 
 Attention updates that meaning based on surrounding tokens.
 
----
+<p class="section-break">. . .</p>
 
-# Real-World Usage Examples
+## Real-World Usage Examples
 
 Embeddings are used far beyond text generation.
 
@@ -244,9 +244,9 @@ This is one of the reasons embeddings are central to modern AI applications.
 
 They help systems compare meaning, not just text.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings And Recommendations
+## Embeddings And Recommendations
 
 Embeddings also help recommendation systems.
 
@@ -284,9 +284,9 @@ The same idea applies to:
 
 Embeddings create a way to compare complex things numerically.
 
----
+<p class="section-break">. . .</p>
 
-# Visual Explanation
+## Visual Explanation
 
 Imagine a giant invisible space.
 
@@ -312,9 +312,9 @@ But the intuition is the same:
 
 Location represents relationship.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Try this mental exercise.
 
@@ -352,9 +352,9 @@ The machine does not need to use your exact category labels.
 
 It learns relationships from patterns in data.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Embeddings turn meaning into numbers.
 
@@ -370,9 +370,9 @@ It learns relationships from patterns in data.
 
 - Embeddings are a foundation for later topics like vector databases and RAG.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We now understand three important pieces:
 
@@ -388,5 +388,4 @@ There is a big difference between teaching a model and using a model.
 
 In the next article, we will explore:
 
-# Training vs Inference
-
+## Training vs Inference

@@ -22,9 +22,9 @@ It is about building and operating the full system around the model.
 
 This season gave us the production mental model.
 
----
+<p class="section-break">. . .</p>
 
-# Production AI Is Systems Engineering
+## Production AI Is Systems Engineering
 
 The model is only one part of the system.
 
@@ -58,9 +58,9 @@ If one part fails, the whole experience can fail.
 
 This is why production AI engineering is systems engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Observability Makes Behavior Inspectable
+## Observability Makes Behavior Inspectable
 
 You cannot improve what you cannot inspect.
 
@@ -90,9 +90,9 @@ It also supports security, audits, and quality improvement.
 
 Without observability, AI behavior becomes a black box.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluations Are AI Test Suites
+## Evaluations Are AI Test Suites
 
 Evals help test AI behavior.
 
@@ -120,9 +120,9 @@ Evals make changes safer.
 
 When prompts, models, tools, or retrieval settings change, evals help catch regressions.
 
----
+<p class="section-break">. . .</p>
 
-# Monitoring Tracks Reality
+## Monitoring Tracks Reality
 
 Evals test expected cases.
 
@@ -152,9 +152,9 @@ Monitoring closes that loop.
 
 It tells you how the system behaves after launch.
 
----
+<p class="section-break">. . .</p>
 
-# Hallucinations Need System Controls
+## Hallucinations Need System Controls
 
 Hallucinations are not only model problems.
 
@@ -180,9 +180,9 @@ The goal is not to claim hallucinations will never happen.
 
 The goal is to reduce risk and handle uncertainty responsibly.
 
----
+<p class="section-break">. . .</p>
 
-# Fallbacks Make Failure Safer
+## Fallbacks Make Failure Safer
 
 AI systems need graceful failure.
 
@@ -200,9 +200,9 @@ They protect users and reduce damage.
 
 Good products plan for failure.
 
----
+<p class="section-break">. . .</p>
 
-# Security And Privacy Are Core Requirements
+## Security And Privacy Are Core Requirements
 
 AI systems often handle sensitive data.
 
@@ -228,9 +228,9 @@ The model should not be the security boundary.
 
 Software systems enforce boundaries.
 
----
+<p class="section-break">. . .</p>
 
-# Cost Control Shapes Architecture
+## Cost Control Shapes Architecture
 
 Production AI cost comes from:
 
@@ -266,9 +266,9 @@ Cost control requires:
 
 AI features must be economically sustainable.
 
----
+<p class="section-break">. . .</p>
 
-# Deployment Should Be Gradual
+## Deployment Should Be Gradual
 
 AI features should be launched safely.
 
@@ -292,9 +292,9 @@ Do not confuse a working demo with launch readiness.
 
 Production launch should be evidence-based and reversible.
 
----
+<p class="section-break">. . .</p>
 
-# Incidents Create Learning
+## Incidents Create Learning
 
 AI incidents can involve quality, security, privacy, cost, or unsafe action.
 
@@ -316,9 +316,9 @@ Every incident should improve the system.
 
 Production AI teams learn from failures instead of hiding them.
 
----
+<p class="section-break">. . .</p>
 
-# The Season 7 Mental Model
+## The Season 7 Mental Model
 
 Here is the full mental model:
 
@@ -346,9 +346,9 @@ Operations improve.
 
 That is production AI engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take one AI feature you want to build.
 
@@ -380,9 +380,9 @@ Write a production readiness plan:
 
 This is how you move from idea to production system.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Production AI is systems engineering.
 
@@ -402,9 +402,9 @@ This is how you move from idea to production system.
 
 - Incidents should produce better evals, monitors, and guardrails.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we are ready for the final season.
 
@@ -414,5 +414,4 @@ We will learn how to read AI progress, evaluate research claims, understand emer
 
 The next article will begin with:
 
-# How to Think Like an AI Researcher
-
+## How to Think Like an AI Researcher

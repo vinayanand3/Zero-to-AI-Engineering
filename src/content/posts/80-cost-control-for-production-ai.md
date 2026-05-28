@@ -20,9 +20,9 @@ It is about designing systems that deliver the right quality at the right price.
 
 That requires measurement, budgets, model selection, caching, and architectural discipline.
 
----
+<p class="section-break">. . .</p>
 
-# Know What Drives Cost
+## Know What Drives Cost
 
 AI cost can come from:
 
@@ -50,9 +50,9 @@ If you do not know where cost comes from, you cannot optimize it.
 
 Start by measuring cost per request, per user, per workflow, and per feature.
 
----
+<p class="section-break">. . .</p>
 
-# Token Budgets
+## Token Budgets
 
 Tokens are one of the most important cost drivers.
 
@@ -86,9 +86,9 @@ Can older conversation be summarized?
 
 Can retrieved context be smaller?
 
----
+<p class="section-break">. . .</p>
 
-# Model Routing
+## Model Routing
 
 Not every task needs the strongest model.
 
@@ -122,9 +122,9 @@ The system chooses the right model for the job.
 
 Good routing can reduce cost without sacrificing quality where it matters.
 
----
+<p class="section-break">. . .</p>
 
-# Caching
+## Caching
 
 Caching can reduce repeated work.
 
@@ -148,9 +148,9 @@ Do not serve cached private answers to the wrong user.
 
 Cost optimization must respect security.
 
----
+<p class="section-break">. . .</p>
 
-# Retrieval Efficiency
+## Retrieval Efficiency
 
 RAG systems can waste tokens if retrieval is sloppy.
 
@@ -174,9 +174,9 @@ Better retrieval can reduce cost and improve accuracy at the same time.
 
 This is one of the best optimization opportunities in RAG systems.
 
----
+<p class="section-break">. . .</p>
 
-# Agent Step Limits
+## Agent Step Limits
 
 Agents can be expensive because they may call models and tools repeatedly.
 
@@ -198,9 +198,9 @@ Step limits also improve reliability.
 
 If the agent cannot solve the task within a reasonable boundary, it should stop and report.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor Cost Per Workflow
+## Monitor Cost Per Workflow
 
 Aggregate cost is useful, but workflow cost is better.
 
@@ -228,9 +228,9 @@ Can we optimize without hurting quality?
 
 Production AI teams need this visibility.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Cost control is easier when you design for it early.
 
@@ -256,7 +256,7 @@ The goal is not to make every request as cheap as possible.
 
 The goal is to spend where it creates user value and avoid waste where it does not.
 
-# Practical Example
+## Practical Example
 
 Consider a customer support assistant.
 
@@ -272,7 +272,7 @@ The cheapest architecture is not always the best architecture.
 
 The best architecture spends more effort where the task requires more care.
 
-# One More Check
+## One More Check
 
 Cost reviews should include quality results.
 
@@ -280,7 +280,7 @@ Cutting cost by making the product worse is not optimization.
 
 The best cost review asks what users successfully accomplished, not only what the invoice says.
 
-# Mini Project
+## Mini Project
 
 Choose an AI feature.
 
@@ -304,9 +304,9 @@ Then propose three optimizations.
 
 This simple exercise builds cost awareness.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI cost comes from tokens, models, embeddings, retrieval, tools, retries, agents, and monitoring.
 
@@ -322,9 +322,9 @@ This simple exercise builds cost awareness.
 
 - Monitor cost per workflow, not only total spend.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Cost control is part of production readiness.
 
@@ -332,4 +332,4 @@ Deployment safety is another.
 
 In the next article, we will explore:
 
-# Deploying AI Features Safely
+## Deploying AI Features Safely

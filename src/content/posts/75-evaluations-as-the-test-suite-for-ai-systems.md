@@ -28,9 +28,9 @@ Without evals, every prompt change, model change, retrieval change, or tool chan
 
 Evals are the test suite for AI behavior.
 
----
+<p class="section-break">. . .</p>
 
-# Why Normal Tests Are Not Enough
+## Why Normal Tests Are Not Enough
 
 Traditional tests work well for deterministic code.
 
@@ -56,9 +56,9 @@ Sometimes a rubric is better.
 
 Sometimes human review is needed.
 
----
+<p class="section-break">. . .</p>
 
-# What Evals Can Test
+## What Evals Can Test
 
 Evals can test many parts of an AI system:
 
@@ -92,9 +92,9 @@ Ask:
 
 Did the system do the thing we needed it to do?
 
----
+<p class="section-break">. . .</p>
 
-# Create A Test Set
+## Create A Test Set
 
 An eval starts with a test set.
 
@@ -122,9 +122,9 @@ For an agent, it may include expected tools and arguments.
 
 The test set should represent real usage.
 
----
+<p class="section-break">. . .</p>
 
-# Include Failure Cases
+## Include Failure Cases
 
 Do not only test happy paths.
 
@@ -150,9 +150,9 @@ A production AI system must know when to answer, when to refuse, when to ask for
 
 Happy-path evals are not enough.
 
----
+<p class="section-break">. . .</p>
 
-# Automated Evals
+## Automated Evals
 
 Some evals can be automated.
 
@@ -180,9 +180,9 @@ But automated evals may miss nuance.
 
 Use them where the expected behavior is clear.
 
----
+<p class="section-break">. . .</p>
 
-# Human Evals
+## Human Evals
 
 Some qualities require human judgment.
 
@@ -220,9 +220,9 @@ Ask them to score:
 
 Structured human review creates better evidence.
 
----
+<p class="section-break">. . .</p>
 
-# Regression Testing
+## Regression Testing
 
 Evals are especially useful for regression testing.
 
@@ -250,9 +250,9 @@ Maybe a new model is cheaper but fails more edge cases.
 
 Evals reveal tradeoffs.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Treat evals like a living test suite.
 
@@ -280,7 +280,7 @@ That is why evals are not only a launch requirement.
 
 They are how AI systems keep improving after launch.
 
-# Practical Example
+## Practical Example
 
 Imagine your RAG assistant fails when a user asks about cancellation rules.
 
@@ -298,13 +298,13 @@ Then add a few variations:
 
 Now the failure becomes reusable protection.
 
-# One More Check
+## One More Check
 
 Before trusting an eval, ask whether it would catch a failure users actually care about.
 
 An eval that is easy to pass but unrelated to user value creates false confidence.
 
-# Mini Project
+## Mini Project
 
 Create an eval set for a document Q&A system.
 
@@ -328,9 +328,9 @@ For each question, define:
 
 This is the beginning of an AI test suite.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Evals are tests for AI system behavior.
 
@@ -346,9 +346,9 @@ This is the beginning of an AI test suite.
 
 - Regression testing helps prevent prompt, model, or retrieval changes from breaking behavior.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Evals help us test changes.
 
@@ -356,4 +356,4 @@ But production systems also need ongoing monitoring.
 
 In the next article, we will explore:
 
-# Monitoring AI Quality Over Time
+## Monitoring AI Quality Over Time

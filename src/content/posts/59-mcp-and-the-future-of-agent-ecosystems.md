@@ -28,9 +28,9 @@ This article is about the bigger picture.
 
 What happens when many tools, resources, and prompts become available through a shared protocol?
 
----
+<p class="section-break">. . .</p>
 
-# From Chatbots To Connected Systems
+## From Chatbots To Connected Systems
 
 Early AI experiences were mostly chat-based.
 
@@ -62,9 +62,9 @@ MCP fits into this shift.
 
 It gives connected systems a more standard integration layer.
 
----
+<p class="section-break">. . .</p>
 
-# Reusable Tool Ecosystems
+## Reusable Tool Ecosystems
 
 If MCP adoption grows, developers can build servers that many hosts can use.
 
@@ -92,9 +92,9 @@ The value is not only one tool.
 
 The value is many tools becoming easier to connect.
 
----
+<p class="section-break">. . .</p>
 
-# Agent Workspaces
+## Agent Workspaces
 
 MCP also supports the idea of agent workspaces.
 
@@ -124,9 +124,9 @@ Different users or teams can configure different servers.
 
 The same AI host can operate in different environments.
 
----
+<p class="section-break">. . .</p>
 
-# Enterprise AI Systems
+## Enterprise AI Systems
 
 Enterprises have many internal systems.
 
@@ -154,9 +154,9 @@ This creates cleaner ownership.
 
 It also supports safer scaling.
 
----
+<p class="section-break">. . .</p>
 
-# Local And Remote Capabilities
+## Local And Remote Capabilities
 
 One interesting part of MCP is that it supports local and remote patterns.
 
@@ -186,9 +186,9 @@ Future agent systems will likely combine both.
 
 An agent may use local project context and remote company systems in the same workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Better Tool Management
+## Better Tool Management
 
 As agents connect to more servers, tool management becomes a serious issue.
 
@@ -214,9 +214,9 @@ MCP creates the connection layer.
 
 Hosts still need intelligent tool management.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluation Still Matters
+## Evaluation Still Matters
 
 Connected ecosystems need evaluation.
 
@@ -244,9 +244,9 @@ It does not automatically make agents reliable.
 
 Evaluation remains the difference between a demo and a dependable system.
 
----
+<p class="section-break">. . .</p>
 
-# The Human Role
+## The Human Role
 
 Even in a future with connected agents, humans remain important.
 
@@ -270,9 +270,9 @@ The future is not just autonomous agents everywhere.
 
 The better future is controlled, inspectable, useful AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# Avoiding The Hype Trap
+## Avoiding The Hype Trap
 
 It is easy to overstate MCP.
 
@@ -292,9 +292,9 @@ The real value of MCP is that it gives the ecosystem a shared connection pattern
 
 That shared pattern can make better systems easier to build.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Imagine your ideal AI workspace.
 
@@ -328,9 +328,9 @@ For each server, define:
 
 This exercise helps you see MCP as an ecosystem design tool.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP supports the shift from chatbots to connected AI systems.
 
@@ -346,12 +346,12 @@ This exercise helps you see MCP as an ecosystem design tool.
 
 - MCP enables interoperability, but engineering quality still matters.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have now covered MCP fundamentals, architecture, primitives, tool discovery, resources, prompts, server design, security, and future ecosystems.
 
 In the final article of Season 5, we will connect everything into one mental model:
 
-# The Mental Model of MCP
+## The Mental Model of MCP

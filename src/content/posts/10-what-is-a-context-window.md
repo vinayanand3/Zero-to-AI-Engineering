@@ -30,9 +30,9 @@ If the information is outside the context window, the model may not have access 
 
 That simple idea explains many strengths and limitations of modern LLMs.
 
----
+<p class="section-break">. . .</p>
 
-# The Simplest Definition
+## The Simplest Definition
 
 A context window is the maximum amount of information an LLM can process at once.
 
@@ -64,9 +64,9 @@ This connects directly to what we learned earlier.
 
 LLMs process token sequences, so their limits are token limits.
 
----
+<p class="section-break">. . .</p>
 
-# The Whiteboard Analogy
+## The Whiteboard Analogy
 
 Imagine solving a problem on a whiteboard.
 
@@ -86,9 +86,9 @@ But it does not automatically have infinite access to everything ever said or wr
 
 The context window is the working space.
 
----
+<p class="section-break">. . .</p>
 
-# Context Is Not The Same As Memory
+## Context Is Not The Same As Memory
 
 This is one of the most important beginner distinctions.
 
@@ -106,9 +106,9 @@ In real AI applications, engineers often build separate memory systems using dat
 
 The model itself works with the context it receives at inference time.
 
----
+<p class="section-break">. . .</p>
 
-# Why Context Windows Matter
+## Why Context Windows Matter
 
 Context windows affect what AI systems can do.
 
@@ -148,9 +148,9 @@ AI engineering is not just about adding more context.
 
 It is about adding the right context.
 
----
+<p class="section-break">. . .</p>
 
-# What Happens When Context Gets Too Long?
+## What Happens When Context Gets Too Long?
 
 When a conversation or input exceeds the context window, the system has to handle it somehow.
 
@@ -176,9 +176,9 @@ The model cannot use information it cannot see.
 
 That sentence is worth remembering.
 
----
+<p class="section-break">. . .</p>
 
-# Context Windows And RAG
+## Context Windows And RAG
 
 Later in this series, we will study RAG, which stands for Retrieval-Augmented Generation.
 
@@ -198,9 +198,9 @@ This is one of the main reasons context windows matter so much.
 
 They create the boundary for what information can be used at one time.
 
----
+<p class="section-break">. . .</p>
 
-# Context Windows And Coding
+## Context Windows And Coding
 
 Coding assistants also depend heavily on context.
 
@@ -228,9 +228,9 @@ Poor context leads to poor suggestions.
 
 Relevant context leads to much better assistance.
 
----
+<p class="section-break">. . .</p>
 
-# Visual Explanation
+## Visual Explanation
 
 Think of the LLM as sitting inside a room.
 
@@ -248,9 +248,9 @@ AI engineers design systems that decide what gets placed on the table.
 
 That is a huge part of building useful AI applications.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Try this experiment with any chatbot.
 
@@ -278,9 +278,9 @@ Which should be stored elsewhere?
 
 That is the beginning of context engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - A context window is the amount of information a model can process at once.
 
@@ -296,9 +296,9 @@ That is the beginning of context engineering.
 
 - Good AI applications manage context carefully.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we understand that LLMs generate likely tokens using the context available to them.
 
@@ -310,5 +310,4 @@ That problem is called hallucination.
 
 In the next article, we will explore:
 
-# Why AI Hallucinates
-
+## Why AI Hallucinates

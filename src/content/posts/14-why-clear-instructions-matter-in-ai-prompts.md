@@ -10,7 +10,7 @@ In the previous article, we defined prompt engineering as structured communicati
 
 Now we need to focus on the first and most important part of that communication:
 
-# clear instructions
+## clear instructions
 
 Most people blame the model when they get a weak answer.
 
@@ -26,9 +26,9 @@ And guessing is where output quality starts to break down.
 
 This article is about learning how to ask for what you actually want.
 
----
+<p class="section-break">. . .</p>
 
-# The Problem With Vague Prompts
+## The Problem With Vague Prompts
 
 Consider this prompt:
 
@@ -62,9 +62,9 @@ That is the core problem with vague prompts.
 
 They create too much freedom in the wrong places.
 
----
+<p class="section-break">. . .</p>
 
-# Clear Instructions Reduce Guesswork
+## Clear Instructions Reduce Guesswork
 
 A better prompt would be:
 
@@ -90,9 +90,9 @@ Clear instructions do not make the model perfect.
 
 But they give the model a better target.
 
----
+<p class="section-break">. . .</p>
 
-# The Human Teammate Analogy
+## The Human Teammate Analogy
 
 Imagine assigning work to a teammate.
 
@@ -122,9 +122,9 @@ That means you need to include the important details upfront.
 
 Prompting is partly about being a better task designer.
 
----
+<p class="section-break">. . .</p>
 
-# What A Clear Instruction Includes
+## What A Clear Instruction Includes
 
 A clear instruction usually answers four questions:
 
@@ -156,9 +156,9 @@ This prompt tells the model:
 
 That is a much stronger instruction.
 
----
+<p class="section-break">. . .</p>
 
-# Be Specific About The Task
+## Be Specific About The Task
 
 The first thing to clarify is the task.
 
@@ -196,9 +196,9 @@ The verb matters.
 
 Start prompts with a strong task verb whenever possible.
 
----
+<p class="section-break">. . .</p>
 
-# Be Specific About The Audience
+## Be Specific About The Audience
 
 Audience changes everything.
 
@@ -220,9 +220,9 @@ The second version gives the model a much better teaching target.
 
 Audience is one of the easiest ways to improve prompt quality.
 
----
+<p class="section-break">. . .</p>
 
-# Be Specific About Constraints
+## Be Specific About Constraints
 
 Constraints define boundaries.
 
@@ -254,9 +254,9 @@ This prompt prevents the model from drifting into areas you do not want.
 
 Without constraints, the model may produce something technically correct but not useful for your situation.
 
----
+<p class="section-break">. . .</p>
 
-# Be Specific About Output Format
+## Be Specific About Output Format
 
 Many prompts fail because the user knows what format they want, but never says it.
 
@@ -292,9 +292,9 @@ Tell me what is wrong.
 
 Output format is part of the instruction.
 
----
+<p class="section-break">. . .</p>
 
-# Avoid Conflicting Instructions
+## Avoid Conflicting Instructions
 
 Sometimes prompts are unclear because they contain contradictions.
 
@@ -316,9 +316,9 @@ Before sending a prompt, check whether your instructions are pulling in differen
 
 If they are, decide which goal matters most.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take this vague prompt:
 
@@ -342,9 +342,9 @@ That is the lesson.
 
 Prompt quality depends on the situation.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Vague prompts force the model to guess.
 
@@ -360,9 +360,9 @@ Prompt quality depends on the situation.
 
 - Avoid conflicting instructions.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Clear instructions are the first building block.
 
@@ -370,4 +370,4 @@ But a strong prompt usually has multiple parts working together.
 
 In the next article, we will break down:
 
-# The Anatomy of a Good Prompt
+## The Anatomy of a Good Prompt

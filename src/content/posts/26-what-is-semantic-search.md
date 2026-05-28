@@ -26,9 +26,9 @@ It powers document chat, support bots, knowledge assistants, code search, recomm
 
 To understand RAG, you first need to understand semantic search.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 Semantic search is search based on meaning instead of exact words.
 
@@ -48,9 +48,9 @@ They do not need to guess the exact words used in the document.
 
 The system can find related content even when the wording is different.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Example
+## A Simple Example
 
 Imagine a help center article titled:
 
@@ -80,9 +80,9 @@ Semantic search understands that:
 
 can all be related.
 
----
+<p class="section-break">. . .</p>
 
-# How Semantic Search Works
+## How Semantic Search Works
 
 At a high level, semantic search has four steps:
 
@@ -104,9 +104,9 @@ Which document vectors are closest to the query vector?
 
 Close usually means semantically related.
 
----
+<p class="section-break">. . .</p>
 
-# Why Embeddings Make This Possible
+## Why Embeddings Make This Possible
 
 Embeddings place text into a meaning space.
 
@@ -130,9 +130,9 @@ That is why embeddings are so important.
 
 They make meaning searchable.
 
----
+<p class="section-break">. . .</p>
 
-# Semantic Search vs Keyword Search
+## Semantic Search vs Keyword Search
 
 Keyword search is not bad.
 
@@ -176,9 +176,9 @@ Hybrid search can use keyword matching and embedding similarity together.
 
 That often produces better results than either one alone.
 
----
+<p class="section-break">. . .</p>
 
-# Why Semantic Search Matters for AI Assistants
+## Why Semantic Search Matters for AI Assistants
 
 LLMs have context limits.
 
@@ -206,9 +206,9 @@ That is the beginning of RAG.
 
 Semantic search is the retrieval engine.
 
----
+<p class="section-break">. . .</p>
 
-# The Quality Of Search Matters
+## The Quality Of Search Matters
 
 If semantic search retrieves the wrong documents, the AI answer will likely be weak.
 
@@ -234,9 +234,9 @@ That is why retrieval evaluation matters.
 
 We will cover that later in this season.
 
----
+<p class="section-break">. . .</p>
 
-# Search Results Should Be Inspectable
+## Search Results Should Be Inspectable
 
 When building semantic search, do not only look at the final answer.
 
@@ -264,9 +264,9 @@ If search results are poor, the LLM is starting from weak evidence.
 
 Debug search before blaming generation.
 
----
+<p class="section-break">. . .</p>
 
-# Visual Explanation
+## Visual Explanation
 
 Imagine every document as a dot on a map.
 
@@ -282,9 +282,9 @@ Those nearby documents are likely related to the user's meaning.
 
 That is semantic search in one picture.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Pick a small set of documents or notes.
 
@@ -314,9 +314,9 @@ Would semantic search have a better chance?
 
 This exercise builds retrieval intuition.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Semantic search finds information by meaning, not just exact words.
 
@@ -332,9 +332,9 @@ This exercise builds retrieval intuition.
 
 - RAG systems depend heavily on retrieval quality.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Semantic search depends on comparing embeddings.
 
@@ -342,4 +342,4 @@ That means we need to understand vector similarity.
 
 In the next article, we will answer:
 
-# How Do AI Systems Compare Meaning?
+## How Do AI Systems Compare Meaning?

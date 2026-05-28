@@ -24,9 +24,9 @@ If generated data is low quality, biased, or unrealistic, it can make systems wo
 
 So we need a careful mental model.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 Synthetic data is artificially generated data used for training, evaluation, or testing.
 
@@ -50,9 +50,9 @@ But generated data must still be checked.
 
 Synthetic does not automatically mean good.
 
----
+<p class="section-break">. . .</p>
 
-# Why Synthetic Data Helps
+## Why Synthetic Data Helps
 
 Synthetic data can help when real data is limited.
 
@@ -76,9 +76,9 @@ But the examples should be reviewed.
 
 Otherwise, the model may learn unrealistic patterns.
 
----
+<p class="section-break">. . .</p>
 
-# Synthetic Data For Evaluation
+## Synthetic Data For Evaluation
 
 Synthetic data can help create eval sets.
 
@@ -106,9 +106,9 @@ Real user data is still important.
 
 The best test sets often combine real and synthetic examples.
 
----
+<p class="section-break">. . .</p>
 
-# Self-Training
+## Self-Training
 
 Self-training is a pattern where a model helps generate or label data for further training.
 
@@ -128,9 +128,9 @@ If the model labels examples incorrectly, the next model may learn those mistake
 
 Self-training requires quality control.
 
----
+<p class="section-break">. . .</p>
 
-# The Risk Of Model Collapse
+## The Risk Of Model Collapse
 
 If models train too heavily on low-quality synthetic data, quality can degrade.
 
@@ -148,9 +148,9 @@ The goal is not just more data.
 
 The goal is better learning signal.
 
----
+<p class="section-break">. . .</p>
 
-# Quality Filters
+## Quality Filters
 
 Synthetic data needs filtering.
 
@@ -178,9 +178,9 @@ Treat synthetic data like any other dataset:
 
 inspect it, clean it, and test its effect.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Synthetic data is useful when it expands coverage without replacing reality.
 
@@ -206,7 +206,7 @@ Test whether adding them actually improves performance.
 
 Synthetic data is a tool for coverage, not a shortcut around judgment.
 
-# Practical Example
+## Practical Example
 
 Suppose your extraction system fails on unusual invoice formats.
 
@@ -222,7 +222,7 @@ If they are unrealistic, they may teach the system the wrong patterns.
 
 Synthetic data is strongest when it is guided by real failure analysis.
 
-# One More Check
+## One More Check
 
 Keep synthetic data labeled in your datasets.
 
@@ -234,7 +234,7 @@ This is especially important when synthetic examples are generated in batches.
 
 One bad generation pattern can quietly spread through many samples.
 
-# Mini Project
+## Mini Project
 
 Design synthetic data for a support classifier.
 
@@ -256,9 +256,9 @@ Then review:
 
 This exercise shows why synthetic data needs review.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Synthetic data is artificially generated data.
 
@@ -274,9 +274,9 @@ This exercise shows why synthetic data needs review.
 
 - Real data and synthetic data should often be combined.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Another major advanced topic is alignment.
 
@@ -284,4 +284,4 @@ How do we train systems to behave in ways humans prefer and trust?
 
 In the next article, we will explore:
 
-# Alignment, RLHF, and Human Feedback
+## Alignment, RLHF, and Human Feedback

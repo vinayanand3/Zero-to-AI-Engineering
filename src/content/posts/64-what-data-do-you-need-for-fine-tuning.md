@@ -26,9 +26,9 @@ It is pattern learning from examples.
 
 So the examples matter.
 
----
+<p class="section-break">. . .</p>
 
-# The Basic Unit: Input And Desired Output
+## The Basic Unit: Input And Desired Output
 
 Most fine-tuning datasets are built from examples.
 
@@ -70,9 +70,9 @@ Structured fields
 
 The model learns from these input-output pairs.
 
----
+<p class="section-break">. . .</p>
 
-# Data Quality Matters More Than Quantity
+## Data Quality Matters More Than Quantity
 
 More data is useful only if the data is good.
 
@@ -98,9 +98,9 @@ Fine-tuning can amplify mistakes because the model is being trained to imitate t
 
 If the examples are weak, the model learns weak patterns.
 
----
+<p class="section-break">. . .</p>
 
-# Labels Must Be Consistent
+## Labels Must Be Consistent
 
 For classification tasks, label consistency is critical.
 
@@ -128,9 +128,9 @@ Before fine-tuning, label definitions should be clear.
 
 Humans should agree on what each label means.
 
----
+<p class="section-break">. . .</p>
 
-# Cover Edge Cases
+## Cover Edge Cases
 
 Training data should include edge cases.
 
@@ -156,9 +156,9 @@ Real users create messy inputs.
 
 Your dataset should prepare the model for that.
 
----
+<p class="section-break">. . .</p>
 
-# Separate Training And Test Data
+## Separate Training And Test Data
 
 You need data for training.
 
@@ -180,9 +180,9 @@ Or did it only memorize the training examples?
 
 Evaluation data is part of the fine-tuning plan, not an afterthought.
 
----
+<p class="section-break">. . .</p>
 
-# Format Matters
+## Format Matters
 
 Fine-tuning examples should match the format the model will see in real use.
 
@@ -200,9 +200,9 @@ Before training, standardize the dataset.
 
 This is tedious work, but it matters.
 
----
+<p class="section-break">. . .</p>
 
-# Data Cleaning
+## Data Cleaning
 
 Fine-tuning data often needs cleaning.
 
@@ -228,9 +228,9 @@ Many fine-tuning failures are actually data preparation failures.
 
 Treat dataset creation as a core engineering task.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 A useful fine-tuning dataset should feel like a mirror of production.
 
@@ -254,7 +254,7 @@ A dataset that only contains successful answers may accidentally teach the model
 
 Good fine-tuning data includes the desired behavior and the desired boundaries.
 
-# Practical Example
+## Practical Example
 
 Imagine you are fine-tuning a model to summarize customer calls.
 
@@ -266,7 +266,7 @@ It also includes examples where the right answer is to mark the call as unclear 
 
 That kind of dataset teaches the model the real task, not the idealized version of the task.
 
-# Mini Project
+## Mini Project
 
 Design a fine-tuning dataset for support ticket classification.
 
@@ -290,9 +290,9 @@ This exercise shows that fine-tuning starts long before training.
 
 It starts with dataset design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning learns from examples.
 
@@ -310,9 +310,9 @@ It starts with dataset design.
 
 - Data cleaning is a major part of fine-tuning.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand fine-tuning data, we can study one common form of model adaptation:
 
@@ -320,4 +320,4 @@ instruction tuning.
 
 In the next article, we will explore:
 
-# Instruction Tuning Explained Simply
+## Instruction Tuning Explained Simply

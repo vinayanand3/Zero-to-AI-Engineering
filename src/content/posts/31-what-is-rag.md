@@ -10,7 +10,7 @@ RAG is one of the most important ideas in practical AI engineering.
 
 It stands for:
 
-# Retrieval-Augmented Generation
+## Retrieval-Augmented Generation
 
 The name sounds complicated.
 
@@ -28,9 +28,9 @@ Generation uses that knowledge to produce an answer.
 
 Once you understand this pattern, many modern AI applications become easier to understand.
 
----
+<p class="section-break">. . .</p>
 
-# Why RAG Exists
+## Why RAG Exists
 
 LLMs are powerful, but they have limitations.
 
@@ -58,9 +58,9 @@ Instead of asking the model to answer from memory, the system retrieves relevant
 
 Then the model answers using that information.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple RAG Flow
+## The Simple RAG Flow
 
 A basic RAG system works like this:
 
@@ -92,9 +92,9 @@ The answer is grounded in retrieved context.
 
 That is the point.
 
----
+<p class="section-break">. . .</p>
 
-# RAG Is Like Open-Book Answering
+## RAG Is Like Open-Book Answering
 
 A useful analogy is an open-book exam.
 
@@ -112,9 +112,9 @@ This reduces reliance on internal model knowledge.
 
 It also makes the system more adaptable because you can update the documents without retraining the model.
 
----
+<p class="section-break">. . .</p>
 
-# RAG vs Fine-Tuning
+## RAG vs Fine-Tuning
 
 Beginners often ask:
 
@@ -156,9 +156,9 @@ If the problem is behavior, style, or task specialization, fine-tuning may be re
 
 We will cover fine-tuning in a later season.
 
----
+<p class="section-break">. . .</p>
 
-# What RAG Is Not
+## What RAG Is Not
 
 RAG is not the same as giving the model permanent memory.
 
@@ -182,9 +182,9 @@ If the source documents are wrong, RAG can confidently repeat wrong information.
 
 RAG is powerful, but it is still a system that must be designed and evaluated.
 
----
+<p class="section-break">. . .</p>
 
-# Why RAG Reduces Hallucinations
+## Why RAG Reduces Hallucinations
 
 RAG can reduce hallucinations because it gives the model source material.
 
@@ -212,9 +212,9 @@ It does not guarantee correctness.
 
 Good RAG systems still need evaluation and validation.
 
----
+<p class="section-break">. . .</p>
 
-# RAG And Fresh Knowledge
+## RAG And Fresh Knowledge
 
 Another reason RAG is useful is freshness.
 
@@ -236,9 +236,9 @@ The model provides language and reasoning ability.
 
 The retrieval layer provides current information.
 
----
+<p class="section-break">. . .</p>
 
-# What RAG Is Used For
+## What RAG Is Used For
 
 RAG is used in many real applications:
 
@@ -270,9 +270,9 @@ The system retrieves relevant parts.
 
 The LLM answers using those parts.
 
----
+<p class="section-break">. . .</p>
 
-# The Main Components
+## The Main Components
 
 A RAG system usually includes:
 
@@ -302,9 +302,9 @@ It is a system.
 
 Each component affects quality.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Imagine building a RAG assistant for your personal notes.
 
@@ -328,9 +328,9 @@ RAG is not only about calling an LLM.
 
 It is about designing the knowledge flow around the LLM.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - RAG stands for Retrieval-Augmented Generation.
 
@@ -346,12 +346,12 @@ It is about designing the knowledge flow around the LLM.
 
 - Retrieval quality strongly affects final answer quality.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we know what RAG is, we need to look at its architecture.
 
 In the next article, we will break down:
 
-# The Architecture of a RAG System
+## The Architecture of a RAG System

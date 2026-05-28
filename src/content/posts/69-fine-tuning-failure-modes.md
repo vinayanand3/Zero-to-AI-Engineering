@@ -18,9 +18,9 @@ If you know those patterns, you can design better datasets, tests, and deploymen
 
 In this article, we will look at common fine-tuning failure modes.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 1: Bad Data
+## Failure Mode 1: Bad Data
 
 Bad data is the most common problem.
 
@@ -48,9 +48,9 @@ It learns from what you provide.
 
 Bad data creates bad adaptation.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 2: Overfitting
+## Failure Mode 2: Overfitting
 
 Overfitting happens when the model learns the training examples too closely and fails to generalize.
 
@@ -72,9 +72,9 @@ Overfitting is why held-out test sets matter.
 
 You need to know whether the model learned the task, not just the examples.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 3: Catastrophic Forgetting
+## Failure Mode 3: Catastrophic Forgetting
 
 Catastrophic forgetting means the model loses some previous capability after fine-tuning.
 
@@ -90,9 +90,9 @@ This is another reason to run regression tests.
 
 You need to check not only what improved, but also what got worse.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 4: Style Drift
+## Failure Mode 4: Style Drift
 
 Style drift happens when the model's tone or format shifts in unwanted ways.
 
@@ -112,9 +112,9 @@ Style drift is especially important for writing assistants and customer-facing s
 
 Use human review and style rubrics to catch it.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 5: Hidden Safety Problems
+## Failure Mode 5: Hidden Safety Problems
 
 Fine-tuning can accidentally weaken safety behavior.
 
@@ -138,9 +138,9 @@ Test:
 
 A fine-tuned model is still an AI system that needs safeguards.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 6: Evaluation Gaps
+## Failure Mode 6: Evaluation Gaps
 
 Sometimes the model fails because the evaluation was too narrow.
 
@@ -168,9 +168,9 @@ Good evaluation should include:
 
 The harder the real environment, the stronger the evaluation must be.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 7: Fine-Tuning The Wrong Problem
+## Failure Mode 7: Fine-Tuning The Wrong Problem
 
 Sometimes fine-tuning fails because it was the wrong tool.
 
@@ -186,9 +186,9 @@ Choosing the wrong technique wastes time and can make the system harder to maint
 
 Always diagnose the failure before choosing the solution.
 
----
+<p class="section-break">. . .</p>
 
-# How To Reduce Risk
+## How To Reduce Risk
 
 To reduce fine-tuning risk:
 
@@ -212,9 +212,9 @@ Fine-tuning is a lifecycle.
 
 It is not a one-time command.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 The most useful way to study failure modes is to connect each one to a prevention habit.
 
@@ -240,7 +240,7 @@ That time is not overhead.
 
 It is how you avoid creating a model that looks better in a demo but worse in reality.
 
-# Mini Project
+## Mini Project
 
 Imagine a fine-tuned support response model performed well in demos but failed in production.
 
@@ -262,9 +262,9 @@ For each cause, write one test that would catch it earlier.
 
 That is practical fine-tuning thinking.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning can make models worse if done poorly.
 
@@ -282,9 +282,9 @@ That is practical fine-tuning thinking.
 
 - Sometimes fine-tuning is simply the wrong tool.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Fine-tuning is one part of optimization.
 
@@ -292,4 +292,4 @@ Production AI systems also need to manage cost, latency, and efficiency.
 
 In the next article, we will explore:
 
-# Cost and Latency Optimization for AI Systems
+## Cost and Latency Optimization for AI Systems

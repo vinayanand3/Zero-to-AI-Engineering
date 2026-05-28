@@ -32,9 +32,9 @@ The model can accelerate you.
 
 It should not replace engineering judgment.
 
----
+<p class="section-break">. . .</p>
 
-# The Weak Prompt Problem
+## The Weak Prompt Problem
 
 Consider this prompt:
 
@@ -62,9 +62,9 @@ The model may produce something that looks useful but does not fit your actual p
 
 In code generation, missing context is especially dangerous because code can look correct while being wrong.
 
----
+<p class="section-break">. . .</p>
 
-# A Better Coding Prompt
+## A Better Coding Prompt
 
 A stronger prompt would be:
 
@@ -88,9 +88,9 @@ This prompt gives:
 
 The model now has a much clearer target.
 
----
+<p class="section-break">. . .</p>
 
-# Provide Existing Code Context
+## Provide Existing Code Context
 
 If you are working inside an existing project, include relevant code.
 
@@ -122,9 +122,9 @@ Then include the function.
 
 This helps the model make a focused change instead of inventing a new design.
 
----
+<p class="section-break">. . .</p>
 
-# Specify Constraints
+## Specify Constraints
 
 Code exists inside constraints.
 
@@ -152,9 +152,9 @@ Constraints prevent the model from choosing solutions that are technically possi
 
 This is especially important in production codebases.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For Tests
+## Ask For Tests
 
 One of the best coding prompt habits is asking for tests.
 
@@ -170,9 +170,9 @@ AI-generated code without tests may still be useful, but it is harder to trust.
 
 The test suite is where plausible code meets reality.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For Edge Cases
+## Ask For Edge Cases
 
 Models often handle the happy path first.
 
@@ -204,9 +204,9 @@ Before writing the code, list the edge cases this function should handle. Then i
 
 This helps surface hidden requirements.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For Small Changes First
+## Ask For Small Changes First
 
 When working in an existing codebase, avoid asking the model to rewrite too much at once.
 
@@ -230,9 +230,9 @@ AI can generate a lot of code quickly, but more code is not automatically better
 
 The best AI coding prompts often narrow the task so the model changes only what needs to change.
 
----
+<p class="section-break">. . .</p>
 
-# Be Careful With Invented APIs
+## Be Careful With Invented APIs
 
 LLMs sometimes invent functions, packages, or methods that look real.
 
@@ -258,9 +258,9 @@ For generated code, run it.
 
 Never assume an import exists just because the model wrote it confidently.
 
----
+<p class="section-break">. . .</p>
 
-# Use The Model For Review
+## Use The Model For Review
 
 Code prompting is not only for generation.
 
@@ -284,9 +284,9 @@ Where could this fail in production?
 
 These prompts build engineering judgment.
 
----
+<p class="section-break">. . .</p>
 
-# A Practical Code Prompt Template
+## A Practical Code Prompt Template
 
 Use this structure:
 
@@ -324,9 +324,9 @@ Tests required: include unit tests for each edge case.
 
 Output format: show code first, then explain changes.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Choose a small coding task.
 
@@ -350,9 +350,9 @@ Then run or mentally review:
 
 This is how you turn AI coding from guessing into engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Code prompts need context, constraints, and expected behavior.
 
@@ -368,9 +368,9 @@ This is how you turn AI coding from guessing into engineering.
 
 - AI coding is most powerful when paired with engineering discipline.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Code is one kind of structured output.
 
@@ -388,4 +388,4 @@ But AI systems often need many structured formats:
 
 In the next article, we will explore:
 
-# Prompting for Structured Outputs
+## Prompting for Structured Outputs

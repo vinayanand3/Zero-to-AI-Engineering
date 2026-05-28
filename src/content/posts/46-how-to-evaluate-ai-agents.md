@@ -34,9 +34,9 @@ They can take unsafe actions.
 
 Evaluation helps us understand whether an agent is actually reliable.
 
----
+<p class="section-break">. . .</p>
 
-# What Makes Agent Evaluation Different?
+## What Makes Agent Evaluation Different?
 
 A normal LLM evaluation may check the final answer.
 
@@ -66,9 +66,9 @@ That can still be risky.
 
 For example, it might access data it should not have accessed.
 
----
+<p class="section-break">. . .</p>
 
-# Task Success
+## Task Success
 
 The first metric is task success.
 
@@ -94,9 +94,9 @@ What should happen if information is missing?
 
 Define success before evaluating.
 
----
+<p class="section-break">. . .</p>
 
-# Build Scenario Tests
+## Build Scenario Tests
 
 Agent evaluation works best with realistic scenarios.
 
@@ -116,9 +116,9 @@ They also test tool use, state, errors, and communication together.
 
 For agent systems, scenario tests are often more useful than isolated prompt tests.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Use Accuracy
+## Tool Use Accuracy
 
 Tool use accuracy asks:
 
@@ -144,9 +144,9 @@ Tool calls are where model decisions become system actions.
 
 They deserve careful inspection.
 
----
+<p class="section-break">. . .</p>
 
-# Step Quality
+## Step Quality
 
 Agents often take multiple steps.
 
@@ -170,9 +170,9 @@ The final answer matters, but the reasoning path and actions matter too.
 
 Process quality affects reliability.
 
----
+<p class="section-break">. . .</p>
 
-# Safety And Guardrail Tests
+## Safety And Guardrail Tests
 
 Agents should be tested against risky requests.
 
@@ -196,9 +196,9 @@ Do not wait until the agent has powerful tools.
 
 Test guardrails early.
 
----
+<p class="section-break">. . .</p>
 
-# Error Recovery
+## Error Recovery
 
 Tools fail.
 
@@ -222,9 +222,9 @@ It should explain what failed and what can happen next.
 
 Error recovery is one of the clearest differences between a demo and a production-quality agent.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluate Cost And Latency
+## Evaluate Cost And Latency
 
 Agents can be expensive and slow if they take too many steps.
 
@@ -254,9 +254,9 @@ A workflow that feels impressive in a demo may become too slow or expensive with
 
 Evaluation should reflect production constraints, not only ideal examples.
 
----
+<p class="section-break">. . .</p>
 
-# Logs Are Evaluation Data
+## Logs Are Evaluation Data
 
 Agent logs are essential for evaluation.
 
@@ -286,9 +286,9 @@ That is not enough for agent debugging.
 
 Agent evaluation needs observability.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Create an evaluation table for a task manager agent.
 
@@ -320,9 +320,9 @@ Add five test cases:
 
 This small table gives you a practical agent evaluation mindset.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Agent evaluation must check outcomes and process.
 
@@ -338,9 +338,9 @@ This small table gives you a practical agent evaluation mindset.
 
 - Logs provide the evidence needed to debug and improve agents.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we know how to evaluate agents, we need to study how they fail.
 
@@ -348,4 +348,4 @@ Most agent failures follow recognizable patterns.
 
 In the next article, we will explore:
 
-# Common AI Agent Failure Modes
+## Common AI Agent Failure Modes

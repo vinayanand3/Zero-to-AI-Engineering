@@ -20,7 +20,7 @@ This is where LoRA enters the picture.
 
 LoRA stands for:
 
-# Low-Rank Adaptation
+## Low-Rank Adaptation
 
 The name sounds mathematical, but the beginner intuition is simple.
 
@@ -28,9 +28,9 @@ LoRA is a parameter-efficient fine-tuning technique.
 
 It lets you adapt a model by training a smaller set of additional parameters instead of changing the entire model.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Mental Model
+## The Simple Mental Model
 
 Imagine you have a large machine that already works well.
 
@@ -48,9 +48,9 @@ During training, those adapters learn the task-specific adjustment.
 
 This can be much cheaper than full fine-tuning.
 
----
+<p class="section-break">. . .</p>
 
-# Why LoRA Matters
+## Why LoRA Matters
 
 LoRA matters because model adaptation can be expensive.
 
@@ -74,9 +74,9 @@ It can also make it easier to store different adaptations for different tasks.
 
 Instead of saving a full copy of the model for every task, you may save smaller adapter weights.
 
----
+<p class="section-break">. . .</p>
 
-# Full Fine-Tuning vs LoRA
+## Full Fine-Tuning vs LoRA
 
 Full fine-tuning updates many or all model parameters.
 
@@ -100,9 +100,9 @@ It still requires good data and evaluation.
 
 LoRA only changes the cost and efficiency profile of adaptation.
 
----
+<p class="section-break">. . .</p>
 
-# When LoRA Is Useful
+## When LoRA Is Useful
 
 LoRA can be useful when:
 
@@ -130,9 +130,9 @@ Examples:
 
 LoRA is especially popular in open-source model workflows where teams adapt base models for specific purposes.
 
----
+<p class="section-break">. . .</p>
 
-# LoRA Still Needs Data
+## LoRA Still Needs Data
 
 LoRA does not remove the need for good data.
 
@@ -158,9 +158,9 @@ The same fine-tuning principles still apply:
 
 - evaluation after training
 
----
+<p class="section-break">. . .</p>
 
-# LoRA And Deployment
+## LoRA And Deployment
 
 LoRA also affects deployment.
 
@@ -192,9 +192,9 @@ You need to test each adapter.
 
 You need to monitor outputs.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 LoRA is useful because many teams do not want one giant customized model for every task.
 
@@ -220,7 +220,7 @@ How do you roll back safely?
 
 LoRA reduces adaptation cost, but it does not remove the need for deployment discipline.
 
-# Practical Example
+## Practical Example
 
 Imagine a base model that works well for general writing.
 
@@ -236,7 +236,7 @@ This is powerful, but it also means the application must load the right adapter 
 
 Adapter selection becomes part of system design.
 
-# Mini Project
+## Mini Project
 
 Imagine your company has one base model.
 
@@ -260,9 +260,9 @@ For each adapter, define:
 
 This exercise helps you think about LoRA as a system component, not just a training technique.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - LoRA stands for Low-Rank Adaptation.
 
@@ -278,9 +278,9 @@ This exercise helps you think about LoRA as a system component, not just a train
 
 - Deployment needs careful adapter management.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 LoRA helps adapt models more efficiently.
 
@@ -288,4 +288,4 @@ Another important optimization technique is quantization.
 
 In the next article, we will explore:
 
-# What Is Quantization?
+## What Is Quantization?

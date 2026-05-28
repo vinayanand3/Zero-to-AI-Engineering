@@ -30,9 +30,9 @@ That question matters because fine-tuning is powerful, but not always necessary.
 
 The best AI engineers know when to adapt a model and when to solve the problem somewhere else in the system.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tuning Changes Behavior
+## Fine-Tuning Changes Behavior
 
 Fine-tuning is additional training on an already trained model.
 
@@ -58,9 +58,9 @@ Use RAG for knowledge.
 
 Use prompting for instructions.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tuning Requires The Right Problem
+## Fine-Tuning Requires The Right Problem
 
 Fine-tuning is useful when the problem is:
 
@@ -90,9 +90,9 @@ Diagnose before adapting.
 
 Choosing the wrong technique creates unnecessary complexity.
 
----
+<p class="section-break">. . .</p>
 
-# Data Is The Foundation
+## Data Is The Foundation
 
 Fine-tuning quality depends heavily on data quality.
 
@@ -122,9 +122,9 @@ The training command is not the hard part.
 
 The hard part is knowing what the model should learn and preparing examples that teach it clearly.
 
----
+<p class="section-break">. . .</p>
 
-# Instruction Tuning Teaches Task Following
+## Instruction Tuning Teaches Task Following
 
 Instruction tuning uses instruction-response examples.
 
@@ -148,9 +148,9 @@ They are shaped to respond to human tasks, not just continue text.
 
 Domain-specific instruction tuning can help when a team has repeated workflows and high-quality examples.
 
----
+<p class="section-break">. . .</p>
 
-# LoRA Makes Adaptation More Efficient
+## LoRA Makes Adaptation More Efficient
 
 LoRA is a parameter-efficient fine-tuning technique.
 
@@ -174,9 +174,9 @@ It only makes adaptation more efficient.
 
 The quality problem remains.
 
----
+<p class="section-break">. . .</p>
 
-# Quantization Optimizes Deployment
+## Quantization Optimizes Deployment
 
 Quantization reduces numerical precision.
 
@@ -202,9 +202,9 @@ Quantized models must be evaluated on real use cases.
 
 Optimization without evaluation is guessing.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluation Proves Improvement
+## Evaluation Proves Improvement
 
 Fine-tuning is not complete until evaluation proves improvement.
 
@@ -232,9 +232,9 @@ Did the fine-tuned model improve the system enough to justify its cost and compl
 
 That is an engineering question.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Modes Teach Discipline
+## Failure Modes Teach Discipline
 
 Fine-tuning failure modes include:
 
@@ -260,9 +260,9 @@ A serious fine-tuning workflow includes safeguards before deployment.
 
 If a fine-tuned model cannot pass the evaluation, it should not replace the baseline.
 
----
+<p class="section-break">. . .</p>
 
-# Cost And Latency Matter
+## Cost And Latency Matter
 
 Optimization is not only about model quality.
 
@@ -292,9 +292,9 @@ The best solution is not always the largest model or most complex pipeline.
 
 The best solution is the one that meets quality, cost, speed, and safety requirements.
 
----
+<p class="section-break">. . .</p>
 
-# The Season 6 Mental Model
+## The Season 6 Mental Model
 
 Here is the full mental model:
 
@@ -320,9 +320,9 @@ Optimization balances quality, cost, and latency.
 
 That is model adaptation from an AI engineering perspective.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take one AI workflow you care about.
 
@@ -344,9 +344,9 @@ Answer:
 
 This exercise connects Season 6 to the full series.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning adapts model behavior through additional training.
 
@@ -364,9 +364,9 @@ This exercise connects Season 6 to the full series.
 
 - Optimization balances quality, cost, latency, and safety.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand model adaptation and optimization, we are ready for production AI engineering.
 
@@ -394,5 +394,4 @@ We will cover:
 
 The next article will begin with:
 
-# What Makes AI Engineering Different in Production?
-
+## What Makes AI Engineering Different in Production?

@@ -26,9 +26,9 @@ That means the client needs a way to discover tools.
 
 Tool discovery is one of MCP's most important ideas.
 
----
+<p class="section-break">. . .</p>
 
-# Why Discovery Matters
+## Why Discovery Matters
 
 Imagine an AI host connected to three MCP servers:
 
@@ -56,9 +56,9 @@ What tools do you provide?
 
 The server returns a structured list.
 
----
+<p class="section-break">. . .</p>
 
-# The Basic Flow
+## The Basic Flow
 
 A simplified MCP tool discovery flow looks like this:
 
@@ -82,9 +82,9 @@ The server describes what it offers.
 
 The host decides how to use it.
 
----
+<p class="section-break">. . .</p>
 
-# What A Tool Definition Includes
+## What A Tool Definition Includes
 
 A tool definition usually includes:
 
@@ -120,9 +120,9 @@ Input schema:
 
 This structure helps the model choose and call the tool correctly.
 
----
+<p class="section-break">. . .</p>
 
-# Descriptions Matter
+## Descriptions Matter
 
 Tool descriptions are not decoration.
 
@@ -150,9 +150,9 @@ Good descriptions improve tool selection.
 
 Poor descriptions create confusion.
 
----
+<p class="section-break">. . .</p>
 
-# Input Schemas Matter
+## Input Schemas Matter
 
 Input schemas help validate tool calls.
 
@@ -176,9 +176,9 @@ The application can validate before execution.
 
 Schemas are one of the ways tool calling becomes safer and more structured.
 
----
+<p class="section-break">. . .</p>
 
-# Dynamic Tool Lists
+## Dynamic Tool Lists
 
 In some systems, available tools can change.
 
@@ -200,9 +200,9 @@ Capabilities can change.
 
 The host needs a way to stay current.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Discovery Does Not Mean Tool Permission
+## Tool Discovery Does Not Mean Tool Permission
 
 Just because a tool exists does not mean every user should use it.
 
@@ -224,9 +224,9 @@ Authorization is about allowed use.
 
 Do not confuse them.
 
----
+<p class="section-break">. . .</p>
 
-# Discovery Helps Tool Management
+## Discovery Helps Tool Management
 
 As the number of tools grows, hosts need better ways to manage them.
 
@@ -252,9 +252,9 @@ Tool management decides what should actually be available in a given conversatio
 
 This distinction becomes important as agent systems scale.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design tool definitions for a task manager MCP server.
 
@@ -280,9 +280,9 @@ For each tool, write:
 
 This exercise shows how tool discovery depends on good tool definitions.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Tool discovery lets MCP clients learn what tools a server provides.
 
@@ -298,9 +298,9 @@ This exercise shows how tool discovery depends on good tool definitions.
 
 - Discovery does not replace permissions or approval.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Tools are one MCP primitive.
 
@@ -310,4 +310,4 @@ That brings us to resources.
 
 In the next article, we will explore:
 
-# Resources in MCP: Giving AI Systems Context
+## Resources in MCP: Giving AI Systems Context

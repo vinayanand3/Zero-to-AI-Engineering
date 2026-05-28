@@ -34,9 +34,9 @@ Prompting for better reasoning is not about forcing the model to sound smarter.
 
 It is about giving the model a better process.
 
----
+<p class="section-break">. . .</p>
 
-# Reasoning Needs Structure
+## Reasoning Needs Structure
 
 If you ask:
 
@@ -64,9 +64,9 @@ Reasoning improves when the prompt defines:
 
 Without structure, the model may produce a fluent opinion instead of a useful analysis.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For Assumptions
+## Ask For Assumptions
 
 One of the best ways to improve reasoning is to ask the model to state assumptions.
 
@@ -96,9 +96,9 @@ Asking for assumptions makes that visible.
 
 Visible assumptions are easier to review.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For Tradeoffs
+## Ask For Tradeoffs
 
 Good engineering decisions involve tradeoffs.
 
@@ -120,9 +120,9 @@ A tradeoff prompt forces the model to compare dimensions.
 
 That is closer to real engineering thinking.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For Risks
+## Ask For Risks
 
 Models often produce optimistic answers unless you ask for risks.
 
@@ -144,9 +144,9 @@ This does not guarantee the model catches everything.
 
 But it improves the odds.
 
----
+<p class="section-break">. . .</p>
 
-# Ask For A Decision Framework
+## Ask For A Decision Framework
 
 When a problem is complex, ask the model to create a decision framework.
 
@@ -172,9 +172,9 @@ This is useful for:
 
 Structured reasoning beats vague advice.
 
----
+<p class="section-break">. . .</p>
 
-# Ask The Model To Challenge The Answer
+## Ask The Model To Challenge The Answer
 
 Another useful technique is asking the model to critique its own recommendation.
 
@@ -198,9 +198,9 @@ It should also show what would need to be verified.
 
 This makes the output more useful for engineering decisions, product planning, and debugging.
 
----
+<p class="section-break">. . .</p>
 
-# Break Large Problems Into Smaller Parts
+## Break Large Problems Into Smaller Parts
 
 LLMs often perform better when large tasks are decomposed.
 
@@ -220,9 +220,9 @@ Large reasoning tasks need scaffolding.
 
 Scaffolding is just structure that helps the model stay organized.
 
----
+<p class="section-break">. . .</p>
 
-# Be Careful With "Think Step By Step"
+## Be Careful With "Think Step By Step"
 
 You may have seen prompts that say:
 
@@ -252,9 +252,9 @@ This is stronger than simply asking the model to think step by step.
 
 You are giving it an engineering process.
 
----
+<p class="section-break">. . .</p>
 
-# Reasoning Still Needs Verification
+## Reasoning Still Needs Verification
 
 LLM reasoning can be useful, but it is not guaranteed.
 
@@ -284,9 +284,9 @@ For business decisions, compare against real data.
 
 Prompting improves reasoning, but verification still matters.
 
----
+<p class="section-break">. . .</p>
 
-# A Practical Reasoning Prompt Template
+## A Practical Reasoning Prompt Template
 
 Use this template:
 
@@ -320,9 +320,9 @@ It shows which facts matter most.
 
 Good reasoning should be conditional, not blindly confident.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Pick a real decision:
 
@@ -356,9 +356,9 @@ Did the model reason, or did it just sound reasonable?
 
 That distinction matters.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Reasoning prompts need structure.
 
@@ -374,9 +374,9 @@ That distinction matters.
 
 - Always verify important reasoning outputs.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Reasoning prompts are useful across many domains.
 
@@ -384,4 +384,4 @@ One of the most practical domains is software engineering.
 
 In the next article, we will focus on:
 
-# Prompting for Code Generation
+## Prompting for Code Generation

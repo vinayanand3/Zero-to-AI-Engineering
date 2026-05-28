@@ -26,9 +26,9 @@ Both can be useful.
 
 Both can be risky if designed poorly.
 
----
+<p class="section-break">. . .</p>
 
-# What Is State?
+## What Is State?
 
 State is the working information an agent uses while completing a task.
 
@@ -56,9 +56,9 @@ For example, a coding agent should know which files it inspected and which tests
 
 Without state, it may repeat itself or lose track of progress.
 
----
+<p class="section-break">. . .</p>
 
-# What Is Memory?
+## What Is Memory?
 
 Memory usually means information stored for later use.
 
@@ -88,9 +88,9 @@ Wrong memory can create wrong behavior.
 
 Sensitive memory can create privacy risk.
 
----
+<p class="section-break">. . .</p>
 
-# Context Window vs Memory
+## Context Window vs Memory
 
 In Season 1, we learned about context windows.
 
@@ -112,9 +112,9 @@ Useful memory is not just storage.
 
 It is the right information at the right time.
 
----
+<p class="section-break">. . .</p>
 
-# Short-Term State
+## Short-Term State
 
 Short-term state supports the current task.
 
@@ -146,9 +146,9 @@ Once the task is done, it may be summarized or discarded.
 
 Short-term state keeps the agent oriented.
 
----
+<p class="section-break">. . .</p>
 
-# Long-Term Memory
+## Long-Term Memory
 
 Long-term memory persists across tasks or sessions.
 
@@ -174,9 +174,9 @@ Old memory becomes harmful.
 
 Good memory systems need update and deletion strategies.
 
----
+<p class="section-break">. . .</p>
 
-# Memory Should Be Summarized
+## Memory Should Be Summarized
 
 Agents do not need to remember everything in full detail.
 
@@ -206,9 +206,9 @@ The raw record supports audit and recovery.
 
 The summary supports efficient future context.
 
----
+<p class="section-break">. . .</p>
 
-# Memory Needs Permissions
+## Memory Needs Permissions
 
 Not everything should be remembered.
 
@@ -238,9 +238,9 @@ If not, be careful.
 
 Memory is powerful, but it creates responsibility.
 
----
+<p class="section-break">. . .</p>
 
-# State Should Be Inspectable
+## State Should Be Inspectable
 
 For important agents, state should be inspectable.
 
@@ -262,9 +262,9 @@ If an agent behaves strangely, hidden state makes the problem harder to diagnose
 
 Visible state makes the system easier to reason about.
 
----
+<p class="section-break">. . .</p>
 
-# Memory Should Have A Purpose
+## Memory Should Have A Purpose
 
 Do not add memory just because it sounds advanced.
 
@@ -288,9 +288,9 @@ Purposeful memory improves agents.
 
 Uncontrolled memory creates clutter and risk.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design state for a research agent.
 
@@ -320,9 +320,9 @@ Maybe only user preferences or reusable research style.
 
 That distinction is the core lesson.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Agents need state to track current task progress.
 
@@ -338,9 +338,9 @@ That distinction is the core lesson.
 
 - State should be inspectable for debugging and trust.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Agents can use tools and remember state.
 
@@ -348,4 +348,4 @@ But we also need to decide how much freedom they should have.
 
 In the next article, we will explore:
 
-# Human Approval and Agent Guardrails
+## Human Approval and Agent Guardrails

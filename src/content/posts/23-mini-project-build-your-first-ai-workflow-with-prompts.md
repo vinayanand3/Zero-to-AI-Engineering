@@ -36,9 +36,9 @@ It is a sequence of steps that transforms input into a useful result.
 
 This is where prompt engineering starts becoming system design.
 
----
+<p class="section-break">. . .</p>
 
-# The Project
+## The Project
 
 For this mini project, we will build a simple AI workflow:
 
@@ -78,9 +78,9 @@ The final output will be:
 
 - next-step transition
 
----
+<p class="section-break">. . .</p>
 
-# Why Use A Workflow Instead Of One Prompt?
+## Why Use A Workflow Instead Of One Prompt?
 
 You could ask:
 
@@ -106,9 +106,9 @@ Our workflow will have four steps:
 
 Each step has a clear job.
 
----
+<p class="section-break">. . .</p>
 
-# Step 1: Clean And Group Notes
+## Step 1: Clean And Group Notes
 
 Prompt:
 
@@ -144,9 +144,9 @@ The instruction "Do not write the article yet" matters.
 
 It keeps the model focused on organization.
 
----
+<p class="section-break">. . .</p>
 
-# Step 2: Identify The Core Message
+## Step 2: Identify The Core Message
 
 Now take the grouped notes and ask:
 
@@ -172,9 +172,9 @@ Before writing an article, you need to know what it is really about.
 
 The model helps extract that from the notes.
 
----
+<p class="section-break">. . .</p>
 
-# Step 3: Create The Outline
+## Step 3: Create The Outline
 
 Now create the outline:
 
@@ -216,9 +216,9 @@ This matches the structure of the AI engineering series.
 
 The prompt gives the model both content and format.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4: Create The Final Writing Brief
+## Step 4: Create The Final Writing Brief
 
 The final step is not to write the full article yet.
 
@@ -254,9 +254,9 @@ This brief becomes a reusable input for drafting.
 
 It is cleaner than the original messy notes.
 
----
+<p class="section-break">. . .</p>
 
-# What This Workflow Teaches
+## What This Workflow Teaches
 
 This workflow teaches several prompt engineering principles.
 
@@ -276,9 +276,9 @@ You are not hoping one giant prompt does everything perfectly.
 
 You are designing a process.
 
----
+<p class="section-break">. . .</p>
 
-# Where This Becomes AI Engineering
+## Where This Becomes AI Engineering
 
 This workflow could eventually become a real application.
 
@@ -306,9 +306,9 @@ It is part of a system.
 
 This is the bridge from prompt engineering to AI application design.
 
----
+<p class="section-break">. . .</p>
 
-# How to Improve the Workflow
+## How to Improve the Workflow
 
 You can improve this workflow by adding:
 
@@ -334,9 +334,9 @@ That turns the workflow into a feedback loop.
 
 Good AI systems often include feedback loops.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Run this workflow yourself.
 
@@ -366,9 +366,9 @@ Did the workflow produce a better result than one big prompt?
 
 For most complex tasks, the answer will be yes.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - A prompt workflow is a sequence of prompts that produce a useful result.
 
@@ -384,9 +384,9 @@ For most complex tasks, the answer will be yes.
 
 - Practical AI products often use workflows like this behind the scenes.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have now completed the practical core of Season 2.
 
@@ -400,4 +400,4 @@ It is the beginning of designing AI systems.
 
 That is what we will explore in the Season 2 wrap-up:
 
-# Prompt Engineering as System Design
+## Prompt Engineering as System Design

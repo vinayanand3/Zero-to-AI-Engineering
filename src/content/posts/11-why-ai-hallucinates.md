@@ -40,9 +40,9 @@ They do not automatically verify truth.
 
 Once you see those pieces together, hallucinations become much easier to understand.
 
----
+<p class="section-break">. . .</p>
 
-# The Core Reason
+## The Core Reason
 
 The simplest explanation is this:
 
@@ -66,9 +66,9 @@ If the model has incomplete, outdated, ambiguous, or misleading context, it may 
 
 That is where hallucinations come from.
 
----
+<p class="section-break">. . .</p>
 
-# The Student Analogy
+## The Student Analogy
 
 Imagine a student taking an exam.
 
@@ -88,9 +88,9 @@ But producing answer-shaped text is not the same as knowing the answer is true.
 
 This is why confidence is not the same as correctness.
 
----
+<p class="section-break">. . .</p>
 
-# Hallucinations Are Not Random
+## Hallucinations Are Not Random
 
 Hallucinations often feel strange because they are not pure nonsense.
 
@@ -114,9 +114,9 @@ That is what makes hallucinations risky.
 
 They often look reasonable at first glance.
 
----
+<p class="section-break">. . .</p>
 
-# Missing Context Causes Hallucinations
+## Missing Context Causes Hallucinations
 
 Context is one of the biggest factors.
 
@@ -140,9 +140,9 @@ This is why good AI systems often include retrieval, tool use, citations, or dat
 
 They give the model better grounding.
 
----
+<p class="section-break">. . .</p>
 
-# Outdated Knowledge Causes Hallucinations
+## Outdated Knowledge Causes Hallucinations
 
 Many models have a training cutoff.
 
@@ -166,9 +166,9 @@ This is especially risky for:
 
 In production systems, engineers must be careful about when a model should answer from internal knowledge and when it should retrieve fresh information.
 
----
+<p class="section-break">. . .</p>
 
-# Ambiguous Prompts Cause Hallucinations
+## Ambiguous Prompts Cause Hallucinations
 
 Sometimes the problem is not the model alone.
 
@@ -196,9 +196,9 @@ But it can be dangerous when accuracy matters.
 
 Clear prompts reduce hallucination risk because they reduce the number of assumptions the model has to make.
 
----
+<p class="section-break">. . .</p>
 
-# How Engineers Reduce Hallucinations
+## How Engineers Reduce Hallucinations
 
 Hallucinations cannot be eliminated completely in every open-ended setting.
 
@@ -232,9 +232,9 @@ It should rely on actual documentation, type definitions, or codebase context.
 
 Grounding matters.
 
----
+<p class="section-break">. . .</p>
 
-# Hallucinations In Code
+## Hallucinations In Code
 
 Code hallucinations are common.
 
@@ -264,9 +264,9 @@ In software engineering, the compiler, test suite, linter, and runtime are groun
 
 They help separate plausible code from working code.
 
----
+<p class="section-break">. . .</p>
 
-# Visual Explanation
+## Visual Explanation
 
 Imagine the model as a powerful text engine.
 
@@ -290,9 +290,9 @@ But fluency does not guarantee truth.
 
 That is the mental model to keep.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Try this exercise.
 
@@ -318,9 +318,9 @@ Trust verification for correctness.
 
 That mindset will make you much better at building with AI.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Hallucinations are plausible but incorrect AI outputs.
 
@@ -338,9 +338,9 @@ That mindset will make you much better at building with AI.
 
 - AI engineers design systems that ground model outputs in reliable information.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have now covered the core foundations of modern AI systems.
 
@@ -352,5 +352,4 @@ Before moving into prompt engineering, we need to connect all of these ideas int
 
 That is what we will do in the final article of Season 1:
 
-# The Mental Model Of Modern AI
-
+## The Mental Model Of Modern AI

@@ -26,9 +26,9 @@ The server exposes tools, resources, and prompts.
 
 Together, they create the structure that lets AI applications connect to external capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# The Big Picture
+## The Big Picture
 
 MCP follows a client-server architecture, coordinated by a host application.
 
@@ -60,9 +60,9 @@ The clients maintain server connections.
 
 The servers expose useful context and actions.
 
----
+<p class="section-break">. . .</p>
 
-# What Is An MCP Host?
+## What Is An MCP Host?
 
 The host is the application that users interact with.
 
@@ -88,9 +88,9 @@ It decides what context and tools should be made available to the model.
 
 The host is the container for the AI experience.
 
----
+<p class="section-break">. . .</p>
 
-# What Is An MCP Client?
+## What Is An MCP Client?
 
 An MCP client is a component created by the host to communicate with one MCP server.
 
@@ -108,9 +108,9 @@ The user may only see one AI application.
 
 But behind the scenes, the host may manage multiple MCP clients.
 
----
+<p class="section-break">. . .</p>
 
-# What Is An MCP Server?
+## What Is An MCP Server?
 
 An MCP server is a program that exposes capabilities to AI applications.
 
@@ -138,9 +138,9 @@ The AI host does not need to know every detail of that system.
 
 It uses the MCP server through the protocol.
 
----
+<p class="section-break">. . .</p>
 
-# Local And Remote Servers
+## Local And Remote Servers
 
 MCP servers can be local or remote.
 
@@ -168,9 +168,9 @@ The protocol supports different transport mechanisms for these situations.
 
 We will discuss transports later in the season.
 
----
+<p class="section-break">. . .</p>
 
-# Why This Architecture Matters
+## Why This Architecture Matters
 
 The host-client-server structure creates clear boundaries.
 
@@ -192,9 +192,9 @@ The model can use capabilities discovered through the host.
 
 This architecture supports reuse and modularity.
 
----
+<p class="section-break">. . .</p>
 
-# One Host, Many Servers
+## One Host, Many Servers
 
 The most important pattern is that one host can connect to many servers.
 
@@ -220,9 +220,9 @@ It also lets teams add or remove capabilities by changing server connections.
 
 That modularity is one of MCP's main architectural benefits.
 
----
+<p class="section-break">. . .</p>
 
-# Example: Coding Assistant
+## Example: Coding Assistant
 
 Imagine an AI coding assistant inside an IDE.
 
@@ -250,9 +250,9 @@ The user experiences one assistant.
 
 Behind the scenes, MCP organizes multiple connections.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design an MCP architecture for a research assistant.
 
@@ -288,9 +288,9 @@ Servers:
 
 This exercise helps make the architecture concrete.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP architecture has hosts, clients, and servers.
 
@@ -306,9 +306,9 @@ This exercise helps make the architecture concrete.
 
 - The architecture creates clear boundaries between user experience, protocol connection, and external capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand the participants in MCP, we need to understand what servers actually expose.
 
@@ -318,4 +318,4 @@ tools, resources, and prompts.
 
 That is what we will explore next:
 
-# MCP Primitives: Tools, Resources, and Prompts
+## MCP Primitives: Tools, Resources, and Prompts

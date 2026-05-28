@@ -20,7 +20,7 @@ They respond based on the information and instructions you give them.
 
 That brings us to Season 2.
 
-# Prompt engineering
+## Prompt engineering
 
 Unfortunately, prompt engineering is often explained in a shallow way.
 
@@ -40,9 +40,9 @@ It is about designing clear communication between humans and AI systems.
 
 That is the mental model we will use in this season.
 
----
+<p class="section-break">. . .</p>
 
-# The Simplest Definition
+## The Simplest Definition
 
 Prompt engineering is the practice of giving an AI model the right instructions, context, constraints, and output expectations so it can produce a useful result.
 
@@ -74,9 +74,9 @@ When you leave them out, the model has to guess.
 
 And when the model guesses, output quality becomes unpredictable.
 
----
+<p class="section-break">. . .</p>
 
-# Prompting Is Communication Design
+## Prompting Is Communication Design
 
 Imagine asking a human teammate:
 
@@ -110,9 +110,9 @@ The model does not have to invent the assignment.
 
 It can focus on completing it.
 
----
+<p class="section-break">. . .</p>
 
-# Why Prompt Engineering Matters
+## Why Prompt Engineering Matters
 
 Prompt engineering matters because LLMs are general-purpose systems.
 
@@ -144,9 +144,9 @@ If the model can do many things, you need to clearly specify which thing you wan
 
 Prompt engineering is how you narrow the model's behavior toward a useful outcome.
 
----
+<p class="section-break">. . .</p>
 
-# Prompting Is Not Just For Chatbots
+## Prompting Is Not Just For Chatbots
 
 Beginners often think prompting only means typing into ChatGPT.
 
@@ -176,9 +176,9 @@ So prompt engineering is not just a user skill.
 
 It is an application design skill.
 
----
+<p class="section-break">. . .</p>
 
-# The Model Needs A Job Description
+## The Model Needs A Job Description
 
 One useful way to think about a prompt is as a temporary job description.
 
@@ -204,9 +204,9 @@ Good prompts reduce ambiguity.
 
 They make the task easier for the model to complete correctly.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Engineering And Context
+## Prompt Engineering And Context
 
 Prompt engineering connects directly to context windows.
 
@@ -234,9 +234,9 @@ It also tells the model what matters.
 
 That is prompt engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Engineering Is Not A Replacement For Verification
+## Prompt Engineering Is Not A Replacement For Verification
 
 Good prompts improve output quality.
 
@@ -268,9 +268,9 @@ It is not the entire reliability system.
 
 This is especially important for code, legal, medical, financial, and safety-critical tasks.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Prompt Improvement Example
+## A Simple Prompt Improvement Example
 
 Weak prompt:
 
@@ -300,9 +300,9 @@ The model has less guessing to do.
 
 The result will usually be more useful.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take one vague prompt you have used before.
 
@@ -332,9 +332,9 @@ The improved version should feel less like a wish and more like a clear assignme
 
 That is the beginning of prompt engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Prompt engineering is structured communication with AI systems.
 
@@ -348,9 +348,9 @@ That is the beginning of prompt engineering.
 
 - The goal is not magic phrasing. The goal is clear task design.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand what prompt engineering really is, we need to study the most basic ingredient:
 
@@ -360,4 +360,4 @@ Most bad AI outputs begin with unclear requests.
 
 So in the next article, we will explore:
 
-# Why Clear Instructions Matter in AI Prompts
+## Why Clear Instructions Matter in AI Prompts

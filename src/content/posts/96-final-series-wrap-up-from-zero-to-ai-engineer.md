@@ -26,9 +26,9 @@ Modern AI is not magic.
 
 It is engineering.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 1
+## What We Built In Season 1
 
 Season 1 gave us the foundation.
 
@@ -58,9 +58,9 @@ This foundation matters because every advanced topic depends on it.
 
 If you understand tokens, context, embeddings, and inference, modern AI becomes much less mysterious.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 2
+## What We Built In Season 2
 
 Season 2 taught prompt engineering.
 
@@ -86,9 +86,9 @@ Prompt engineering is the first layer of AI system design.
 
 It teaches you how to communicate clearly with models.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 3
+## What We Built In Season 3
 
 Season 3 taught retrieval and RAG.
 
@@ -114,9 +114,9 @@ This season showed how AI systems can use external knowledge instead of relying 
 
 RAG is one of the core patterns of practical AI engineering.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 4
+## What We Built In Season 4
 
 Season 4 taught agents and tool calling.
 
@@ -144,9 +144,9 @@ This moved us from AI that answers to AI that acts.
 
 But it also taught us that action requires control.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 5
+## What We Built In Season 5
 
 Season 5 taught MCP.
 
@@ -174,9 +174,9 @@ MCP gave us an architecture for connected AI systems.
 
 It showed how the ecosystem around agents may become more modular and interoperable.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 6
+## What We Built In Season 6
 
 Season 6 taught model adaptation.
 
@@ -204,9 +204,9 @@ This season showed that changing the model is only one option.
 
 Good AI engineers choose the right layer for the problem.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 7
+## What We Built In Season 7
 
 Season 7 taught production AI engineering.
 
@@ -234,9 +234,9 @@ This season turned demos into systems.
 
 Production AI is about reliability, safety, cost, and continuous improvement.
 
----
+<p class="section-break">. . .</p>
 
-# What We Built In Season 8
+## What We Built In Season 8
 
 Season 8 taught research thinking.
 
@@ -268,9 +268,9 @@ The most important skill is not memorizing today's tools.
 
 It is learning how to evaluate tomorrow's tools.
 
----
+<p class="section-break">. . .</p>
 
-# The Full Mental Model
+## The Full Mental Model
 
 Here is the full series mental model:
 
@@ -304,9 +304,9 @@ Research thinking keeps you current.
 
 That is AI engineering.
 
----
+<p class="section-break">. . .</p>
 
-# What Comes Next For You
+## What Comes Next For You
 
 The next step is building.
 
@@ -330,9 +330,9 @@ Then document what you learn.
 
 The gap between understanding and engineering closes through projects.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 The strongest way to use this series is to turn it into a build path.
 
@@ -362,7 +362,7 @@ The point is not to know every AI term.
 
 The point is to know how to turn uncertain model behavior into reliable systems.
 
-# Final Takeaway
+## Final Takeaway
 
 AI engineering is not about worshiping models.
 

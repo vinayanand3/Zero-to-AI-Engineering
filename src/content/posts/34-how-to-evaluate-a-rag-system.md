@@ -26,9 +26,9 @@ But the system may still retrieve the wrong context, miss key information, or ha
 
 Evaluation is how AI engineering becomes disciplined.
 
----
+<p class="section-break">. . .</p>
 
-# What Are We Evaluating?
+## What Are We Evaluating?
 
 A RAG system has two major parts to evaluate:
 
@@ -56,9 +56,9 @@ Was the source document bad?
 
 Evaluation helps separate these causes.
 
----
+<p class="section-break">. . .</p>
 
-# Retrieval Evaluation
+## Retrieval Evaluation
 
 Retrieval evaluation checks whether the system retrieved useful chunks.
 
@@ -88,9 +88,9 @@ If the system retrieves unrelated billing setup documentation, retrieval failed.
 
 The LLM cannot reliably answer if it receives the wrong context.
 
----
+<p class="section-break">. . .</p>
 
-# Generation Evaluation
+## Generation Evaluation
 
 Generation evaluation checks the final answer.
 
@@ -114,9 +114,9 @@ That means the answer should be traceable to the retrieved information.
 
 If the model adds details that are not in the context, that is a problem.
 
----
+<p class="section-break">. . .</p>
 
-# Create A Test Set
+## Create A Test Set
 
 The first step in evaluation is creating a test set.
 
@@ -148,9 +148,9 @@ For each question, record:
 
 This becomes your RAG benchmark.
 
----
+<p class="section-break">. . .</p>
 
-# Test Questions With No Answer
+## Test Questions With No Answer
 
 This is important.
 
@@ -170,9 +170,9 @@ Good RAG systems know when not to answer.
 
 That behavior must be tested.
 
----
+<p class="section-break">. . .</p>
 
-# Common Metrics
+## Common Metrics
 
 RAG evaluation can use many metrics.
 
@@ -204,9 +204,9 @@ Did the system refuse when the answer was not in the documents?
 
 These checks are simple but powerful.
 
----
+<p class="section-break">. . .</p>
 
-# Create Regression Tests
+## Create Regression Tests
 
 Once you have a test set, keep using it.
 
@@ -226,9 +226,9 @@ A small repeatable test set is better than relying on impressions.
 
 It gives you a stable way to compare versions of the system.
 
----
+<p class="section-break">. . .</p>
 
-# Inspect Retrieved Chunks
+## Inspect Retrieved Chunks
 
 When debugging RAG, always inspect retrieved chunks.
 
@@ -256,9 +256,9 @@ If retrieval is bad, improve chunking, embeddings, filters, or search settings.
 
 If retrieval is good but answers are bad, improve the prompt or model behavior.
 
----
+<p class="section-break">. . .</p>
 
-# Evaluate Over Time
+## Evaluate Over Time
 
 RAG systems can degrade.
 
@@ -282,9 +282,9 @@ When you change chunking, retrieval settings, prompts, or models, evaluate again
 
 This is how you avoid silent regressions.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Create a small RAG evaluation table.
 
@@ -316,9 +316,9 @@ You are asking:
 
 Does the system reliably retrieve and answer correctly?
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - RAG evaluation checks retrieval and generation separately.
 
@@ -334,9 +334,9 @@ Does the system reliably retrieve and answer correctly?
 
 - RAG systems should be evaluated over time as documents and settings change.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we know how to evaluate RAG, we need to study how it fails.
 
@@ -346,4 +346,4 @@ They follow patterns.
 
 In the next article, we will explore:
 
-# Common RAG Failure Modes
+## Common RAG Failure Modes

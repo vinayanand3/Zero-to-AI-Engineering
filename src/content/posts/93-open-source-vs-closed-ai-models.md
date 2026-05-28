@@ -26,9 +26,9 @@ The goal is not to pick a side.
 
 The goal is to think clearly.
 
----
+<p class="section-break">. . .</p>
 
-# What Do We Mean By Open-Source?
+## What Do We Mean By Open-Source?
 
 In AI, "open-source" can mean different things.
 
@@ -60,9 +60,9 @@ Ask:
 
 Open does not always mean unrestricted.
 
----
+<p class="section-break">. . .</p>
 
-# Closed Models
+## Closed Models
 
 Closed models are usually accessed through hosted APIs or proprietary platforms.
 
@@ -86,9 +86,9 @@ This can be extremely valuable.
 
 For many teams, a hosted closed model is the fastest way to build a useful AI product.
 
----
+<p class="section-break">. . .</p>
 
-# Open-Source Model Advantages
+## Open-Source Model Advantages
 
 Open-source models can offer:
 
@@ -114,9 +114,9 @@ Or a team may want to fine-tune and serve a specialized model.
 
 Open models make those paths more possible.
 
----
+<p class="section-break">. . .</p>
 
-# Tradeoff: Capability
+## Tradeoff: Capability
 
 Closed frontier models may outperform open models on many complex tasks.
 
@@ -134,9 +134,9 @@ Evaluate on your actual task.
 
 Capability should be measured, not assumed.
 
----
+<p class="section-break">. . .</p>
 
-# Tradeoff: Cost
+## Tradeoff: Cost
 
 Closed APIs often charge per usage.
 
@@ -162,9 +162,9 @@ But self-hosting has hidden costs:
 
 Compare total cost, not just token price.
 
----
+<p class="section-break">. . .</p>
 
-# Tradeoff: Privacy And Compliance
+## Tradeoff: Privacy And Compliance
 
 Some workloads involve sensitive data.
 
@@ -188,9 +188,9 @@ Ask:
 
 Privacy decisions should be explicit.
 
----
+<p class="section-break">. . .</p>
 
-# Tradeoff: Customization
+## Tradeoff: Customization
 
 Open models often provide more customization flexibility.
 
@@ -204,9 +204,9 @@ If managed quality and simplicity matter more, closed models may be better.
 
 Again, the best choice depends on the system.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 The open versus closed decision should be made at the system level.
 
@@ -236,7 +236,7 @@ Many real systems use both.
 
 The right decision depends on the workflow, not ideology.
 
-# Practical Example
+## Practical Example
 
 A startup building a prototype may choose a closed model because it is fast to integrate and performs well out of the box.
 
@@ -250,13 +250,13 @@ The question is not which category is morally better.
 
 The question is which architecture fits the constraints.
 
-# One More Check
+## One More Check
 
 Revisit the decision over time.
 
 Model ecosystems change quickly, and the best choice during prototype development may not be the best choice after scale, compliance, or customization requirements change.
 
-# Mini Project
+## Mini Project
 
 Choose one AI application.
 
@@ -280,9 +280,9 @@ Then write a recommendation.
 
 This is how AI engineers make model decisions.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Open-source vs closed is a tradeoff, not a universal answer.
 
@@ -298,9 +298,9 @@ This is how AI engineers make model decisions.
 
 - Privacy and compliance requirements may drive architecture.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 The AI field moves quickly.
 
@@ -308,4 +308,4 @@ How do you keep learning without chasing every hype cycle?
 
 That is what we will explore next:
 
-# How to Keep Up With AI Without Chasing Hype
+## How to Keep Up With AI Without Chasing Hype

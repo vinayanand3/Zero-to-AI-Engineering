@@ -28,9 +28,9 @@ An agent is more than a single response.
 
 It is a system that can operate through a loop.
 
----
+<p class="section-break">. . .</p>
 
-# A Chatbot vs An Agent
+## A Chatbot vs An Agent
 
 A basic chatbot responds to messages.
 
@@ -70,9 +70,9 @@ Drafts the email, asks for confirmation, sends it, logs the result, and updates 
 
 The difference is action over time.
 
----
+<p class="section-break">. . .</p>
 
-# The Agent Loop
+## The Agent Loop
 
 Many agents follow a loop:
 
@@ -104,9 +104,9 @@ Continue.
 
 This loop is what makes agents different from one-shot prompts.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Need Tools
+## Agents Need Tools
 
 An agent without tools is limited.
 
@@ -140,9 +140,9 @@ The model decides what to do.
 
 The tools make it possible.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Need State
+## Agents Need State
 
 Agents also need state.
 
@@ -168,9 +168,9 @@ State can live in the conversation context, memory, files, databases, or workflo
 
 Good agent design requires deciding what state should be preserved and where it should live.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Need Stopping Conditions
+## Agents Need Stopping Conditions
 
 An agent should know when to stop.
 
@@ -196,9 +196,9 @@ Agents need boundaries.
 
 Useful autonomy is not unlimited autonomy.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Need A Clear Goal
+## Agents Need A Clear Goal
 
 Agents perform better when the goal is explicit.
 
@@ -226,9 +226,9 @@ Good agent design begins by defining the goal, success criteria, and boundaries.
 
 If those are unclear, autonomy becomes guesswork.
 
----
+<p class="section-break">. . .</p>
 
-# Real Agent Examples
+## Real Agent Examples
 
 Practical agents include:
 
@@ -252,9 +252,9 @@ Some are more autonomous.
 
 The key is that they work through steps, tools, and feedback.
 
----
+<p class="section-break">. . .</p>
 
-# Agents Are Not Magic Workers
+## Agents Are Not Magic Workers
 
 Agents can be useful, but they are not magic.
 
@@ -286,9 +286,9 @@ That is why agent design needs:
 
 The more power an agent has, the more guardrails it needs.
 
----
+<p class="section-break">. . .</p>
 
-# Autonomy Exists On A Spectrum
+## Autonomy Exists On A Spectrum
 
 Agents do not need to be fully autonomous to be useful.
 
@@ -308,9 +308,9 @@ The goal is to choose the right level of autonomy for the risk and value of the 
 
 Practical agent design is about controlled autonomy.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Choose a task:
 
@@ -332,9 +332,9 @@ You will see that agent design is not just prompting.
 
 It is workflow design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - An AI agent works toward a goal through steps, tools, and feedback.
 
@@ -348,9 +348,9 @@ It is workflow design.
 
 - Agent design is workflow design, not just prompt writing.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we know what an agent is, we need to understand its most important internal pattern:
 
@@ -358,4 +358,4 @@ the agent loop.
 
 In the next article, we will explore:
 
-# The Agent Loop: Plan, Act, Observe
+## The Agent Loop: Plan, Act, Observe

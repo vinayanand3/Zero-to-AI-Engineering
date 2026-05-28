@@ -22,9 +22,9 @@ Understanding failure modes is one of the fastest ways to become better at agent
 
 If you know how agents fail, you can build systems that are easier to debug and safer to use.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 1: Wrong Tool Selection
+## Failure Mode 1: Wrong Tool Selection
 
 The agent chooses the wrong tool.
 
@@ -48,9 +48,9 @@ Fixes include:
 
 Tool selection is one of the core skills of an agent.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 2: Bad Tool Arguments
+## Failure Mode 2: Bad Tool Arguments
 
 The agent picks the right tool but passes wrong arguments.
 
@@ -76,9 +76,9 @@ Argument validation can catch many of these issues.
 
 The application should not blindly execute malformed tool calls.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 3: Acting Too Early
+## Failure Mode 3: Acting Too Early
 
 Agents sometimes act before gathering enough information.
 
@@ -98,9 +98,9 @@ Acting too early is especially dangerous with write tools.
 
 Guardrails should prevent it.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 4: Looping
+## Failure Mode 4: Looping
 
 Agents can get stuck in loops.
 
@@ -126,9 +126,9 @@ Fixes include:
 
 Agents need to know when to stop.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 4.5: Overusing Tools
+## Failure Mode 4.5: Overusing Tools
 
 Some agents call tools too often.
 
@@ -156,9 +156,9 @@ Good agents use tools intentionally.
 
 They do not treat every question as a tool problem.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 5: Stopping Too Early
+## Failure Mode 5: Stopping Too Early
 
 The opposite problem also happens.
 
@@ -188,9 +188,9 @@ event created and confirmed.
 
 Define completion.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 6: Ignoring Tool Results
+## Failure Mode 6: Ignoring Tool Results
 
 Sometimes the tool returns useful information, but the model ignores it.
 
@@ -218,9 +218,9 @@ Fixes include:
 
 The model should not override reliable tool output without reason.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 7: Permission Problems
+## Failure Mode 7: Permission Problems
 
 Agents can accidentally request or expose information the user should not access.
 
@@ -242,9 +242,9 @@ Permissions should be enforced by software, not by model behavior alone.
 
 The model should never see data it is not allowed to use.
 
----
+<p class="section-break">. . .</p>
 
-# Failure Mode 8: Poor User Communication
+## Failure Mode 8: Poor User Communication
 
 An agent may do work but communicate poorly.
 
@@ -284,9 +284,9 @@ If an agent takes several steps, the user needs a clear final summary:
 
 Good communication turns agent activity into user trust.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take a simple agent idea, such as a calendar assistant.
 
@@ -304,9 +304,9 @@ This exercise turns failure modes into design requirements.
 
 That is how practical AI engineering works.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Agents fail in predictable ways.
 
@@ -322,9 +322,9 @@ That is how practical AI engineering works.
 
 - Understanding failure modes makes agents safer and more reliable.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have covered tool calling, agents, loops, memory, guardrails, multi-tool workflows, multi-agent systems, evaluation, and failure modes.
 
@@ -332,4 +332,4 @@ Now we need to connect the whole season into one mental model.
 
 In the final article of Season 4, we will explore:
 
-# The Mental Model of Agentic AI
+## The Mental Model of Agentic AI

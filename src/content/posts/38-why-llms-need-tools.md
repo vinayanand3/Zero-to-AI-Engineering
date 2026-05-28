@@ -32,9 +32,9 @@ That is why LLMs need tools.
 
 Tools extend the model beyond text.
 
----
+<p class="section-break">. . .</p>
 
-# The Core Limitation
+## The Core Limitation
 
 An LLM generates likely output from context.
 
@@ -62,9 +62,9 @@ The model alone cannot reliably do them.
 
 It needs tools.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Provide Live Information
+## Tools Provide Live Information
 
 Models may have stale knowledge.
 
@@ -96,9 +96,9 @@ It should call a flight status tool.
 
 Live questions need live data.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Provide Private Information
+## Tools Provide Private Information
 
 Models do not automatically know your private systems.
 
@@ -132,9 +132,9 @@ The application decides what it is allowed to retrieve.
 
 This gives the system power while preserving control.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Improve Accuracy
+## Tools Improve Accuracy
 
 Some tasks are better handled by deterministic software than by language generation.
 
@@ -166,9 +166,9 @@ The tool can calculate it exactly.
 
 This combination is stronger than either part alone.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Enable Action
+## Tools Enable Action
 
 Without tools, a model can only suggest.
 
@@ -192,9 +192,9 @@ But action also increases risk.
 
 Write tools need guardrails, confirmations, permissions, and logs.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Separate Reasoning From Execution
+## Tools Separate Reasoning From Execution
 
 One useful mental model is separation of responsibilities.
 
@@ -220,9 +220,9 @@ The application connects them safely.
 
 That is the architecture behind many useful AI products.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Reduce Hallucination Risk
+## Tools Reduce Hallucination Risk
 
 Tools can reduce hallucinations by grounding answers in real data.
 
@@ -246,9 +246,9 @@ The model can still:
 
 So tool use must be evaluated and monitored.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Make AI Products More Reliable
+## Tools Make AI Products More Reliable
 
 Good tools make behavior more predictable.
 
@@ -266,9 +266,9 @@ The model still matters.
 
 But the system no longer depends only on the model's internal knowledge.
 
----
+<p class="section-break">. . .</p>
 
-# The Human Assistant Analogy
+## The Human Assistant Analogy
 
 Imagine a human assistant with no access to email, calendar, files, or company systems.
 
@@ -298,9 +298,9 @@ Tools provide operational access.
 
 Together, they can support real workflows.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Choose one AI assistant idea.
 
@@ -334,9 +334,9 @@ An agent is not just a model.
 
 It is a model connected to capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - LLMs need tools because generation alone is not enough for many tasks.
 
@@ -350,12 +350,12 @@ It is a model connected to capabilities.
 
 - Tool use turns AI products into workflow systems.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand why tools matter, we need to look at how a tool call actually works.
 
 In the next article, we will explore:
 
-# How Tool Calling Works Step by Step
+## How Tool Calling Works Step by Step

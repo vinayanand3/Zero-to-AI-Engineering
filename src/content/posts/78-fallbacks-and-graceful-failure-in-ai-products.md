@@ -28,9 +28,9 @@ The question is what the product does when they happen.
 
 Graceful failure is the difference between a fragile AI demo and a usable AI product.
 
----
+<p class="section-break">. . .</p>
 
-# What Is A Fallback?
+## What Is A Fallback?
 
 A fallback is an alternative path when the main path fails.
 
@@ -54,9 +54,9 @@ Fallbacks keep the product useful when the ideal path does not work.
 
 They also prevent the model from inventing answers just to satisfy the user.
 
----
+<p class="section-break">. . .</p>
 
-# Retrieval Failure
+## Retrieval Failure
 
 RAG systems may fail to retrieve useful context.
 
@@ -88,9 +88,9 @@ Do not force an answer when retrieval fails.
 
 Weak context should lead to caution.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Failure
+## Tool Failure
 
 Tools can fail too.
 
@@ -122,9 +122,9 @@ The model should not pretend the tool succeeded.
 
 Tool failure must be visible to the system and, when relevant, to the user.
 
----
+<p class="section-break">. . .</p>
 
-# Model Failure
+## Model Failure
 
 The model may produce an invalid or low-quality output.
 
@@ -156,9 +156,9 @@ The application should detect these failures when possible.
 
 Do not rely on the user to catch every problem.
 
----
+<p class="section-break">. . .</p>
 
-# User Input Failure
+## User Input Failure
 
 Sometimes the user request is the problem.
 
@@ -184,9 +184,9 @@ Asking for clarification is often better than guessing.
 
 Good AI products know when to slow down and ask.
 
----
+<p class="section-break">. . .</p>
 
-# Human Escalation
+## Human Escalation
 
 Some failures should route to humans.
 
@@ -220,9 +220,9 @@ The AI system should hand off context clearly:
 
 This helps the human continue smoothly.
 
----
+<p class="section-break">. . .</p>
 
-# Fallbacks Need Evaluation
+## Fallbacks Need Evaluation
 
 Fallbacks should be tested.
 
@@ -244,9 +244,9 @@ If fallbacks are not tested, they may fail when needed most.
 
 Graceful failure is a product requirement.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Fallbacks should be designed before the failure happens.
 
@@ -268,7 +268,7 @@ Users can tolerate a system that clearly says it cannot complete a task.
 
 They lose trust in a system that pretends success while silently doing the wrong thing.
 
-# Practical Example
+## Practical Example
 
 Imagine an agent that books meetings.
 
@@ -284,13 +284,13 @@ If the user request is ambiguous, it should ask a clarifying question.
 
 Graceful failure keeps the workflow honest.
 
-# One More Check
+## One More Check
 
 Test fallback paths the same way you test happy paths.
 
 Failure behavior is part of the product, not an edge detail.
 
-# Mini Project
+## Mini Project
 
 Design fallbacks for a travel planning assistant.
 
@@ -310,9 +310,9 @@ For each failure, define the fallback.
 
 This exercise turns failure handling into design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI systems need fallback paths.
 
@@ -326,12 +326,12 @@ This exercise turns failure handling into design.
 
 - Fallback behavior should be evaluated.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Production AI also needs strong security and privacy design.
 
 That is what we will explore next:
 
-# Security and Privacy in AI Systems
+## Security and Privacy in AI Systems

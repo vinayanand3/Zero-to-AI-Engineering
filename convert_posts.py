@@ -58,6 +58,23 @@ def remove_first_h1(content):
     return content
 
 
+def make_medium_import_friendly(content):
+    lines = []
+    for line in content.splitlines():
+        if line.strip() == "---":
+            lines.append('<p class="section-break">. . .</p>')
+            continue
+
+        heading = re.match(r"^(#{1,5})\s+(.+)$", line)
+        if heading:
+            lines.append(f"{heading.group(1)}# {heading.group(2)}")
+            continue
+
+        lines.append(line)
+
+    return "\n".join(lines).strip() + "\n"
+
+
 def season_for(order):
     return ((order - 1) // 12) + 1
 
@@ -75,7 +92,7 @@ def main():
         filename_title = match.group(2).replace("_", ": ").strip()
         raw = clean_text(source_path.read_text(encoding="utf-8"))
         title = clean_text(extract_title(filename_title, raw))
-        body = remove_first_h1(raw)
+        body = make_medium_import_friendly(remove_first_h1(raw))
         slug = f"{order:02d}-{slugify(title)}"
         description = description_from_body(body)
         pub_date = (dt.date(2026, 1, 1) + dt.timedelta(days=order - 1)).isoformat()

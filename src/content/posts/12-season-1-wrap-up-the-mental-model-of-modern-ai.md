@@ -30,9 +30,9 @@ Before building applications, we needed to understand what is actually happening
 
 In this article, we will connect the core ideas from Season 1 into one clear picture.
 
----
+<p class="section-break">. . .</p>
 
-# AI Is A Broad Field
+## AI Is A Broad Field
 
 We began with the most basic question:
 
@@ -68,9 +68,9 @@ That distinction matters because AI engineering is bigger than chatbots.
 
 It includes systems, data, models, tools, infrastructure, evaluation, and product design.
 
----
+<p class="section-break">. . .</p>
 
-# Machine Learning Changed The Programming Model
+## Machine Learning Changed The Programming Model
 
 Traditional programming works like this:
 
@@ -90,9 +90,9 @@ For problems like image recognition, speech recognition, recommendation, and lan
 
 Machine learning gives us a way to learn patterns that are too complex to manually define.
 
----
+<p class="section-break">. . .</p>
 
-# Neural Networks Learn Patterns
+## Neural Networks Learn Patterns
 
 Neural networks are systems designed to learn patterns from data.
 
@@ -120,9 +120,9 @@ This is what made deep learning powerful.
 
 Neural networks could learn patterns directly from large amounts of data instead of relying only on hand-designed rules.
 
----
+<p class="section-break">. . .</p>
 
-# Transformers Changed The Scale Of AI
+## Transformers Changed The Scale Of AI
 
 Transformers became the foundation of modern LLMs because they solved major problems in older sequence models.
 
@@ -142,9 +142,9 @@ And once transformers scaled, modern AI accelerated dramatically.
 
 Chatbots, coding assistants, summarizers, translation systems, and multimodal models all build on this foundation.
 
----
+<p class="section-break">. . .</p>
 
-# LLMs Generate Text One Token At A Time
+## LLMs Generate Text One Token At A Time
 
 One of the most important Season 1 ideas was next-token prediction.
 
@@ -170,9 +170,9 @@ This simple mechanism can produce surprisingly rich behavior because the model h
 
 But it also explains why LLMs can be fluent without always being correct.
 
----
+<p class="section-break">. . .</p>
 
-# Tokens Are The Model's Language Units
+## Tokens Are The Model's Language Units
 
 Tokens are the pieces of text that LLMs process.
 
@@ -208,9 +208,9 @@ Output tokens are what the model generates.
 
 This is why AI engineering requires thinking about information size, not just text length.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings Turn Meaning Into Numbers
+## Embeddings Turn Meaning Into Numbers
 
 Embeddings gave us another key idea:
 
@@ -242,9 +242,9 @@ Outside LLMs, embeddings help AI applications search and organize knowledge.
 
 This idea will become extremely important in Season 3 when we build toward RAG.
 
----
+<p class="section-break">. . .</p>
 
-# Training And Inference Are Different
+## Training And Inference Are Different
 
 Training is when a model learns.
 
@@ -262,9 +262,9 @@ Inference focuses on latency, cost, reliability, scaling, and user experience.
 
 Most practical AI engineers spend a lot of time working with inference systems, even if they never train a frontier model from scratch.
 
----
+<p class="section-break">. . .</p>
 
-# GPUs Made Modern AI Practical
+## GPUs Made Modern AI Practical
 
 Modern AI requires enormous amounts of math.
 
@@ -296,9 +296,9 @@ The model always runs somewhere.
 
 That somewhere matters.
 
----
+<p class="section-break">. . .</p>
 
-# Context Windows Define What The Model Can See
+## Context Windows Define What The Model Can See
 
 A context window is the amount of information a model can process at once.
 
@@ -322,9 +322,9 @@ It is the working space available during inference.
 
 Good AI systems manage that working space carefully.
 
----
+<p class="section-break">. . .</p>
 
-# Hallucinations Come From Ungrounded Generation
+## Hallucinations Come From Ungrounded Generation
 
 Finally, we discussed hallucinations.
 
@@ -356,9 +356,9 @@ Good AI engineering does not blindly trust model output.
 
 It designs systems that verify, constrain, and ground that output.
 
----
+<p class="section-break">. . .</p>
 
-# The Big Picture
+## The Big Picture
 
 Here is the Season 1 mental model:
 
@@ -388,9 +388,9 @@ Hallucinations happen when fluent generation is not grounded in truth.
 
 If you understand that chain, you now have the foundation for modern AI engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Create a one-page diagram for yourself.
 
@@ -420,9 +420,9 @@ This exercise forces you to connect vocabulary into a system.
 
 That is the difference between memorizing terms and building understanding.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Season 1 built the foundation for modern AI engineering.
 
@@ -440,9 +440,9 @@ That is the difference between memorizing terms and building understanding.
 
 - The next step is learning how to communicate with models effectively.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that the foundation is in place, we can move into Season 2.
 
@@ -470,5 +470,4 @@ We will learn prompt engineering as an engineering discipline:
 
 In the next article, we will begin Season 2 with the most important prompt engineering question:
 
-# What Is Prompt Engineering Really?
-
+## What Is Prompt Engineering Really?

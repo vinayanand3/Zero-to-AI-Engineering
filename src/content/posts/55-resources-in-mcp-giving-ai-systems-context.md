@@ -34,9 +34,9 @@ Examples include:
 
 Resources help AI applications understand the environment around the task.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 An MCP resource is a data source exposed by a server for context.
 
@@ -58,9 +58,9 @@ The exact URI depends on the server.
 
 The important idea is that resources give clients a standard way to find and load context.
 
----
+<p class="section-break">. . .</p>
 
-# Resources vs Tools
+## Resources vs Tools
 
 Resources and tools are different.
 
@@ -90,9 +90,9 @@ Not everything should be a tool.
 
 Sometimes the model just needs context.
 
----
+<p class="section-break">. . .</p>
 
-# How Resources Help AI Applications
+## How Resources Help AI Applications
 
 Resources can help AI applications:
 
@@ -116,9 +116,9 @@ Without it, the model may invent column names.
 
 Resources reduce guessing by providing context.
 
----
+<p class="section-break">. . .</p>
 
-# Resources And RAG
+## Resources And RAG
 
 Resources connect naturally to RAG.
 
@@ -140,9 +140,9 @@ MCP defines a way to expose them.
 
 The host decides how to use them.
 
----
+<p class="section-break">. . .</p>
 
-# Application-Driven Context
+## Application-Driven Context
 
 Resources are often application-driven.
 
@@ -160,9 +160,9 @@ Different hosts can expose resources differently.
 
 The key idea is that resources are available through a standard protocol shape.
 
----
+<p class="section-break">. . .</p>
 
-# Resource Metadata Matters
+## Resource Metadata Matters
 
 Useful resources need metadata.
 
@@ -190,9 +190,9 @@ For example, a stale policy document should not be treated the same as a policy 
 
 Context quality matters.
 
----
+<p class="section-break">. . .</p>
 
-# Resource Security
+## Resource Security
 
 Resources can contain sensitive information.
 
@@ -212,9 +212,9 @@ Give the model the context it needs.
 
 Do not give it everything.
 
----
+<p class="section-break">. . .</p>
 
-# Resources Should Be Useful Alone
+## Resources Should Be Useful Alone
 
 A good resource should be understandable when included in model context.
 
@@ -238,9 +238,9 @@ Resources should preserve enough structure, labels, and metadata to remain usefu
 
 Context quality affects answer quality.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design resources for a coding assistant MCP server.
 
@@ -270,9 +270,9 @@ For each resource, write:
 
 This helps you think about resources as context design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP resources expose contextual data to AI applications.
 
@@ -288,9 +288,9 @@ This helps you think about resources as context design.
 
 - Good resource design reduces model guessing.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 MCP servers can expose tools and resources.
 
@@ -300,4 +300,4 @@ That brings us back to prompt engineering, but now in a protocol context.
 
 In the next article, we will explore:
 
-# Prompts in MCP: Reusable AI Workflows
+## Prompts in MCP: Reusable AI Workflows

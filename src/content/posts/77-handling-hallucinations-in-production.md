@@ -20,9 +20,9 @@ This requires grounding, validation, refusals, citations, monitoring, and someti
 
 Hallucination handling is a system design problem.
 
----
+<p class="section-break">. . .</p>
 
-# Start With Grounding
+## Start With Grounding
 
 Grounding means connecting the model's answer to reliable information.
 
@@ -48,9 +48,9 @@ But grounding only works if the retrieved context or tool result is correct and 
 
 Bad grounding can still produce bad answers.
 
----
+<p class="section-break">. . .</p>
 
-# Require Source Support
+## Require Source Support
 
 For knowledge-heavy systems, require source support.
 
@@ -68,9 +68,9 @@ Citation requirements can help.
 
 If a model cannot cite the source, the system should be cautious.
 
----
+<p class="section-break">. . .</p>
 
-# Teach The System To Refuse
+## Teach The System To Refuse
 
 Sometimes the correct answer is:
 
@@ -98,9 +98,9 @@ A refusal is better than a confident fabrication.
 
 Good AI systems know when not to answer.
 
----
+<p class="section-break">. . .</p>
 
-# Validate Structured Outputs
+## Validate Structured Outputs
 
 Hallucinations are not only facts.
 
@@ -124,9 +124,9 @@ If generated code must compile, run tests.
 
 Validation catches mistakes that prompts may not prevent.
 
----
+<p class="section-break">. . .</p>
 
-# Use Human Review For High-Risk Cases
+## Use Human Review For High-Risk Cases
 
 Not every answer should be fully automated.
 
@@ -154,9 +154,9 @@ Human review is not a weakness.
 
 It is a guardrail for high-impact workflows.
 
----
+<p class="section-break">. . .</p>
 
-# Monitor Hallucination Reports
+## Monitor Hallucination Reports
 
 Users and reviewers may report hallucinations.
 
@@ -182,9 +182,9 @@ The fix depends on the cause.
 
 Do not treat every hallucination as only a model problem.
 
----
+<p class="section-break">. . .</p>
 
-# Use Fallbacks
+## Use Fallbacks
 
 When the system is uncertain, use fallbacks.
 
@@ -204,9 +204,9 @@ Fallbacks are part of graceful failure.
 
 They prevent the model from filling gaps with unsupported content.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Hallucination handling should be designed around risk.
 
@@ -230,7 +230,7 @@ The goal is to prevent uncertain output from being presented as certain truth.
 
 A safer AI product makes its limits visible through design, not only through disclaimers.
 
-# Practical Example
+## Practical Example
 
 A grounded assistant should behave differently depending on evidence.
 
@@ -244,13 +244,13 @@ It should ask for clarification, escalate, or say it cannot answer from availabl
 
 This behavior needs to be designed, prompted, evaluated, and monitored.
 
-# One More Check
+## One More Check
 
 Review the product UI too.
 
 If the interface makes every answer look equally certain, users may overtrust weak answers.
 
-# Mini Project
+## Mini Project
 
 Design hallucination controls for a policy chatbot.
 
@@ -272,9 +272,9 @@ Include:
 
 This is how hallucination handling becomes system design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Hallucinations are production risks.
 
@@ -292,12 +292,12 @@ This is how hallucination handling becomes system design.
 
 - Fallbacks help systems fail gracefully.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Hallucination handling is one part of graceful failure.
 
 In the next article, we will explore broader failure handling:
 
-# Fallbacks and Graceful Failure in AI Products
+## Fallbacks and Graceful Failure in AI Products

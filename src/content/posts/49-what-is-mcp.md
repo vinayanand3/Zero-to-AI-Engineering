@@ -28,13 +28,13 @@ This is where MCP enters the picture.
 
 MCP stands for:
 
-# Model Context Protocol
+## Model Context Protocol
 
 It is a protocol for connecting AI applications to external tools, data, and reusable prompts in a more standardized way.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 MCP is a standard protocol that lets AI applications connect to external context and capabilities.
 
@@ -62,9 +62,9 @@ The goal is not to replace LLMs.
 
 The goal is to help LLM-powered applications access the right context and capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# Why MCP Matters
+## Why MCP Matters
 
 Modern AI applications are becoming more connected.
 
@@ -102,9 +102,9 @@ MCP creates a shared way for these systems to expose capabilities to AI applicat
 
 That is why MCP matters for agentic AI.
 
----
+<p class="section-break">. . .</p>
 
-# MCP Is About Context Exchange
+## MCP Is About Context Exchange
 
 The word "context" in MCP is important.
 
@@ -126,9 +126,9 @@ The AI application can discover and use those capabilities through the protocol.
 
 This makes context exchange more organized.
 
----
+<p class="section-break">. . .</p>
 
-# MCP And Tool Calling
+## MCP And Tool Calling
 
 MCP connects directly to tool calling.
 
@@ -152,9 +152,9 @@ MCP does not remove the need for guardrails.
 
 It gives a cleaner structure for connecting tools.
 
----
+<p class="section-break">. . .</p>
 
-# MCP Is Not The Model
+## MCP Is Not The Model
 
 This is important.
 
@@ -180,9 +180,9 @@ The host coordinates everything.
 
 We will break down that architecture in the next few articles.
 
----
+<p class="section-break">. . .</p>
 
-# MCP Is Also Not A Full Agent Framework
+## MCP Is Also Not A Full Agent Framework
 
 MCP does not decide how an agent plans, reasons, remembers, or evaluates work.
 
@@ -204,9 +204,9 @@ MCP is infrastructure for context and capability exchange.
 
 It is not the entire AI product.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Analogy
+## A Simple Analogy
 
 Think of MCP like a standardized adapter system.
 
@@ -224,9 +224,9 @@ The standard does not decide what every application does.
 
 It defines how they can connect.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Choose one AI assistant idea.
 
@@ -264,9 +264,9 @@ For example, a coding assistant might need:
 
 This exercise prepares you for MCP's core primitives.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP stands for Model Context Protocol.
 
@@ -280,9 +280,9 @@ This exercise prepares you for MCP's core primitives.
 
 - MCP connects naturally to tool calling, agents, and RAG.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand MCP at a high level, we need to understand the problem it solves.
 
@@ -290,4 +290,4 @@ Why do AI systems need a standard protocol for tools and context?
 
 That is what we will explore next:
 
-# Why AI Systems Need a Standard Tool Protocol
+## Why AI Systems Need a Standard Tool Protocol

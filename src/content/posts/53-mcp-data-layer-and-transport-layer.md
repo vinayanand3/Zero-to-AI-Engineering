@@ -26,9 +26,9 @@ The transport layer defines how messages move.
 
 This distinction is useful because protocols often separate message meaning from communication mechanics.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Mental Model
+## The Simple Mental Model
 
 Imagine sending a package.
 
@@ -46,9 +46,9 @@ Separating these layers makes MCP more flexible.
 
 The same core protocol ideas can work across different communication methods.
 
----
+<p class="section-break">. . .</p>
 
-# The Data Layer
+## The Data Layer
 
 The MCP data layer is based on JSON-RPC.
 
@@ -78,9 +78,9 @@ Structured messages make the interaction predictable.
 
 The client and server both know what kinds of requests and responses exist.
 
----
+<p class="section-break">. . .</p>
 
-# Lifecycle Management
+## Lifecycle Management
 
 MCP connections have a lifecycle.
 
@@ -106,9 +106,9 @@ The host should understand what each server can do before relying on it.
 
 This makes the system more robust.
 
----
+<p class="section-break">. . .</p>
 
-# Server Features
+## Server Features
 
 The data layer includes server features.
 
@@ -128,9 +128,9 @@ From an AI engineering perspective, server features are how external systems bec
 
 They are the structured bridge between the host and the external capability.
 
----
+<p class="section-break">. . .</p>
 
-# Client Features
+## Client Features
 
 MCP also includes client features.
 
@@ -150,9 +150,9 @@ It defines structured interactions between clients and servers.
 
 That makes richer workflows possible.
 
----
+<p class="section-break">. . .</p>
 
-# The Transport Layer
+## The Transport Layer
 
 The transport layer handles communication.
 
@@ -176,9 +176,9 @@ It supports communication over HTTP and can support streaming behavior.
 
 This is better suited for hosted services and remote integrations.
 
----
+<p class="section-break">. . .</p>
 
-# Local vs Remote Thinking
+## Local vs Remote Thinking
 
 Transport choices affect architecture.
 
@@ -208,9 +208,9 @@ The protocol allows both patterns.
 
 The right choice depends on the system, security needs, and user experience.
 
----
+<p class="section-break">. . .</p>
 
-# Why This Matters For Beginners
+## Why This Matters For Beginners
 
 You do not need to implement the protocol from scratch to understand MCP.
 
@@ -226,9 +226,9 @@ If a tool argument is invalid, that is data layer behavior.
 
 Good mental models make debugging easier.
 
----
+<p class="section-break">. . .</p>
 
-# Layers Help Teams Communicate
+## Layers Help Teams Communicate
 
 The layer model also helps teams discuss problems clearly.
 
@@ -250,9 +250,9 @@ Using precise language helps:
 
 This kind of clarity matters when AI systems become production systems.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Pick one MCP server idea.
 
@@ -274,9 +274,9 @@ Now answer:
 
 This exercise helps connect layers to practical design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP has a data layer and a transport layer.
 
@@ -292,9 +292,9 @@ This exercise helps connect layers to practical design.
 
 - Understanding layers helps with architecture and debugging.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand MCP's layers, we can zoom into one of its most important behaviors:
 
@@ -304,4 +304,4 @@ Before a model can use tools, the host needs to know what tools exist.
 
 That is what we will explore next:
 
-# How MCP Tool Discovery Works
+## How MCP Tool Discovery Works

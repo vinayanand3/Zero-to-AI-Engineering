@@ -26,9 +26,9 @@ It may generate and check multiple candidate answers.
 
 This direction matters because not every problem should be answered with the same amount of effort.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 Test-time compute is computation used when the model is answering, not when it is training.
 
@@ -58,9 +58,9 @@ This creates a tradeoff:
 
 better quality may cost more and take longer.
 
----
+<p class="section-break">. . .</p>
 
-# Why This Matters
+## Why This Matters
 
 Not all tasks are equal.
 
@@ -84,9 +84,9 @@ You think longer about important decisions.
 
 AI systems increasingly follow a similar pattern.
 
----
+<p class="section-break">. . .</p>
 
-# Forms Of Test-Time Compute
+## Forms Of Test-Time Compute
 
 Test-time compute can appear in many forms.
 
@@ -112,9 +112,9 @@ Some are system-level.
 
 From an engineering perspective, the important point is that the system spends additional work before finalizing the answer.
 
----
+<p class="section-break">. . .</p>
 
-# The Tradeoff
+## The Tradeoff
 
 More compute is not always better.
 
@@ -140,9 +140,9 @@ When should the system spend more effort?
 
 Good AI systems match effort to task difficulty and risk.
 
----
+<p class="section-break">. . .</p>
 
-# Reasoning And Agents
+## Reasoning And Agents
 
 Agents often use test-time compute.
 
@@ -164,9 +164,9 @@ That is why agent loops need step limits, monitoring, and evaluation.
 
 Reasoning without boundaries becomes expensive and unpredictable.
 
----
+<p class="section-break">. . .</p>
 
-# Verification Matters
+## Verification Matters
 
 One useful use of test-time compute is verification.
 
@@ -186,9 +186,9 @@ Verification is often more valuable than simply asking the model to think longer
 
 A system that checks its work can be more reliable than a system that only produces longer reasoning.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Test-time compute is best understood as spending more effort when the task deserves it.
 
@@ -214,7 +214,7 @@ Reasoning is not only a model property.
 
 It is also a workflow design choice.
 
-# Practical Example
+## Practical Example
 
 Consider a system that writes database migration plans.
 
@@ -228,7 +228,7 @@ But for a risky engineering task, the additional verification may be worth it.
 
 Test-time compute is valuable when it buys reliability that users actually need.
 
-# One More Check
+## One More Check
 
 Extra reasoning steps can also introduce new failure modes.
 
@@ -240,7 +240,7 @@ Good systems can choose a light path for simple work and a careful path for diff
 
 That choice is part of product quality.
 
-# Mini Project
+## Mini Project
 
 Choose three tasks:
 
@@ -262,9 +262,9 @@ For each task, decide:
 
 This exercise builds test-time compute intuition.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Test-time compute is computation spent while answering.
 
@@ -280,12 +280,12 @@ This exercise builds test-time compute intuition.
 
 - Good systems match effort to task risk and difficulty.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Another advanced topic is synthetic data and systems that improve through generated examples.
 
 In the next article, we will explore:
 
-# Synthetic Data and Self-Improving Systems
+## Synthetic Data and Self-Improving Systems

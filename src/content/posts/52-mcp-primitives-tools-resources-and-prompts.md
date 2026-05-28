@@ -28,9 +28,9 @@ Prompts connect to prompt engineering from Season 2.
 
 MCP brings these ideas together into one protocol model.
 
----
+<p class="section-break">. . .</p>
 
-# Tools
+## Tools
 
 Tools are executable functions.
 
@@ -60,9 +60,9 @@ create_task(title, due_date)
 
 The model can decide when the tool is useful, but the application and server execute it.
 
----
+<p class="section-break">. . .</p>
 
-# Resources
+## Resources
 
 Resources provide contextual data.
 
@@ -92,9 +92,9 @@ Resources are important because not all context should be a tool call.
 
 Sometimes the model just needs to read information.
 
----
+<p class="section-break">. . .</p>
 
-# Prompts
+## Prompts
 
 Prompts are reusable interaction templates.
 
@@ -120,9 +120,9 @@ The prompt may be designed specifically for the tools and resources that server 
 
 That makes prompts more reusable and discoverable.
 
----
+<p class="section-break">. . .</p>
 
-# Who Controls Each Primitive?
+## Who Controls Each Primitive?
 
 A useful mental model:
 
@@ -144,9 +144,9 @@ Different primitives have different interaction patterns.
 
 Understanding that helps you design better AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# Example: Database MCP Server
+## Example: Database MCP Server
 
 Imagine an MCP server for a company database.
 
@@ -174,9 +174,9 @@ Together, they create a safer and more useful interface than a single vague data
 
 This is the power of primitives.
 
----
+<p class="section-break">. . .</p>
 
-# Example: Travel Planning Server
+## Example: Travel Planning Server
 
 A travel server might expose:
 
@@ -208,9 +208,9 @@ The prompt can guide the full workflow.
 
 MCP gives these pieces a standard shape.
 
----
+<p class="section-break">. . .</p>
 
-# Why Primitives Matter
+## Why Primitives Matter
 
 Without primitives, every integration is just custom behavior.
 
@@ -230,9 +230,9 @@ Instead of hard-coding everything into one AI application, capabilities can live
 
 The host can connect to those servers and use what they expose.
 
----
+<p class="section-break">. . .</p>
 
-# Choosing The Right Primitive
+## Choosing The Right Primitive
 
 A common design mistake is turning everything into a tool.
 
@@ -256,9 +256,9 @@ Choosing the right primitive makes the server easier to understand and safer to 
 
 Good MCP design starts with clear responsibility.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design an MCP server for a personal notes system.
 
@@ -290,9 +290,9 @@ Prompts:
 
 This exercise shows how tools, resources, and prompts work together.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP servers expose capabilities through primitives.
 
@@ -308,9 +308,9 @@ This exercise shows how tools, resources, and prompts work together.
 
 - Good MCP servers expose focused primitives that work together.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand MCP primitives, we need to look one layer deeper.
 
@@ -320,4 +320,4 @@ That brings us to the data layer and transport layer.
 
 In the next article, we will explore:
 
-# MCP Data Layer and Transport Layer
+## MCP Data Layer and Transport Layer

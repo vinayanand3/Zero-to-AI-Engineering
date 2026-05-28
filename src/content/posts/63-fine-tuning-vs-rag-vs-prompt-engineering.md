@@ -28,9 +28,9 @@ What kind of problem am I solving?
 
 If you understand the difference, you can choose the right technique instead of reaching for the most advanced-sounding one.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Engineering
+## Prompt Engineering
 
 Prompt engineering changes what you ask the model at inference time.
 
@@ -56,9 +56,9 @@ It does not require training.
 
 It is usually the first place to start.
 
----
+<p class="section-break">. . .</p>
 
-# RAG
+## RAG
 
 RAG gives the model external knowledge at inference time.
 
@@ -92,9 +92,9 @@ It retrieves relevant context and includes it in the prompt.
 
 Use RAG when the problem is knowledge access.
 
----
+<p class="section-break">. . .</p>
 
-# Fine-Tuning
+## Fine-Tuning
 
 Fine-tuning changes the model through additional training.
 
@@ -118,9 +118,9 @@ It requires data, training, evaluation, and maintenance.
 
 Use it when lighter techniques are not consistent enough.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Comparison
+## A Simple Comparison
 
 Prompt engineering:
 
@@ -146,9 +146,9 @@ Use prompting or structured output validation.
 
 If the model repeatedly fails a narrow pattern despite good prompts and examples, fine-tuning may help.
 
----
+<p class="section-break">. . .</p>
 
-# Example 1: Customer Support Bot
+## Example 1: Customer Support Bot
 
 Problem:
 
@@ -182,9 +182,9 @@ The bot must classify every ticket into a fixed internal taxonomy.
 
 Fine-tuning may be useful if prompts are not consistent enough.
 
----
+<p class="section-break">. . .</p>
 
-# Example 2: Coding Assistant
+## Example 2: Coding Assistant
 
 Problem:
 
@@ -214,9 +214,9 @@ But you should also check documentation retrieval and tests.
 
 Fine-tuning is not a substitute for verification.
 
----
+<p class="section-break">. . .</p>
 
-# Combining Techniques
+## Combining Techniques
 
 These techniques are not mutually exclusive.
 
@@ -238,9 +238,9 @@ For example, a legal assistant might use RAG to retrieve case documents, prompti
 
 The art is knowing which layer solves which problem.
 
----
+<p class="section-break">. . .</p>
 
-# Decision Checklist
+## Decision Checklist
 
 Ask:
 
@@ -268,9 +268,9 @@ Avoid fine-tuning for that knowledge.
 
 If not, do not fine-tune yet.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 The real skill is not knowing these techniques separately.
 
@@ -292,7 +292,7 @@ Using a giant prompt to handle thousands of examples can become expensive and in
 
 Good architecture puts each technique where it is strongest.
 
-# Mini Project
+## Mini Project
 
 Take one AI product idea.
 
@@ -320,9 +320,9 @@ ticket classification or consistent support style.
 
 This exercise helps separate system layers.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Prompt engineering improves instructions.
 
@@ -338,9 +338,9 @@ This exercise helps separate system layers.
 
 - Strong AI systems often combine all three.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Fine-tuning depends heavily on data.
 
@@ -348,4 +348,4 @@ Bad data produces bad behavior.
 
 In the next article, we will explore:
 
-# What Data Do You Need for Fine-Tuning?
+## What Data Do You Need for Fine-Tuning?

@@ -32,9 +32,9 @@ But we also need AI-specific information:
 
 Without this, AI debugging becomes guesswork.
 
----
+<p class="section-break">. . .</p>
 
-# Why Logging Matters
+## Why Logging Matters
 
 When an AI system fails, the final answer is not enough.
 
@@ -56,9 +56,9 @@ Logs help answer these questions.
 
 They turn a mysterious AI failure into an inspectable system failure.
 
----
+<p class="section-break">. . .</p>
 
-# Log The User Request
+## Log The User Request
 
 The user request is the starting point.
 
@@ -82,9 +82,9 @@ The goal is to understand behavior without creating unnecessary privacy risk.
 
 Logging should be useful and responsible.
 
----
+<p class="section-break">. . .</p>
 
-# Log The Prompt
+## Log The Prompt
 
 The final prompt sent to the model matters.
 
@@ -114,9 +114,9 @@ Maybe conflicting instructions were included.
 
 Prompt logs are essential for debugging.
 
----
+<p class="section-break">. . .</p>
 
-# Log Retrieval
+## Log Retrieval
 
 For RAG systems, log retrieval details.
 
@@ -144,9 +144,9 @@ If retrieval failed, changing the model may not help.
 
 Retrieval logs separate retrieval problems from generation problems.
 
----
+<p class="section-break">. . .</p>
 
-# Log Tool Calls
+## Log Tool Calls
 
 For agents and tool-calling systems, log:
 
@@ -170,9 +170,9 @@ If an agent updates a task, sends a message, or queries a database, you need a r
 
 Logs support debugging, audits, and safety reviews.
 
----
+<p class="section-break">. . .</p>
 
-# Log Latency And Cost
+## Log Latency And Cost
 
 AI systems need performance and cost observability.
 
@@ -202,9 +202,9 @@ It also helps find slow components.
 
 Optimization starts with measurement.
 
----
+<p class="section-break">. . .</p>
 
-# Log Outcomes
+## Log Outcomes
 
 You also need outcome signals.
 
@@ -232,9 +232,9 @@ But even partial signals can reveal trends.
 
 Production AI quality should be measured, not assumed.
 
----
+<p class="section-break">. . .</p>
 
-# Privacy And Retention
+## Privacy And Retention
 
 Logging creates responsibility.
 
@@ -262,9 +262,9 @@ Do not log everything forever just because it is useful.
 
 Observability must be balanced with privacy and security.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Good observability helps you answer concrete questions.
 
@@ -296,7 +296,7 @@ Observability is not just a developer convenience.
 
 It is part of responsible product design.
 
-# Practical Example
+## Practical Example
 
 Suppose a user reports that an AI assistant gave the wrong refund policy.
 
@@ -314,7 +314,7 @@ Each root cause leads to a different fix.
 
 That is the value of observability.
 
-# Mini Project
+## Mini Project
 
 Design logs for a RAG support chatbot.
 
@@ -342,9 +342,9 @@ Then mark which fields might contain sensitive data.
 
 This is real production AI thinking.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI observability helps explain what the system did and why.
 
@@ -360,12 +360,12 @@ This is real production AI thinking.
 
 - Logging must be balanced with privacy, security, and retention policies.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Once we can observe the system, we need a way to test behavior.
 
 In the next article, we will explore:
 
-# Evaluations as the Test Suite for AI Systems
+## Evaluations as the Test Suite for AI Systems

@@ -26,9 +26,9 @@ Do not believe everything.
 
 Ask for evidence.
 
----
+<p class="section-break">. . .</p>
 
-# Start With The Claim
+## Start With The Claim
 
 First, identify the exact claim.
 
@@ -56,9 +56,9 @@ Specific claims can be tested.
 
 Vague claims create hype.
 
----
+<p class="section-break">. . .</p>
 
-# Ask What Was Measured
+## Ask What Was Measured
 
 A claim is only meaningful if you know what was measured.
 
@@ -88,9 +88,9 @@ It could mean multiple-choice exams.
 
 The measurement defines the meaning.
 
----
+<p class="section-break">. . .</p>
 
-# Check The Baseline
+## Check The Baseline
 
 A result needs a baseline.
 
@@ -110,9 +110,9 @@ If the baseline is missing or weak, be cautious.
 
 The improvement may not matter in practice.
 
----
+<p class="section-break">. . .</p>
 
-# Watch For Cherry-Picking
+## Watch For Cherry-Picking
 
 Cherry-picking means showing only the best examples.
 
@@ -142,9 +142,9 @@ They show possibility.
 
 They do not prove reliability.
 
----
+<p class="section-break">. . .</p>
 
-# Ask About Real-World Relevance
+## Ask About Real-World Relevance
 
 Benchmarks are useful, but they may not match your use case.
 
@@ -166,9 +166,9 @@ A model can perform well on a benchmark and still be poor for your product.
 
 Real-world relevance is the bridge between research and engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Look For Tradeoffs
+## Look For Tradeoffs
 
 Every improvement has tradeoffs.
 
@@ -196,9 +196,9 @@ What new risk appeared?
 
 This is practical skepticism.
 
----
+<p class="section-break">. . .</p>
 
-# Replication Matters
+## Replication Matters
 
 A result is stronger if others can reproduce it.
 
@@ -220,9 +220,9 @@ But reproducibility strengthens trust.
 
 If a claim cannot be inspected or repeated, treat it as preliminary.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 AI claims often sound larger than the evidence behind them.
 
@@ -246,7 +246,7 @@ Would this change the architecture I would build?
 
 If the answer is no, the claim may be interesting but not urgent.
 
-# Practical Example
+## Practical Example
 
 Imagine a vendor says their model reduces support workload by 40 percent.
 
@@ -264,7 +264,7 @@ Did the metric include mistakes that created extra work later?
 
 Good claim evaluation protects you from adopting a tool based on a number that does not match your reality.
 
-# One More Check
+## One More Check
 
 Be especially careful with claims that only show best-case examples.
 
@@ -272,7 +272,7 @@ AI systems often look impressive when examples are chosen by the vendor or autho
 
 Ask for average performance, failure cases, and conditions where the method does not work.
 
-# Mini Project
+## Mini Project
 
 Find one AI claim online.
 
@@ -294,9 +294,9 @@ Write:
 
 This exercise will make you much harder to fool by hype.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Evaluate AI claims with balanced skepticism.
 
@@ -314,12 +314,12 @@ This exercise will make you much harder to fool by hype.
 
 - Replication strengthens evidence.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Many AI claims rely on benchmarks and leaderboards.
 
 In the next article, we will explore:
 
-# Understanding Benchmarks and Leaderboards
+## Understanding Benchmarks and Leaderboards

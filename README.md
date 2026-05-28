@@ -41,6 +41,24 @@ Your published URL will usually be:
 https://vinayanand3.github.io/Zero-to-AI-Engineering/
 ```
 
+## Medium Import URLs
+
+Use the clean Medium import pages instead of the normal reader pages.
+
+Normal reader page:
+
+```text
+https://vinayanand3.github.io/Zero-to-AI-Engineering/posts/08-training-vs-inference-learning-vs-using-an-ai-model/
+```
+
+Medium import page:
+
+```text
+https://vinayanand3.github.io/Zero-to-AI-Engineering/medium/08-training-vs-inference-learning-vs-using-an-ai-model/
+```
+
+The Medium import page omits site navigation, previous and next links, and article metadata so Medium imports only the article content.
+
 ## Re-run Conversion
 
 If you update the original Markdown files, run:

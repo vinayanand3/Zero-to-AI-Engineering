@@ -20,9 +20,9 @@ They start by understanding the problem, choosing the right technique, preparing
 
 That is what we will practice here.
 
----
+<p class="section-break">. . .</p>
 
-# The Scenario
+## The Scenario
 
 Imagine a customer support team has a problem.
 
@@ -54,9 +54,9 @@ Maybe.
 
 Let's design the strategy.
 
----
+<p class="section-break">. . .</p>
 
-# Step 1: Diagnose The Problem
+## Step 1: Diagnose The Problem
 
 First, define the failure.
 
@@ -82,9 +82,9 @@ Fine-tuning should not be used to hide unclear taxonomy.
 
 If humans do not agree on labels, the model will struggle too.
 
----
+<p class="section-break">. . .</p>
 
-# Step 2: Define Label Rules
+## Step 2: Define Label Rules
 
 Before creating data, define each label.
 
@@ -116,9 +116,9 @@ Anything that does not fit.
 
 Clear definitions improve label consistency.
 
----
+<p class="section-break">. . .</p>
 
-# Step 3: Build The Dataset
+## Step 3: Build The Dataset
 
 Now collect examples.
 
@@ -154,9 +154,9 @@ Real support messages are messy.
 
 The dataset should reflect that.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4: Clean And Review
+## Step 4: Clean And Review
 
 Before training, clean the dataset.
 
@@ -178,9 +178,9 @@ That is normal.
 
 Fine-tuning quality depends heavily on data quality.
 
----
+<p class="section-break">. . .</p>
 
-# Step 5: Create A Test Set
+## Step 5: Create A Test Set
 
 Set aside examples for evaluation.
 
@@ -210,9 +210,9 @@ This lets you compare:
 
 Fine-tuning should beat the baseline enough to justify complexity.
 
----
+<p class="section-break">. . .</p>
 
-# Step 6: Choose The Adaptation Method
+## Step 6: Choose The Adaptation Method
 
 Now decide how to adapt.
 
@@ -240,9 +240,9 @@ The best choice depends on:
 
 The strategy should be practical, not just technically impressive.
 
----
+<p class="section-break">. . .</p>
 
-# Step 7: Evaluate And Monitor
+## Step 7: Evaluate And Monitor
 
 After training, evaluate:
 
@@ -272,9 +272,9 @@ Fine-tuning is not one-and-done.
 
 It needs maintenance.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 When you finish the strategy, review it like an engineering design document.
 
@@ -294,7 +294,7 @@ The best fine-tuning strategy is not the most ambitious one.
 
 It is the one that identifies the smallest reliable change that solves the real problem.
 
-# Mini Project
+## Mini Project
 
 Use this same strategy for another task:
 
@@ -326,9 +326,9 @@ This is the real skill:
 
 designing the fine-tuning workflow before training.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Fine-tuning strategy starts with diagnosing the problem.
 
@@ -346,12 +346,12 @@ designing the fine-tuning workflow before training.
 
 - Deployment requires monitoring and maintenance.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have now covered the practical foundations of model adaptation.
 
 In the final article of Season 6, we will connect everything into one mental model:
 
-# The Mental Model of Model Adaptation
+## The Mental Model of Model Adaptation

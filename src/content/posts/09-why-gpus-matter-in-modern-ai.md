@@ -30,9 +30,9 @@ And GPUs are extremely good at doing many numerical operations in parallel.
 
 That one idea explains a huge part of the AI boom.
 
----
+<p class="section-break">. . .</p>
 
-# CPU vs GPU
+## CPU vs GPU
 
 Most computers have a CPU.
 
@@ -68,9 +68,9 @@ It turns out neural networks also need massive parallel computation.
 
 That is why GPUs became so important for AI.
 
----
+<p class="section-break">. . .</p>
 
-# The Restaurant Analogy
+## The Restaurant Analogy
 
 Imagine a restaurant kitchen.
 
@@ -90,9 +90,9 @@ AI training and inference often involve repeating similar math operations across
 
 That is exactly where GPUs shine.
 
----
+<p class="section-break">. . .</p>
 
-# Why Neural Networks Need So Much Math
+## Why Neural Networks Need So Much Math
 
 Remember that neural networks contain layers of weights.
 
@@ -122,9 +122,9 @@ The model has to process context and predict what comes next.
 
 Multiply that by millions of users and billions of generated tokens, and the compute demand becomes enormous.
 
----
+<p class="section-break">. . .</p>
 
-# Why Parallelism Matters
+## Why Parallelism Matters
 
 AI workloads often involve operations that can be done at the same time.
 
@@ -144,9 +144,9 @@ Better GPUs helped unlock better deep learning.
 
 Better deep learning helped unlock modern AI.
 
----
+<p class="section-break">. . .</p>
 
-# GPUs And Transformers
+## GPUs And Transformers
 
 Transformers benefit heavily from GPU acceleration.
 
@@ -166,9 +166,9 @@ That made it possible to scale language models dramatically.
 
 This is one of the reasons transformers and GPUs fit together so well.
 
----
+<p class="section-break">. . .</p>
 
-# Training vs Inference Compute
+## Training vs Inference Compute
 
 GPUs matter for both training and inference.
 
@@ -200,9 +200,9 @@ Inference at scale can become very expensive.
 
 Even if you never train a frontier model, you still need to care about inference cost and performance when building AI products.
 
----
+<p class="section-break">. . .</p>
 
-# Why GPU Memory Matters
+## Why GPU Memory Matters
 
 It is not only about computation speed.
 
@@ -226,9 +226,9 @@ This is why AI infrastructure is not just "buy a GPU."
 
 It is a full systems engineering problem.
 
----
+<p class="section-break">. . .</p>
 
-# Real-World Usage Examples
+## Real-World Usage Examples
 
 GPUs power many modern AI workloads:
 
@@ -256,9 +256,9 @@ The engineering team sees queues, batch sizes, latency targets, memory limits, a
 
 That is the difference between using AI and engineering AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Open any AI product you use regularly.
 
@@ -278,9 +278,9 @@ AI is not just a model.
 
 It is a model running on real infrastructure with real cost and performance constraints.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - GPUs are important because modern AI requires massive numerical computation.
 
@@ -298,9 +298,9 @@ It is a model running on real infrastructure with real cost and performance cons
 
 - AI infrastructure is a systems engineering challenge.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we understand why hardware matters.
 
@@ -312,5 +312,4 @@ That question leads us to context windows.
 
 In the next article, we will explore:
 
-# What Is A Context Window?
-
+## What Is A Context Window?

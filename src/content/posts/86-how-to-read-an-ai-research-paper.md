@@ -20,9 +20,9 @@ The key is to read with a strategy.
 
 This article gives you a practical approach to reading AI papers as an engineer.
 
----
+<p class="section-break">. . .</p>
 
-# Do Not Read Linearly At First
+## Do Not Read Linearly At First
 
 Many people start at the first sentence and try to read straight through.
 
@@ -56,9 +56,9 @@ What is the main idea?
 
 What evidence is provided?
 
----
+<p class="section-break">. . .</p>
 
-# Read The Abstract Carefully
+## Read The Abstract Carefully
 
 The abstract is the compressed version of the paper.
 
@@ -84,9 +84,9 @@ But do not get stuck.
 
 Papers often become clearer after looking at the figures and experiments.
 
----
+<p class="section-break">. . .</p>
 
-# Understand The Problem
+## Understand The Problem
 
 Before studying the method, understand the problem.
 
@@ -108,9 +108,9 @@ A method that improves one benchmark may not help your production system.
 
 Problem understanding comes first.
 
----
+<p class="section-break">. . .</p>
 
-# Identify The Main Idea
+## Identify The Main Idea
 
 Most papers have one or two core ideas.
 
@@ -138,9 +138,9 @@ Is the paper changing:
 
 Once you know the main idea, the details become easier to place.
 
----
+<p class="section-break">. . .</p>
 
-# Study The Experiments
+## Study The Experiments
 
 The experiments show the evidence.
 
@@ -168,9 +168,9 @@ Strong papers usually compare against meaningful baselines.
 
 Weak evidence often hides behind flashy claims.
 
----
+<p class="section-break">. . .</p>
 
-# Read The Limitations
+## Read The Limitations
 
 Do not skip limitations.
 
@@ -196,9 +196,9 @@ They help you understand where the result applies.
 
 Good engineers care about boundaries.
 
----
+<p class="section-break">. . .</p>
 
-# Make An Engineer's Summary
+## Make An Engineer's Summary
 
 After reading, write a short summary:
 
@@ -222,9 +222,9 @@ That is normal.
 
 Read again later.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 When reading a paper as an engineer, you are not trying to memorize every equation.
 
@@ -256,7 +256,7 @@ You are not collecting impressive citations.
 
 You are building a filter for understanding what might actually matter.
 
-# Practical Example
+## Practical Example
 
 Pick one paper and summarize it in five bullets:
 
@@ -276,7 +276,7 @@ It forces you to translate research language into engineering judgment.
 
 If you cannot answer these five bullets, you probably do not understand the paper well enough yet.
 
-# Mini Project
+## Mini Project
 
 Pick one AI paper.
 
@@ -298,9 +298,9 @@ Do not worry about every equation.
 
 Focus on the problem, idea, evidence, and usefulness.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Do not read AI papers linearly on the first pass.
 
@@ -318,9 +318,9 @@ Focus on the problem, idea, evidence, and usefulness.
 
 - Paper reading is a skill that improves with practice.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Reading papers is one skill.
 
@@ -328,4 +328,4 @@ Evaluating claims is another.
 
 In the next article, we will explore:
 
-# How to Evaluate AI Claims
+## How to Evaluate AI Claims

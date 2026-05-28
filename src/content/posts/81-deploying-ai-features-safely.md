@@ -24,9 +24,9 @@ Safe deployment means releasing AI features in controlled stages, with monitorin
 
 This is how teams reduce risk.
 
----
+<p class="section-break">. . .</p>
 
-# Start With Internal Testing
+## Start With Internal Testing
 
 Before releasing to users, test internally.
 
@@ -52,9 +52,9 @@ But it catches obvious problems before external users see them.
 
 It also helps create better eval sets.
 
----
+<p class="section-break">. . .</p>
 
-# Use Feature Flags
+## Use Feature Flags
 
 Feature flags let you turn AI features on or off without redeploying.
 
@@ -76,9 +76,9 @@ Feature flags are especially useful for AI because behavior can be unpredictable
 
 If something goes wrong, you need a quick way to disable or limit the feature.
 
----
+<p class="section-break">. . .</p>
 
-# Canary Rollouts
+## Canary Rollouts
 
 A canary rollout releases a feature to a small group first.
 
@@ -106,9 +106,9 @@ If problems appear, pause or roll back.
 
 This reduces blast radius.
 
----
+<p class="section-break">. . .</p>
 
-# Shadow Mode
+## Shadow Mode
 
 Shadow mode means the AI system runs in the background without affecting the user.
 
@@ -126,9 +126,9 @@ Shadow mode is especially helpful for high-risk workflows.
 
 It lets you learn from production-like data safely.
 
----
+<p class="section-break">. . .</p>
 
-# Human In The Loop
+## Human In The Loop
 
 Some AI features should launch with human review.
 
@@ -146,9 +146,9 @@ High-risk cases may always need review.
 
 Human-in-the-loop deployment is a practical bridge between demo and automation.
 
----
+<p class="section-break">. . .</p>
 
-# Rollback Plans
+## Rollback Plans
 
 Every production AI feature needs a rollback plan.
 
@@ -170,9 +170,9 @@ If the system starts producing harmful outputs or runaway costs, the team must a
 
 Deployment safety requires operational control.
 
----
+<p class="section-break">. . .</p>
 
-# Launch Criteria
+## Launch Criteria
 
 Before launch, define criteria.
 
@@ -198,9 +198,9 @@ It should depend on evidence.
 
 This is how AI features become production features.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Safe deployment is about limiting surprise.
 
@@ -226,7 +226,7 @@ They are ways to learn from real usage without exposing everyone to unknown risk
 
 The more important the workflow, the more gradual the deployment should be.
 
-# Practical Example
+## Practical Example
 
 A safe launch might begin with internal users only.
 
@@ -242,7 +242,7 @@ This approach is slower than launching to everyone at once.
 
 It is also much easier to control.
 
-# One More Check
+## One More Check
 
 Before launch, define rollback criteria in plain language.
 
@@ -256,7 +256,7 @@ This agreement matters because launch pressure can distort judgment.
 
 Deciding the limits early keeps the release grounded in evidence.
 
-# Mini Project
+## Mini Project
 
 Design a safe rollout for a document Q&A assistant.
 
@@ -278,9 +278,9 @@ Include:
 
 This is a practical production launch plan.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI features should launch gradually.
 
@@ -298,12 +298,12 @@ This is a practical production launch plan.
 
 - Launch criteria should be evidence-based.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Even with safe deployment, incidents can happen.
 
 In the next article, we will explore:
 
-# Incident Response for AI Systems
+## Incident Response for AI Systems

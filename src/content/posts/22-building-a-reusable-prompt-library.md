@@ -32,9 +32,9 @@ A prompt library is a collection of prompts that you save, improve, and reuse fo
 
 This is where prompt engineering starts to feel more like real engineering.
 
----
+<p class="section-break">. . .</p>
 
-# Why Prompt Libraries Matter
+## Why Prompt Libraries Matter
 
 Prompts are part of your workflow.
 
@@ -62,9 +62,9 @@ This is similar to saving code snippets, templates, or checklists.
 
 Good prompts deserve the same treatment.
 
----
+<p class="section-break">. . .</p>
 
-# What To Store
+## What To Store
 
 A prompt library can store many kinds of prompts:
 
@@ -96,9 +96,9 @@ Build around real workflows.
 
 The best prompt library grows from actual work.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Prompt Template
+## A Simple Prompt Template
 
 Each saved prompt should include more than the prompt text.
 
@@ -132,9 +132,9 @@ Notes: Works best when speaker names are included.
 
 This makes the prompt easier to reuse.
 
----
+<p class="section-break">. . .</p>
 
-# Version Your Prompts
+## Version Your Prompts
 
 Prompts improve over time.
 
@@ -168,9 +168,9 @@ A folder of Markdown files is enough.
 
 The important habit is treating prompts as living assets.
 
----
+<p class="section-break">. . .</p>
 
-# Track Why A Prompt Changed
+## Track Why A Prompt Changed
 
 When you update an important prompt, record why it changed.
 
@@ -196,9 +196,9 @@ This is similar to writing useful commit messages for code.
 
 The prompt is part of the system, so its changes should be understandable.
 
----
+<p class="section-break">. . .</p>
 
-# Test Your Prompts
+## Test Your Prompts
 
 If a prompt matters, test it on multiple inputs.
 
@@ -224,9 +224,9 @@ You can then improve the prompt with clearer categories, examples, or constraint
 
 This is prompt engineering as iteration.
 
----
+<p class="section-break">. . .</p>
 
-# Organize By Workflow
+## Organize By Workflow
 
 A useful prompt library should be easy to navigate.
 
@@ -258,9 +258,9 @@ What job does this prompt help me do?
 
 That makes the library practical.
 
----
+<p class="section-break">. . .</p>
 
-# Include Inputs And Placeholders
+## Include Inputs And Placeholders
 
 Reusable prompts often need placeholders.
 
@@ -280,9 +280,9 @@ If a prompt depends on missing inputs, the output will suffer.
 
 Good prompt templates make required inputs obvious.
 
----
+<p class="section-break">. . .</p>
 
-# Save Good Outputs Too
+## Save Good Outputs Too
 
 Sometimes the best way to improve a prompt is to save examples of good outputs.
 
@@ -302,9 +302,9 @@ People can see what "good" looks like.
 
 Examples turn a prompt into a documented workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Libraries In Teams
+## Prompt Libraries In Teams
 
 For teams, prompt libraries are even more valuable.
 
@@ -330,9 +330,9 @@ This is especially useful in companies building AI-assisted operations.
 
 Prompt libraries become part of the team's knowledge system.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Create a folder called:
 
@@ -362,9 +362,9 @@ Then use each prompt once and revise it based on the result.
 
 That is your first prompt library.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Repeated AI workflows deserve reusable prompts.
 
@@ -382,9 +382,9 @@ That is your first prompt library.
 
 - Save good outputs and failure cases when useful.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we have learned the main building blocks of prompt engineering.
 
@@ -392,4 +392,4 @@ It is time to combine them into a small practical workflow.
 
 In the next article, we will build:
 
-# Your First AI Workflow With Prompts
+## Your First AI Workflow With Prompts

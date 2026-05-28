@@ -18,7 +18,7 @@ This is what allows agents to handle multi-step tasks.
 
 The loop can be described in different ways, but a useful beginner version is:
 
-# plan, act, observe
+## plan, act, observe
 
 Plan what to do.
 
@@ -28,9 +28,9 @@ Observe the result.
 
 Then repeat until the task is complete.
 
----
+<p class="section-break">. . .</p>
 
-# Why Loops Matter
+## Why Loops Matter
 
 Many real tasks cannot be solved in one model response.
 
@@ -60,9 +60,9 @@ The agent is not just answering.
 
 It is working through feedback.
 
----
+<p class="section-break">. . .</p>
 
-# Step 1: Plan
+## Step 1: Plan
 
 The planning step decides what should happen next.
 
@@ -88,9 +88,9 @@ But planning can also go wrong if the agent overplans or makes unsupported assum
 
 Good agents often plan just enough to take the next useful step.
 
----
+<p class="section-break">. . .</p>
 
-# Step 2: Act
+## Step 2: Act
 
 Acting means doing something.
 
@@ -122,9 +122,9 @@ For example, reading a calendar is safer than deleting a calendar event.
 
 Agent design should treat actions differently based on risk.
 
----
+<p class="section-break">. . .</p>
 
-# Step 3: Observe
+## Step 3: Observe
 
 After acting, the agent receives an observation.
 
@@ -154,9 +154,9 @@ If the test passed, stop.
 
 Observation is what makes the loop adaptive.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4: Decide Whether To Continue
+## Step 4: Decide Whether To Continue
 
 After observing, the agent should decide:
 
@@ -188,9 +188,9 @@ Examples:
 
 Stopping is part of the design.
 
----
+<p class="section-break">. . .</p>
 
-# Keep Each Loop Step Small
+## Keep Each Loop Step Small
 
 Agent loops work best when each step is small enough to inspect.
 
@@ -210,9 +210,9 @@ Small changes with feedback are safer than huge changes with delayed feedback.
 
 Agents become more reliable when their loops are designed around short feedback cycles.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Research Agent Loop
+## A Simple Research Agent Loop
 
 Goal:
 
@@ -256,9 +256,9 @@ Stop.
 
 That is the agent loop in practice.
 
----
+<p class="section-break">. . .</p>
 
-# What Makes Loops Dangerous?
+## What Makes Loops Dangerous?
 
 Agent loops can fail if they are uncontrolled.
 
@@ -296,9 +296,9 @@ Common safeguards include:
 
 Autonomy should be bounded.
 
----
+<p class="section-break">. . .</p>
 
-# Make The Loop Visible
+## Make The Loop Visible
 
 For user-facing agents, it is often useful to show progress.
 
@@ -328,9 +328,9 @@ If an agent is researching, editing, testing, or waiting on a tool, the user sho
 
 Clear progress updates turn an invisible loop into an understandable workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a loop for an agent that books a meeting.
 
@@ -354,9 +354,9 @@ You will see that even a simple meeting task requires careful sequencing.
 
 That sequencing is the agent loop.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Agents work through loops, not just one response.
 
@@ -372,9 +372,9 @@ That sequencing is the agent loop.
 
 - Agent loops need safeguards, especially around write actions.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Agents need tools, loops, and goals.
 
@@ -384,4 +384,4 @@ Without state, they cannot track what happened.
 
 In the next article, we will explore:
 
-# Memory and State in AI Agents
+## Memory and State in AI Agents

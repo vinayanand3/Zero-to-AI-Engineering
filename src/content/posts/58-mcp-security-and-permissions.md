@@ -20,9 +20,9 @@ MCP systems need permissions, validation, user approval, and auditability.
 
 This article connects MCP security to the guardrail ideas we learned in Season 4.
 
----
+<p class="section-break">. . .</p>
 
-# The Core Security Question
+## The Core Security Question
 
 The most important question is:
 
@@ -48,9 +48,9 @@ Without careful control, the model may see tools or resources it should not use.
 
 Security starts with limiting access.
 
----
+<p class="section-break">. . .</p>
 
-# Least Privilege
+## Least Privilege
 
 Least privilege means giving a system only the access it needs.
 
@@ -68,9 +68,9 @@ Users should only access tools and resources they are authorized to use.
 
 Less access means less risk.
 
----
+<p class="section-break">. . .</p>
 
-# Local Servers And Trust
+## Local Servers And Trust
 
 Local MCP servers can access local machine resources.
 
@@ -90,9 +90,9 @@ Local does not automatically mean safe.
 
 Local means close to sensitive user resources.
 
----
+<p class="section-break">. . .</p>
 
-# Remote Servers And Trust
+## Remote Servers And Trust
 
 Remote MCP servers run elsewhere.
 
@@ -118,9 +118,9 @@ Networked tools also introduce operational risks:
 
 Remote servers should be treated like production integrations.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Argument Validation
+## Tool Argument Validation
 
 The model may generate tool arguments.
 
@@ -146,9 +146,9 @@ Prompts can guide behavior.
 
 Validation enforces behavior.
 
----
+<p class="section-break">. . .</p>
 
-# User Approval
+## User Approval
 
 Some actions should require user approval.
 
@@ -176,9 +176,9 @@ Read actions can still be sensitive, but write actions change the world.
 
 Approval points help keep humans in control.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Injection Risks
+## Prompt Injection Risks
 
 MCP systems can expose external content to models.
 
@@ -198,9 +198,9 @@ Guardrails should make clear which instructions come from the system, which come
 
 Prompt injection is a serious risk in tool-connected AI systems.
 
----
+<p class="section-break">. . .</p>
 
-# Audit Logs
+## Audit Logs
 
 MCP-enabled systems should log important events.
 
@@ -228,9 +228,9 @@ If something goes wrong, you need to know what happened.
 
 Without logs, tool-connected systems become hard to trust.
 
----
+<p class="section-break">. . .</p>
 
-# Security Belongs In Multiple Layers
+## Security Belongs In Multiple Layers
 
 Do not rely on only one security layer.
 
@@ -254,9 +254,9 @@ This layered approach is stronger than trusting the model to behave correctly.
 
 Security should be built into the architecture.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Choose one MCP server idea.
 
@@ -278,9 +278,9 @@ Create a security checklist:
 
 This turns security from an abstract concern into concrete design decisions.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - MCP security matters because servers can expose powerful tools and sensitive resources.
 
@@ -296,9 +296,9 @@ This turns security from an abstract concern into concrete design decisions.
 
 - Audit logs make MCP systems inspectable and safer.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand MCP security, we can zoom out.
 
@@ -306,4 +306,4 @@ What does MCP mean for the future of agent ecosystems?
 
 That is what we will explore next:
 
-# MCP and the Future of Agent Ecosystems
+## MCP and the Future of Agent Ecosystems

@@ -24,9 +24,9 @@ Good chunking helps the system retrieve the right information at the right size.
 
 That is why document chunking matters.
 
----
+<p class="section-break">. . .</p>
 
-# Why We Need Chunking
+## Why We Need Chunking
 
 Imagine you have a 100-page employee handbook.
 
@@ -46,9 +46,9 @@ Those pieces are chunks.
 
 Each chunk can be embedded, stored, searched, and retrieved.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 A chunk is a smaller piece of a larger document.
 
@@ -72,9 +72,9 @@ When a user asks a question, the retrieval system searches for the chunks most r
 
 The LLM then receives those chunks as context.
 
----
+<p class="section-break">. . .</p>
 
-# Chunks That Are Too Large
+## Chunks That Are Too Large
 
 Large chunks preserve context, but they can create problems.
 
@@ -98,9 +98,9 @@ The LLM then has to sort through irrelevant information.
 
 Large chunks can waste context window space.
 
----
+<p class="section-break">. . .</p>
 
-# Chunks That Are Too Small
+## Chunks That Are Too Small
 
 Small chunks are precise, but they can lose context.
 
@@ -124,9 +124,9 @@ Small chunks can improve search precision, but they risk losing meaning.
 
 The challenge is finding a useful balance.
 
----
+<p class="section-break">. . .</p>
 
-# Chunk Overlap
+## Chunk Overlap
 
 One common technique is chunk overlap.
 
@@ -146,9 +146,9 @@ If an important idea spans two chunks, overlap reduces the chance that the syste
 
 Overlap uses more storage and tokens, but it can improve retrieval quality.
 
----
+<p class="section-break">. . .</p>
 
-# Chunking By Structure
+## Chunking By Structure
 
 Whenever possible, chunk by document structure.
 
@@ -180,9 +180,9 @@ A table should not be cut in the middle if it can be avoided.
 
 Good chunking respects the source material.
 
----
+<p class="section-break">. . .</p>
 
-# Chunk Metadata
+## Chunk Metadata
 
 Each chunk should keep metadata.
 
@@ -212,9 +212,9 @@ If the model answers, you may cite the source section.
 
 Without metadata, retrieval becomes harder to inspect and trust.
 
----
+<p class="section-break">. . .</p>
 
-# Chunking Is An Experiment
+## Chunking Is An Experiment
 
 There is no perfect chunk size for every project.
 
@@ -238,9 +238,9 @@ Good AI engineers treat chunking as a quality lever.
 
 They adjust it based on retrieval behavior, not guesswork.
 
----
+<p class="section-break">. . .</p>
 
-# Chunking For Code
+## Chunking For Code
 
 Code needs special care.
 
@@ -266,9 +266,9 @@ This is another example of a general principle:
 
 Chunk based on meaning, not just size.
 
----
+<p class="section-break">. . .</p>
 
-# Chunking Tables And Lists
+## Chunking Tables And Lists
 
 Tables and lists also need care.
 
@@ -294,9 +294,9 @@ When chunking structured content, preserve labels, headings, and context.
 
 The goal is for each retrieved chunk to be understandable when it appears alone in a prompt.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take a long article or document.
 
@@ -318,9 +318,9 @@ Now ask:
 
 This exercise will make chunking feel much more concrete.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Chunking splits large documents into smaller searchable pieces.
 
@@ -336,9 +336,9 @@ This exercise will make chunking feel much more concrete.
 
 - Metadata makes chunks easier to filter, cite, and debug.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now we understand embeddings, semantic search, vector databases, and chunking.
 
@@ -346,4 +346,4 @@ Next we can connect them into a retrieval pipeline.
 
 In the next article, we will explore:
 
-# How a Retrieval Pipeline Works
+## How a Retrieval Pipeline Works

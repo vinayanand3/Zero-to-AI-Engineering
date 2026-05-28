@@ -22,9 +22,9 @@ Production AI requires observability, evaluation, monitoring, security, fallback
 
 That is the focus of Season 7.
 
----
+<p class="section-break">. . .</p>
 
-# Demos Hide Complexity
+## Demos Hide Complexity
 
 AI demos often look impressive.
 
@@ -52,9 +52,9 @@ It may not explain failures.
 
 Production systems need much more evidence.
 
----
+<p class="section-break">. . .</p>
 
-# Production Means Real Users
+## Production Means Real Users
 
 Real users are unpredictable.
 
@@ -76,9 +76,9 @@ The system should not only work for ideal prompts.
 
 It should behave reasonably when inputs are incomplete, confusing, or risky.
 
----
+<p class="section-break">. . .</p>
 
-# Production Means Reliability
+## Production Means Reliability
 
 Reliability means the system behaves dependably.
 
@@ -104,9 +104,9 @@ It is the behavior of the entire system.
 
 This includes prompts, retrieval, tools, models, infrastructure, and user experience.
 
----
+<p class="section-break">. . .</p>
 
-# Production Means Observability
+## Production Means Observability
 
 You cannot improve what you cannot inspect.
 
@@ -132,9 +132,9 @@ Without observability, debugging becomes guesswork.
 
 Observability turns AI behavior into evidence.
 
----
+<p class="section-break">. . .</p>
 
-# Production Means Evaluation
+## Production Means Evaluation
 
 AI systems need evaluations.
 
@@ -158,9 +158,9 @@ You might improve one behavior and break another.
 
 Production AI needs regression testing.
 
----
+<p class="section-break">. . .</p>
 
-# Production Means Failure Planning
+## Production Means Failure Planning
 
 AI systems fail.
 
@@ -182,9 +182,9 @@ It should explain what went wrong and what can happen next.
 
 Graceful failure is part of product quality.
 
----
+<p class="section-break">. . .</p>
 
-# Production Means Cost Control
+## Production Means Cost Control
 
 AI systems can become expensive.
 
@@ -212,9 +212,9 @@ Cost is not a side issue.
 
 It shapes architecture.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Production AI engineering starts when the question changes from "Can the model do this?" to "Can the system do this reliably for real users?"
 
@@ -234,7 +234,7 @@ Production AI is less about asking the model to be perfect.
 
 It is more about building a system that remains useful when the model is imperfect.
 
-# Practical Example
+## Practical Example
 
 Consider an AI assistant that summarizes customer emails.
 
@@ -252,7 +252,7 @@ The production system needs rules around all of that.
 
 The model is only one part of the workflow.
 
-# Mini Project
+## Mini Project
 
 Take one AI demo idea.
 
@@ -280,9 +280,9 @@ Now list what production adds:
 
 This exercise shows why production AI engineering is a separate skill.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - AI demos are not the same as production systems.
 
@@ -298,9 +298,9 @@ This exercise shows why production AI engineering is a separate skill.
 
 - Production AI engineering is systems engineering.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 The first production skill is observability.
 
@@ -308,4 +308,4 @@ If you cannot inspect system behavior, you cannot improve it.
 
 In the next article, we will explore:
 
-# AI Observability: What Should You Log?
+## AI Observability: What Should You Log?

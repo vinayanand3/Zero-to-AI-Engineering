@@ -22,9 +22,9 @@ If prompts are how we communicate with models, embeddings are how we help system
 
 That is why embeddings matter so much.
 
----
+<p class="section-break">. . .</p>
 
-# The Problem Embeddings Solve
+## The Problem Embeddings Solve
 
 Traditional software is very good at exact matching.
 
@@ -50,9 +50,9 @@ That is the core problem embeddings solve:
 
 > They allow software to compare meaning, not just exact text.
 
----
+<p class="section-break">. . .</p>
 
-# Why Exact Matching Is Not Enough
+## Why Exact Matching Is Not Enough
 
 Exact matching works well when users know the right words.
 
@@ -80,9 +80,9 @@ This is a major shift.
 
 It lets applications respond to intent instead of only text.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings As Coordinates For Meaning
+## Embeddings As Coordinates For Meaning
 
 Remember the map analogy from Season 1.
 
@@ -108,9 +108,9 @@ It tells us how similar the meanings are.
 
 That similarity is the foundation for many AI applications.
 
----
+<p class="section-break">. . .</p>
 
-# Real Applications Powered By Embeddings
+## Real Applications Powered By Embeddings
 
 Embeddings are used in many practical systems.
 
@@ -146,9 +146,9 @@ Use the result.
 
 That is a simple pattern with a lot of power.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings And Search
+## Embeddings And Search
 
 Search is one of the easiest places to understand embeddings.
 
@@ -176,9 +176,9 @@ That is semantic search.
 
 We will explore it deeply in the next article.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings And RAG
+## Embeddings And RAG
 
 Embeddings are also central to RAG.
 
@@ -204,9 +204,9 @@ That is why embeddings are not just a theory topic.
 
 They are production infrastructure for AI applications.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings And Business Workflows
+## Embeddings And Business Workflows
 
 Embeddings are also useful outside obvious search interfaces.
 
@@ -228,9 +228,9 @@ They create a reusable layer for similarity, retrieval, recommendation, and orga
 
 Once text can be compared by meaning, many workflows become easier to automate.
 
----
+<p class="section-break">. . .</p>
 
-# Embeddings Are Not The Answer By Themselves
+## Embeddings Are Not The Answer By Themselves
 
 Embeddings are powerful, but they are not magic.
 
@@ -254,9 +254,9 @@ They design retrieval systems carefully.
 
 Embeddings are one part of the system.
 
----
+<p class="section-break">. . .</p>
 
-# Visual Explanation
+## Visual Explanation
 
 Imagine a library.
 
@@ -276,9 +276,9 @@ This is why embedding-based systems feel more intelligent than simple keyword se
 
 They are matching intent more than text.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Think of five different ways someone might ask for the same thing.
 
@@ -304,9 +304,9 @@ An embedding system probably would.
 
 That is the practical power of embeddings.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Embeddings turn meaning into numbers.
 
@@ -320,9 +320,9 @@ That is the practical power of embeddings.
 
 - Real AI applications often combine embeddings with metadata, filters, validation, and evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand why embeddings matter, we can study their most important practical use case:
 
@@ -330,4 +330,4 @@ semantic search.
 
 In the next article, we will explore:
 
-# What Is Semantic Search?
+## What Is Semantic Search?

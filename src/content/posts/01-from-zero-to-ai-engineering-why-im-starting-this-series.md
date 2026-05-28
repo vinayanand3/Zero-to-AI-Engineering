@@ -28,9 +28,9 @@ I stopped seeing AI as magic.
 
 I started seeing it as systems.
 
----
+<p class="section-break">. . .</p>
 
-### The Problem With Most AI Content Online
+#### The Problem With Most AI Content Online
 
 Most people today use AI tools every day:
 
@@ -53,7 +53,7 @@ But very few people actually understand:
 
 Most tutorials online fall into one of two extremes:
 
-### Extreme 1 - Too Academic
+#### Extreme 1 - Too Academic
 
 You open a tutorial and immediately see:
 
@@ -65,7 +65,7 @@ You open a tutorial and immediately see:
 
 Beginners get overwhelmed instantly.
 
-### Extreme 2 - Too Superficial
+#### Extreme 2 - Too Superficial
 
 Other tutorials skip the foundations entirely and jump straight into:
 
@@ -81,9 +81,9 @@ That creates users.
 
 Not engineers.
 
----
+<p class="section-break">. . .</p>
 
-### What This Series Will Be Different
+#### What This Series Will Be Different
 
 This series is designed to bridge that gap.
 
@@ -99,20 +99,20 @@ Not through shortcuts.
 
 But through intuition, systems thinking, visuals, architecture breakdowns, and practical projects.
 
----
+<p class="section-break">. . .</p>
 
-### What We’ll Learn Together
+#### What We’ll Learn Together
 
 Over the coming weeks and months, this series will gradually cover:
 
-### Foundations
+#### Foundations
 
 - AI vs Machine Learning vs Deep Learning
 - Neural networks
 - Training vs inference
 - GPUs and compute
 
-### Modern LLM Architecture
+#### Modern LLM Architecture
 
 - Tokens
 - Embeddings
@@ -121,7 +121,7 @@ Over the coming weeks and months, this series will gradually cover:
 - Context windows
 - Hallucinations
 
-### Practical AI Engineering
+#### Practical AI Engineering
 
 - Prompt engineering
 - Vector databases
@@ -129,14 +129,14 @@ Over the coming weeks and months, this series will gradually cover:
 - RAG systems
 - Tool calling
 
-### AI Agents & Future Systems
+#### AI Agents & Future Systems
 
 - Autonomous agents
 - Multi-agent workflows
 - MCP (Model Context Protocol)
 - AI orchestration systems
 
-### Advanced AI Engineering
+#### Advanced AI Engineering
 
 - Fine-tuning
 - LoRA
@@ -152,9 +152,9 @@ We’ll build real AI systems together.
 
 AI roadmap
 
----
+<p class="section-break">. . .</p>
 
-### The Biggest Mistake Beginners Make
+#### The Biggest Mistake Beginners Make
 
 Most people try learning advanced AI concepts in the wrong order.
 
@@ -173,9 +173,9 @@ Each topic builds on the previous one.
 
 The goal is to make difficult concepts feel natural instead of intimidating.
 
----
+<p class="section-break">. . .</p>
 
-### Why I’m Writing This Publicly
+#### Why I’m Writing This Publicly
 
 Honestly, this is also the series I wish existed when I started learning AI.
 
@@ -205,9 +205,9 @@ One concept at a time.
 
 One system at a time.
 
----
+<p class="section-break">. . .</p>
 
-### What You Should Expect From This Series
+#### What You Should Expect From This Series
 
 Every article in this series will focus on:
 
@@ -230,9 +230,9 @@ The goal is simple:
 
 By the end of this journey, you should not only understand modern AI systems, you should be capable of building them.
 
----
+<p class="section-break">. . .</p>
 
-### The Future Belongs to Builders
+#### The Future Belongs to Builders
 
 AI is moving extremely fast.
 
@@ -261,9 +261,9 @@ That’s the direction this series is heading.
 
 And if you’re reading this early, you’re getting in at the right time.
 
----
+<p class="section-break">. . .</p>
 
-### What’s Next
+#### What’s Next
 
 In the next article, we’ll start with the most important foundational question:
 
@@ -276,3 +276,5 @@ Not the movie version.
 But the engineering version.
 
 And once you understand that properly, everything else in modern AI starts making much more sense.
+
+Next article here: [https://medium.com/p/0e7b1ee6238b?postPublishedType=initial](https://medium.com/p/0e7b1ee6238b?postPublishedType=initial)

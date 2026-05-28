@@ -34,9 +34,9 @@ A concrete learning path that turns concepts into projects.
 
 This article will help you build that roadmap.
 
----
+<p class="section-break">. . .</p>
 
-# Start With Your Goal
+## Start With Your Goal
 
 First, define what kind of AI engineer you want to become.
 
@@ -64,9 +64,9 @@ A production AI engineer needs more observability and reliability.
 
 A model adaptation engineer needs more training and evaluation.
 
----
+<p class="section-break">. . .</p>
 
-# Build The Foundation Layer
+## Build The Foundation Layer
 
 Your foundation should include:
 
@@ -96,9 +96,9 @@ If your software foundation is weak, AI projects become harder.
 
 Strengthen the engineering base.
 
----
+<p class="section-break">. . .</p>
 
-# Build The AI Concepts Layer
+## Build The AI Concepts Layer
 
 Next, master the durable AI concepts:
 
@@ -128,9 +128,9 @@ But you should be able to explain each concept simply and use it in a project.
 
 Understanding beats memorization.
 
----
+<p class="section-break">. . .</p>
 
-# Build Project Milestones
+## Build Project Milestones
 
 Projects turn knowledge into skill.
 
@@ -162,9 +162,9 @@ Do not jump straight to the most complex agent.
 
 Build progressively.
 
----
+<p class="section-break">. . .</p>
 
-# Add Evaluation Early
+## Add Evaluation Early
 
 Every project should include evaluation.
 
@@ -188,9 +188,9 @@ Engineers build systems they can measure and improve.
 
 Make evaluation a habit from the beginning.
 
----
+<p class="section-break">. . .</p>
 
-# Create A Portfolio
+## Create A Portfolio
 
 A portfolio helps show your learning.
 
@@ -222,9 +222,9 @@ It shows engineering thinking.
 
 Employers and collaborators want to see how you reason, not just what you built.
 
----
+<p class="section-break">. . .</p>
 
-# Use A 90-Day Plan
+## Use A 90-Day Plan
 
 Break your roadmap into 90 days.
 
@@ -248,9 +248,9 @@ Consistency beats intensity.
 
 A sustainable plan is better than a heroic plan you abandon.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 A roadmap is useful only if it produces visible skill.
 
@@ -276,7 +276,7 @@ This habit turns projects into a portfolio of judgment.
 
 It also prepares you for real engineering conversations, where people care less about buzzwords and more about decisions.
 
-# Practical Example
+## Practical Example
 
 A strong 90-day roadmap might include three projects.
 
@@ -294,7 +294,7 @@ Each project should show what you learned from failure.
 
 That is more valuable than a long list of unfinished tutorials.
 
-# One More Check
+## One More Check
 
 Your roadmap should include review points.
 
@@ -312,7 +312,7 @@ The path is not perfectly linear, but the feedback loop should be clear.
 
 That feedback loop is what turns study into engineering maturity.
 
-# Mini Project
+## Mini Project
 
 Create your roadmap with this template:
 
@@ -338,9 +338,9 @@ Portfolio plan:
 
 This becomes your post-series action plan.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Learning AI engineering requires a concrete roadmap.
 
@@ -358,12 +358,12 @@ This becomes your post-series action plan.
 
 - Use a realistic 90-day plan.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have reached the end of the learning journey.
 
 In the final article, we will bring everything together:
 
-# From Zero to AI Engineer
+## From Zero to AI Engineer

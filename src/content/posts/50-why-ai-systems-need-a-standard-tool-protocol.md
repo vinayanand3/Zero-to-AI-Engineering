@@ -24,9 +24,9 @@ But as AI systems grow, custom integration becomes a serious engineering problem
 
 MCP exists because the AI ecosystem needs a more reusable way to connect models, tools, resources, and prompts.
 
----
+<p class="section-break">. . .</p>
 
-# The Custom Integration Problem
+## The Custom Integration Problem
 
 Imagine building an AI coding assistant.
 
@@ -58,9 +58,9 @@ The same work gets repeated again and again.
 
 That is inefficient.
 
----
+<p class="section-break">. . .</p>
 
-# Integrations Become Hard To Maintain
+## Integrations Become Hard To Maintain
 
 Custom integrations also become hard to maintain.
 
@@ -86,9 +86,9 @@ Another may support it poorly.
 
 A protocol helps reduce this fragmentation.
 
----
+<p class="section-break">. . .</p>
 
-# Security Becomes Inconsistent
+## Security Becomes Inconsistent
 
 Tool access creates risk.
 
@@ -114,9 +114,9 @@ A standard protocol does not solve all security problems.
 
 But it creates a common structure where security decisions can be made more consistently.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Discovery Becomes Important
+## Tool Discovery Becomes Important
 
 As AI applications connect to more tools, the model needs to know what is available.
 
@@ -138,9 +138,9 @@ Discovery matters because AI systems may connect to many servers over time.
 
 The available capabilities should not have to be manually rewritten into every application.
 
----
+<p class="section-break">. . .</p>
 
-# Context Is More Than Tools
+## Context Is More Than Tools
 
 Another reason standards matter is that AI systems need more than executable tools.
 
@@ -168,9 +168,9 @@ That makes it broader than simple function calling.
 
 It is about context and capabilities together.
 
----
+<p class="section-break">. . .</p>
 
-# The Ecosystem Benefit
+## The Ecosystem Benefit
 
 A standard protocol helps ecosystems form.
 
@@ -190,9 +190,9 @@ This encourages reusable infrastructure instead of one-off integrations.
 
 That is a major ecosystem advantage.
 
----
+<p class="section-break">. . .</p>
 
-# A Practical Example
+## A Practical Example
 
 Imagine a company with internal systems:
 
@@ -220,9 +220,9 @@ System owners can own their MCP servers.
 
 AI applications can consume them.
 
----
+<p class="section-break">. . .</p>
 
-# Standards Do Not Remove Design Work
+## Standards Do Not Remove Design Work
 
 It is important to stay practical.
 
@@ -252,9 +252,9 @@ Protocols create interoperability.
 
 They do not replace judgment.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Pick one AI assistant you would like to build.
 
@@ -274,9 +274,9 @@ Then ask:
 
 This exercise shows why standardized tool and context protocols become valuable as systems grow.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Custom AI integrations work for small projects but become hard to scale.
 
@@ -292,9 +292,9 @@ This exercise shows why standardized tool and context protocols become valuable 
 
 - Standards improve interoperability, but engineers still need good system design.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand why a protocol matters, we need to study MCP's architecture.
 
@@ -304,5 +304,4 @@ Understanding those roles is the foundation for the rest of the season.
 
 In the next article, we will explore:
 
-# MCP Architecture: Hosts, Clients, and Servers
-
+## MCP Architecture: Hosts, Clients, and Servers

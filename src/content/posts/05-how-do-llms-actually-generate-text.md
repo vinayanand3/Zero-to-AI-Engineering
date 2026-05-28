@@ -14,7 +14,7 @@ That breakthrough made modern Large Language Models possible.
 
 But now we need to answer the question most people are really curious about:
 
-# How does an LLM actually generate text?
+## How does an LLM actually generate text?
 
 When you ask ChatGPT a question, it feels like the model is thinking, reasoning, and writing a response the way a human would.
 
@@ -34,9 +34,9 @@ That idea sounds almost too small to explain modern AI.
 
 But once you understand it properly, LLMs become much less mysterious.
 
----
+<p class="section-break">. . .</p>
 
-# The Simplest Mental Model
+## The Simplest Mental Model
 
 Imagine I write this sentence:
 
@@ -68,9 +68,9 @@ So when an LLM writes a paragraph, it is not generating the entire paragraph in 
 
 It is building the answer token by token.
 
----
+<p class="section-break">. . .</p>
 
-# What Is a Token Again?
+## What Is a Token Again?
 
 Before going further, remember that LLMs do not directly operate on words.
 
@@ -112,9 +112,9 @@ The model reads tokens, processes tokens, and predicts tokens.
 
 Text generation is really token generation.
 
----
+<p class="section-break">. . .</p>
 
-# The Next-Token Prediction Loop
+## The Next-Token Prediction Loop
 
 Here is the basic generation loop:
 
@@ -178,9 +178,9 @@ The best way to learn AI is to build
 
 Repeat this thousands of times, and you get a full answer.
 
----
+<p class="section-break">. . .</p>
 
-# Where Do The Probabilities Come From?
+## Where Do The Probabilities Come From?
 
 This is where training matters.
 
@@ -230,9 +230,9 @@ The task sounds simple, but the patterns required to do it well are extremely ri
 
 To predict the next token in a complex answer, the model often needs to represent meaning, context, structure, and reasoning.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Example
+## A Simple Example
 
 Suppose the prompt is:
 
@@ -274,9 +274,9 @@ Given everything so far, what token should come next?
 
 That is the engine behind generation.
 
----
+<p class="section-break">. . .</p>
 
-# Is The Model Just Guessing?
+## Is The Model Just Guessing?
 
 In one sense, yes.
 
@@ -304,9 +304,9 @@ Phone autocomplete predicts common phrases.
 
 LLMs predict language using deep patterns about the world, code, reasoning, and communication.
 
----
+<p class="section-break">. . .</p>
 
-# Why Responses Can Be Different Each Time
+## Why Responses Can Be Different Each Time
 
 If next-token prediction is based on probabilities, there may be several reasonable next tokens.
 
@@ -348,9 +348,9 @@ Higher randomness can make outputs more creative.
 
 Lower randomness can make outputs more predictable.
 
----
+<p class="section-break">. . .</p>
 
-# Why This Creates The Illusion Of Thinking
+## Why This Creates The Illusion Of Thinking
 
 When an LLM generates a thoughtful answer, it can feel like the system is thinking in the human sense.
 
@@ -382,9 +382,9 @@ That is because they are generating likely text, not directly verifying truth at
 
 We will return to this later when we discuss hallucinations.
 
----
+<p class="section-break">. . .</p>
 
-# Real-World Usage Examples
+## Real-World Usage Examples
 
 Next-token prediction powers many things people now use daily:
 
@@ -410,9 +410,9 @@ The context may be a question, a document, a code file, a conversation, or a too
 
 The output is still produced token by token.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Try this exercise manually.
 
@@ -444,9 +444,9 @@ Of course, an LLM does this with billions of learned parameters and thousands of
 
 But the core loop is similar.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - LLMs generate text one token at a time.
 
@@ -462,9 +462,9 @@ But the core loop is similar.
 
 - LLMs can appear to think, but they are generating likely continuations from context.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand that LLMs generate text using tokens, we need to slow down and understand tokens properly.
 
@@ -480,5 +480,4 @@ And they explain many strange behaviors beginners notice when using AI systems.
 
 In the next article, we will answer:
 
-# What Are Tokens?
-
+## What Are Tokens?

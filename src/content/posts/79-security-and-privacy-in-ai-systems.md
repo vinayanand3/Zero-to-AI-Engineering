@@ -20,9 +20,9 @@ It must shape the architecture from the beginning.
 
 In this article, we will cover the major risks and practical controls.
 
----
+<p class="section-break">. . .</p>
 
-# Sensitive Data
+## Sensitive Data
 
 AI systems may see sensitive data such as:
 
@@ -56,9 +56,9 @@ Data flow should be explicit.
 
 If you cannot describe where data goes, the system is not ready.
 
----
+<p class="section-break">. . .</p>
 
-# Access Control
+## Access Control
 
 AI systems should respect permissions.
 
@@ -82,9 +82,9 @@ Do not rely on the model to hide information after it has already seen it.
 
 The safer design is to prevent unauthorized access upstream.
 
----
+<p class="section-break">. . .</p>
 
-# Prompt Injection
+## Prompt Injection
 
 Prompt injection happens when untrusted content tries to manipulate the model.
 
@@ -112,9 +112,9 @@ Defenses include:
 
 Prompt injection is especially important in RAG and agent systems.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Security
+## Tool Security
 
 Tools can change the world.
 
@@ -140,9 +140,9 @@ The model should not be trusted as the security boundary.
 
 Security rules should be enforced by software.
 
----
+<p class="section-break">. . .</p>
 
-# Logging Privacy
+## Logging Privacy
 
 Logs are useful.
 
@@ -170,9 +170,9 @@ Log only what is useful and justified.
 
 Protect what you log.
 
----
+<p class="section-break">. . .</p>
 
-# Data Retention
+## Data Retention
 
 Retention means how long data is stored.
 
@@ -190,9 +190,9 @@ Production AI systems should define retention policies clearly.
 
 This is especially important for regulated industries and enterprise environments.
 
----
+<p class="section-break">. . .</p>
 
-# Model Provider Considerations
+## Model Provider Considerations
 
 If using external model APIs, understand provider behavior.
 
@@ -214,9 +214,9 @@ For sensitive workloads, teams may choose specific providers, private deployment
 
 Security requirements should influence model deployment choices.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Security in AI systems is partly familiar and partly new.
 
@@ -242,7 +242,7 @@ Separate model suggestions from actual tool execution.
 
 The model can reason about actions, but the system should enforce permissions.
 
-# Practical Example
+## Practical Example
 
 Suppose an AI assistant can read documents and send emails.
 
@@ -256,7 +256,7 @@ This is the core security lesson:
 
 External content can inform the model, but it should not silently gain authority over tools.
 
-# Mini Project
+## Mini Project
 
 Create a security checklist for a RAG assistant over internal documents.
 
@@ -280,9 +280,9 @@ Include:
 
 This exercise turns security from a vague concern into concrete requirements.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Production AI systems often process sensitive data.
 
@@ -298,9 +298,9 @@ This exercise turns security from a vague concern into concrete requirements.
 
 - Model provider behavior affects security architecture.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Security is one production constraint.
 
@@ -308,4 +308,4 @@ Cost is another.
 
 In the next article, we will explore:
 
-# Cost Control for Production AI
+## Cost Control for Production AI

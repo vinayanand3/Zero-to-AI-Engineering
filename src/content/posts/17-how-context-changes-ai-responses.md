@@ -24,9 +24,9 @@ Missing context often produces guesses.
 
 And bad context can produce bad answers.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Version
+## The Simple Version
 
 An LLM responds based on:
 
@@ -52,9 +52,9 @@ The model cannot do that accurately unless you provide the roadmap.
 
 It needs context.
 
----
+<p class="section-break">. . .</p>
 
-# Context Turns General AI Into Useful AI
+## Context Turns General AI Into Useful AI
 
 Without context, an LLM is general.
 
@@ -74,9 +74,9 @@ Now the model has something specific to work with.
 
 The result will be more useful because the prompt includes the actual situation.
 
----
+<p class="section-break">. . .</p>
 
-# Types Of Context
+## Types Of Context
 
 Useful context can include many things:
 
@@ -112,9 +112,9 @@ For analysis, source data and assumptions may matter most.
 
 The skill is knowing what context the model needs for the job.
 
----
+<p class="section-break">. . .</p>
 
-# Context And Grounding
+## Context And Grounding
 
 Context also helps reduce hallucinations.
 
@@ -134,9 +134,9 @@ It reduces the chance that the model invents a policy.
 
 This does not make the output perfect, but it improves reliability.
 
----
+<p class="section-break">. . .</p>
 
-# Too Little Context
+## Too Little Context
 
 Too little context causes weak answers.
 
@@ -160,9 +160,9 @@ Create a test plan for a password reset feature in a web app. Include happy path
 
 The second prompt gives the model enough context to produce a useful test plan.
 
----
+<p class="section-break">. . .</p>
 
-# Too Much Context
+## Too Much Context
 
 More context is not always better.
 
@@ -188,9 +188,9 @@ The goal is to include what the model needs.
 
 This is a core AI engineering skill.
 
----
+<p class="section-break">. . .</p>
 
-# Context Order Matters
+## Context Order Matters
 
 The order of information can matter too.
 
@@ -216,9 +216,9 @@ The model can see what each part is for.
 
 Clean structure improves reliability.
 
----
+<p class="section-break">. . .</p>
 
-# Context In Coding Prompts
+## Context In Coding Prompts
 
 Coding tasks depend heavily on context.
 
@@ -250,9 +250,9 @@ For coding, useful context includes:
 
 The model writes better code when it understands the system around the code.
 
----
+<p class="section-break">. . .</p>
 
-# Context In Writing Prompts
+## Context In Writing Prompts
 
 Writing also changes dramatically with context.
 
@@ -280,9 +280,9 @@ The second prompt gives:
 
 The result will be much closer to what you want.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Pick one task and write three prompts:
 
@@ -312,9 +312,9 @@ Compare the outputs.
 
 You will see that the model's quality depends heavily on the context you provide.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Context changes AI responses.
 
@@ -330,9 +330,9 @@ You will see that the model's quality depends heavily on the context you provide
 
 - Good prompt engineering includes choosing the right context.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand context, we can move into reasoning.
 
@@ -342,4 +342,4 @@ But reasoning prompts need care.
 
 In the next article, we will explore:
 
-# Prompting for Better Reasoning
+## Prompting for Better Reasoning

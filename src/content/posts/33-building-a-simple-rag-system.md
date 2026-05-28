@@ -36,9 +36,9 @@ To do that, it needs to:
 
 That is the core loop.
 
----
+<p class="section-break">. . .</p>
 
-# The Example Project
+## The Example Project
 
 Imagine we have a small knowledge base for an AI engineering course.
 
@@ -62,9 +62,9 @@ The LLM should answer from the documents, not from general guessing.
 
 That is a perfect small RAG use case.
 
----
+<p class="section-break">. . .</p>
 
-# Step 1: Load The Documents
+## Step 1: Load The Documents
 
 First, the system reads the documents.
 
@@ -86,9 +86,9 @@ It lets you cite sources and debug retrieval.
 
 If the model gives a strange answer, you can inspect which document chunks were retrieved.
 
----
+<p class="section-break">. . .</p>
 
-# Step 2: Split Into Chunks
+## Step 2: Split Into Chunks
 
 Next, split the documents into chunks.
 
@@ -112,9 +112,9 @@ If it is too large, it may include unrelated information.
 
 Chunking is one of the first quality decisions in RAG.
 
----
+<p class="section-break">. . .</p>
 
-# Step 3: Create Embeddings
+## Step 3: Create Embeddings
 
 Now each chunk is sent to an embedding model.
 
@@ -136,9 +136,9 @@ The vector is not meant to be read by humans.
 
 It is used for similarity search.
 
----
+<p class="section-break">. . .</p>
 
-# Step 4: Store The Chunks
+## Step 4: Store The Chunks
 
 Store each chunk with:
 
@@ -162,9 +162,9 @@ The concept is the same:
 
 You need to search chunks by embedding similarity and retrieve their text.
 
----
+<p class="section-break">. . .</p>
 
-# Step 5: Embed The User Question
+## Step 5: Embed The User Question
 
 When the user asks a question, embed the question too.
 
@@ -180,9 +180,9 @@ The most similar chunks should be about refunds.
 
 This is semantic retrieval.
 
----
+<p class="section-break">. . .</p>
 
-# Step 6: Retrieve Relevant Chunks
+## Step 6: Retrieve Relevant Chunks
 
 The system retrieves the top matching chunks.
 
@@ -202,9 +202,9 @@ The model does not need to know the refund policy from training.
 
 The system provides it.
 
----
+<p class="section-break">. . .</p>
 
-# Step 7: Build The Prompt
+## Step 7: Build The Prompt
 
 Now create a prompt.
 
@@ -228,9 +228,9 @@ It should use the retrieved context.
 
 It should not invent unsupported details.
 
----
+<p class="section-break">. . .</p>
 
-# Step 8: Generate The Answer
+## Step 8: Generate The Answer
 
 The LLM receives the prompt and generates the final answer.
 
@@ -242,9 +242,9 @@ That answer is grounded in the retrieved context.
 
 This is the full RAG loop.
 
----
+<p class="section-break">. . .</p>
 
-# Step 9: Show Sources
+## Step 9: Show Sources
 
 A useful RAG answer should often show sources.
 
@@ -270,9 +270,9 @@ The key idea is the same:
 
 Do not hide the evidence.
 
----
+<p class="section-break">. . .</p>
 
-# What To Log
+## What To Log
 
 Even in a simple RAG system, logging helps.
 
@@ -300,9 +300,9 @@ Did the model ignore the context?
 
 Logging turns RAG debugging from guessing into inspection.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Create a tiny RAG design for three personal notes.
 
@@ -324,9 +324,9 @@ You do not need to code it yet.
 
 The goal is to understand the system flow.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - A simple RAG system answers questions using retrieved documents.
 
@@ -342,9 +342,9 @@ The goal is to understand the system flow.
 
 - RAG quality depends on the whole pipeline, not only the LLM.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Once a RAG system works, the next question is:
 
@@ -354,4 +354,4 @@ That brings us to evaluation.
 
 In the next article, we will explore:
 
-# How to Evaluate a RAG System
+## How to Evaluate a RAG System

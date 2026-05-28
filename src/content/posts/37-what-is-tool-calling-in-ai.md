@@ -16,7 +16,7 @@ Season 3 explained how to give models external knowledge through retrieval and R
 
 Now we move into something even more powerful:
 
-# tool calling
+## tool calling
 
 Tool calling is one of the ideas that turns an LLM from a text generator into part of a working system.
 
@@ -38,9 +38,9 @@ It can fetch live information.
 
 This is the bridge from conversation to action.
 
----
+<p class="section-break">. . .</p>
 
-# The Simple Definition
+## The Simple Definition
 
 Tool calling is when an AI model decides to use an external function, API, database, or service to help complete a task.
 
@@ -58,9 +58,9 @@ Then the model uses the result to continue.
 
 This creates a loop between language reasoning and software execution.
 
----
+<p class="section-break">. . .</p>
 
-# Why Tool Calling Exists
+## Why Tool Calling Exists
 
 LLMs have limitations.
 
@@ -92,9 +92,9 @@ The model provides language understanding and decision support.
 
 The tools provide reliable capabilities.
 
----
+<p class="section-break">. . .</p>
 
-# A Simple Example
+## A Simple Example
 
 Imagine a user asks:
 
@@ -124,9 +124,9 @@ Your order shipped yesterday and is expected to arrive Friday.
 
 That is tool calling.
 
----
+<p class="section-break">. . .</p>
 
-# Tools Are Not Prompts
+## Tools Are Not Prompts
 
 A prompt tells the model what to do.
 
@@ -152,9 +152,9 @@ The model needs instructions about when and how to use the tool.
 
 The application needs actual code that safely runs the tool.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Calling Is Structured
+## Tool Calling Is Structured
 
 Tool calling usually requires structured input.
 
@@ -190,9 +190,9 @@ This is why structured output matters.
 
 The model must produce arguments that software can understand.
 
----
+<p class="section-break">. . .</p>
 
-# Real-World Tool Examples
+## Real-World Tool Examples
 
 AI systems can use many kinds of tools:
 
@@ -230,9 +230,9 @@ Write tools require much more caution.
 
 Deleting a file, charging a card, or sending an email should not happen without careful safeguards.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Calling And RAG
+## Tool Calling And RAG
 
 RAG is a form of retrieval.
 
@@ -260,9 +260,9 @@ Tools give capability.
 
 Agents combine both.
 
----
+<p class="section-break">. . .</p>
 
-# Designing A Good Tool Interface
+## Designing A Good Tool Interface
 
 A tool should be narrow and clear.
 
@@ -300,9 +300,9 @@ For early projects, prefer a few well-named tools over many vague ones.
 
 The easier the tool is to understand, the easier it is for the model to choose it correctly.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Think of a simple assistant for a personal task manager.
 
@@ -330,9 +330,9 @@ For each request, decide which tool should be called.
 
 This is the beginning of tool-calling design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Tool calling lets AI systems use external functions, APIs, databases, and services.
 
@@ -348,12 +348,12 @@ This is the beginning of tool-calling design.
 
 - Agents are built on top of tool calling.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Now that we understand what tool calling is, we need to understand why tools make LLMs more powerful.
 
 In the next article, we will explore:
 
-# Why LLMs Need Tools
+## Why LLMs Need Tools

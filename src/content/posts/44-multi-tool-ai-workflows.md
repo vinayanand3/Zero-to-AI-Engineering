@@ -34,9 +34,9 @@ The user receives a useful outcome.
 
 This is where tool calling starts to feel like real automation.
 
----
+<p class="section-break">. . .</p>
 
-# Why Multiple Tools Matter
+## Why Multiple Tools Matter
 
 Real tasks often cross system boundaries.
 
@@ -62,9 +62,9 @@ The agent must gather information from multiple places, combine it, and decide w
 
 That is a workflow.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Selection
+## Tool Selection
 
 The first challenge is tool selection.
 
@@ -92,9 +92,9 @@ Good tool descriptions help the model choose correctly.
 
 Vague tool descriptions lead to wrong calls.
 
----
+<p class="section-break">. . .</p>
 
-# Tool Sequencing
+## Tool Sequencing
 
 The second challenge is sequencing.
 
@@ -118,9 +118,9 @@ Calling the refund tool first would be unsafe.
 
 Multi-tool workflows require ordering, not just access.
 
----
+<p class="section-break">. . .</p>
 
-# Use Deterministic Steps When Possible
+## Use Deterministic Steps When Possible
 
 Not every step in a multi-tool workflow needs model judgment.
 
@@ -140,9 +140,9 @@ This mix is often stronger than giving the model full control over the entire wo
 
 Good agent systems combine model flexibility with deterministic workflow rules.
 
----
+<p class="section-break">. . .</p>
 
-# Combining Tool Results
+## Combining Tool Results
 
 After tools run, the agent must combine results.
 
@@ -168,9 +168,9 @@ Combining results is where the model adds value.
 
 But it must not invent connections that the data does not support.
 
----
+<p class="section-break">. . .</p>
 
-# Handling Tool Errors
+## Handling Tool Errors
 
 Tools fail.
 
@@ -196,9 +196,9 @@ Or it may retry if safe.
 
 Error handling is part of agent design.
 
----
+<p class="section-break">. . .</p>
 
-# Avoiding Tool Overuse
+## Avoiding Tool Overuse
 
 An agent should not call tools unnecessarily.
 
@@ -218,9 +218,9 @@ Good agents use tools when tools are needed.
 
 They do not use tools just because tools exist.
 
----
+<p class="section-break">. . .</p>
 
-# Workflow State
+## Workflow State
 
 Multi-tool workflows need state.
 
@@ -242,9 +242,9 @@ The agent may repeat tool calls, lose important facts, or act on stale data.
 
 State makes multi-step work coherent.
 
----
+<p class="section-break">. . .</p>
 
-# Keep Tool Results Separate
+## Keep Tool Results Separate
 
 When several tools are used, keep their results clearly separated.
 
@@ -280,9 +280,9 @@ That is stronger than a vague answer because the reasoning is tied to specific t
 
 Separation creates traceability.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Design a multi-tool workflow for:
 
@@ -306,9 +306,9 @@ Then write what should happen if the availability tool fails.
 
 This is practical agent design.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Multi-tool workflows combine several tools to complete a task.
 
@@ -324,9 +324,9 @@ This is practical agent design.
 
 - Workflow state keeps multi-step tasks coherent.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 Some systems go beyond one agent using many tools.
 
@@ -334,4 +334,4 @@ They use multiple agents with different responsibilities.
 
 In the next article, we will explore:
 
-# Multi-Agent Workflows
+## Multi-Agent Workflows

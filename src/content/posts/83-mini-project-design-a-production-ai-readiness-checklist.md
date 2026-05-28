@@ -20,9 +20,9 @@ This article builds a practical checklist you can reuse.
 
 The example will be a document Q&A assistant for internal company policies.
 
----
+<p class="section-break">. . .</p>
 
-# The Scenario
+## The Scenario
 
 We are launching an internal AI assistant.
 
@@ -42,9 +42,9 @@ This is a realistic production AI feature.
 
 Now let's design the checklist.
 
----
+<p class="section-break">. . .</p>
 
-# 1. Scope Checklist
+## 1. Scope Checklist
 
 Define what the system should and should not do.
 
@@ -66,9 +66,9 @@ Clear scope prevents product confusion.
 
 If scope is vague, users will expect too much and the model may over-answer.
 
----
+<p class="section-break">. . .</p>
 
-# 2. Data Checklist
+## 2. Data Checklist
 
 Check the source documents.
 
@@ -92,9 +92,9 @@ Bad documents create bad answers.
 
 Production readiness starts with data readiness.
 
----
+<p class="section-break">. . .</p>
 
-# 3. Retrieval Checklist
+## 3. Retrieval Checklist
 
 Check retrieval behavior.
 
@@ -118,9 +118,9 @@ Do not only inspect final answers.
 
 Inspect retrieved chunks.
 
----
+<p class="section-break">. . .</p>
 
-# 4. Prompt And Answer Checklist
+## 4. Prompt And Answer Checklist
 
 Check model behavior.
 
@@ -142,9 +142,9 @@ The prompt should clearly define how the model uses context.
 
 It should also define what to do when context is insufficient.
 
----
+<p class="section-break">. . .</p>
 
-# 5. Evaluation Checklist
+## 5. Evaluation Checklist
 
 Create evals.
 
@@ -172,9 +172,9 @@ The assistant must cite the correct source for at least a target percentage of e
 
 Launch should be based on evidence.
 
----
+<p class="section-break">. . .</p>
 
-# 6. Security And Privacy Checklist
+## 6. Security And Privacy Checklist
 
 Check sensitive data controls.
 
@@ -196,9 +196,9 @@ Security must be tested, not assumed.
 
 The model should not see unauthorized context.
 
----
+<p class="section-break">. . .</p>
 
-# 7. Monitoring Checklist
+## 7. Monitoring Checklist
 
 Prepare production monitoring.
 
@@ -224,9 +224,9 @@ Define who reviews metrics and how often.
 
 Monitoring without ownership does not help.
 
----
+<p class="section-break">. . .</p>
 
-# 8. Fallback Checklist
+## 8. Fallback Checklist
 
 Define failure behavior.
 
@@ -250,9 +250,9 @@ Fallbacks should be clear before launch.
 
 Graceful failure is production quality.
 
----
+<p class="section-break">. . .</p>
 
-# 9. Launch Checklist
+## 9. Launch Checklist
 
 Launch safely.
 
@@ -276,9 +276,9 @@ Do not launch all at once without control.
 
 AI features should be released in stages.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 The checklist should be useful during a real launch review.
 
@@ -306,7 +306,7 @@ A good readiness checklist creates shared language across engineering, product, 
 
 It makes hidden assumptions visible before users depend on the feature.
 
-# Practical Example
+## Practical Example
 
 For a support assistant, the checklist might reveal that logging is ready but fallback behavior is not.
 
@@ -320,7 +320,7 @@ They are exactly why the checklist exists.
 
 Finding the gap before launch is much cheaper than finding it through user harm.
 
-# Mini Project
+## Mini Project
 
 Adapt this checklist to a different AI feature:
 
@@ -338,9 +338,9 @@ For your chosen feature, write the readiness checklist categories and two questi
 
 This turns the season into a launch artifact.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Production AI readiness requires more than model quality.
 
@@ -356,12 +356,12 @@ This turns the season into a launch artifact.
 
 - Launch should use staged rollout and rollback controls.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 We have now covered the practical foundations of production AI engineering.
 
 In the final article of Season 7, we will connect everything into one mental model:
 
-# The Mental Model of Production AI
+## The Mental Model of Production AI

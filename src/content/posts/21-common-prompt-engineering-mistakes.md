@@ -18,9 +18,9 @@ The good news is that most prompt mistakes are easy to fix once you can recogniz
 
 In this article, we will walk through the most common ones.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 1: Being Too Vague
+## Mistake 1: Being Too Vague
 
 The most common mistake is asking for something vague.
 
@@ -42,9 +42,9 @@ Rewrite this paragraph for a beginner audience. Keep it under 150 words and make
 
 Specific prompts produce better results because they reduce ambiguity.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 2: Leaving Out The Audience
+## Mistake 2: Leaving Out The Audience
 
 Audience changes the answer.
 
@@ -64,9 +64,9 @@ The second prompt gives the model a much better target.
 
 If the output feels too basic or too advanced, check whether you defined the audience.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 3: Missing Context
+## Mistake 3: Missing Context
 
 Many prompts fail because the model does not have the information it needs.
 
@@ -86,9 +86,9 @@ Then include the roadmap.
 
 Missing context often leads to generic or invented answers.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 4: Asking For Too Much At Once
+## Mistake 4: Asking For Too Much At Once
 
 Another common mistake is overloading the prompt.
 
@@ -110,9 +110,9 @@ Breaking work into stages improves quality.
 
 It also makes it easier to review the output.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 5: Not Specifying Output Format
+## Mistake 5: Not Specifying Output Format
 
 Sometimes the content is good, but the format is wrong.
 
@@ -134,9 +134,9 @@ Format is not decoration.
 
 Format affects usefulness.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 6: Using Conflicting Instructions
+## Mistake 6: Using Conflicting Instructions
 
 Conflicting instructions create awkward outputs.
 
@@ -158,9 +158,9 @@ Prioritize clarity over completeness. Keep the answer under 300 words.
 
 This tells the model which goal matters most.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 7: Trusting The Output Without Checking
+## Mistake 7: Trusting The Output Without Checking
 
 This is the most dangerous mistake.
 
@@ -196,9 +196,9 @@ Prompt engineering improves quality.
 
 Verification protects correctness.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 8: Hiding The Real Goal
+## Mistake 8: Hiding The Real Goal
 
 Sometimes users ask for the wrong intermediate thing.
 
@@ -218,9 +218,9 @@ Do not only describe the artifact you want.
 
 Describe the outcome you are trying to achieve.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 9: Not Iterating
+## Mistake 9: Not Iterating
 
 Good prompting is often iterative.
 
@@ -248,9 +248,9 @@ You prompt, inspect, adjust, and improve.
 
 That is normal.
 
----
+<p class="section-break">. . .</p>
 
-# Mistake 10: Treating Prompts As Disposable
+## Mistake 10: Treating Prompts As Disposable
 
 If a prompt solves a repeated problem, save it.
 
@@ -276,9 +276,9 @@ Reusable prompts become tools.
 
 We will explore this more in the next article.
 
----
+<p class="section-break">. . .</p>
 
-# Mini Project
+## Mini Project
 
 Take a prompt you used recently.
 
@@ -302,9 +302,9 @@ The goal is not to make it longer.
 
 The goal is to make it more precise.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Vague prompts create vague outputs.
 
@@ -322,9 +322,9 @@ The goal is to make it more precise.
 
 - Reusable prompts should be saved and improved over time.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 That last point matters.
 
@@ -334,4 +334,4 @@ You should build reusable prompt assets.
 
 In the next article, we will explore:
 
-# Building a Reusable Prompt Library
+## Building a Reusable Prompt Library

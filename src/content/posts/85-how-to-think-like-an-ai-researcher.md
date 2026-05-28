@@ -32,9 +32,9 @@ The goal is to develop research thinking.
 
 That means asking better questions, evaluating evidence, understanding uncertainty, and avoiding hype.
 
----
+<p class="section-break">. . .</p>
 
-# Research Thinking Starts With Questions
+## Research Thinking Starts With Questions
 
 Research is driven by questions.
 
@@ -64,9 +64,9 @@ They look for evidence.
 
 That is research thinking.
 
----
+<p class="section-break">. . .</p>
 
-# Separate Claims From Evidence
+## Separate Claims From Evidence
 
 AI is full of claims.
 
@@ -96,9 +96,9 @@ Claims are cheap.
 
 Evidence is what matters.
 
----
+<p class="section-break">. . .</p>
 
-# Look For Assumptions
+## Look For Assumptions
 
 Every AI system has assumptions.
 
@@ -126,9 +126,9 @@ When reading or building, ask:
 
 What must be true for this result to matter?
 
----
+<p class="section-break">. . .</p>
 
-# Think In Experiments
+## Think In Experiments
 
 AI engineering improves through experiments.
 
@@ -156,9 +156,9 @@ Without experiments, teams argue from intuition.
 
 With experiments, they learn.
 
----
+<p class="section-break">. . .</p>
 
-# Accept Uncertainty
+## Accept Uncertainty
 
 Research thinking accepts uncertainty.
 
@@ -184,9 +184,9 @@ Overconfidence is dangerous.
 
 Good AI engineers communicate uncertainty clearly and make decisions based on the best available evidence.
 
----
+<p class="section-break">. . .</p>
 
-# Engineering Lens
+## Engineering Lens
 
 Research thinking is useful even if you never publish a paper.
 
@@ -214,7 +214,7 @@ The goal is not to become skeptical of everything.
 
 The goal is to become precise about evidence.
 
-# Practical Example
+## Practical Example
 
 Suppose a new paper claims a model is better at reasoning.
 
@@ -240,7 +240,7 @@ You do not need to accept or reject the claim immediately.
 
 You need to understand what evidence would make the claim useful.
 
-# One More Check
+## One More Check
 
 Research thinking also means staying comfortable with partial answers.
 
@@ -260,7 +260,7 @@ This is the same mindset used throughout AI engineering.
 
 You learn from experiments, compare against baselines, and make decisions based on observed behavior.
 
-# Mini Project
+## Mini Project
 
 Choose one AI claim you have seen recently.
 
@@ -280,9 +280,9 @@ Write:
 
 This is the beginning of research literacy.
 
----
+<p class="section-break">. . .</p>
 
-# Key Takeaways
+## Key Takeaways
 
 - Research thinking helps AI engineers keep learning.
 
@@ -300,12 +300,12 @@ This is the beginning of research literacy.
 
 - Avoid hype by asking what was actually measured.
 
----
+<p class="section-break">. . .</p>
 
-# What's Next
+## What's Next
 
 One of the most important research literacy skills is reading papers.
 
 In the next article, we will explore:
 
-# How to Read an AI Research Paper
+## How to Read an AI Research Paper
