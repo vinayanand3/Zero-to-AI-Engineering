@@ -168,6 +168,16 @@ main {
   border-radius: 8px;
 }
 
+.article-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 2.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 2rem;
