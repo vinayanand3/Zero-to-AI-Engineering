@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('posts')).sort((a, b) => a.data.order - b.data.order);
+const seasons = [...new Set(posts.map((post) => post.data.season))];
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<BaseLayout title="Zero to AI Engineering">
+  <section class="hero">
+    <p class="eyebrow">96-part learning series</p>
+    <h1>Zero to AI Engineering</h1>
+    <p>
+      A structured path through modern AI foundations, prompt engineering, retrieval, agents, MCP,
+      production systems, fine-tuning, evaluation, and research thinking.
+    </p>
+  </section>
+
+  <section class="season-list" aria-label="Article list">
+    {seasons.map((season) => (
+      <section class="season">
+        <h2>Season {season}</h2>
+        <ol class="post-list">
+          {posts
+            .filter((post) => post.data.season === season)
+            .map((post) => (
+              <li>
+                <a href={`${base}posts/${post.data.slug}/`}>
+                  <span>{String(post.data.order).padStart(2, '0')}</span>
+                  {post.data.title}
+                </a>
+                {post.data.description && <p>{post.data.description}</p>}
+              </li>
+            ))}
+        </ol>
+      </section>
+    ))}
+  </section>
+</BaseLayout>

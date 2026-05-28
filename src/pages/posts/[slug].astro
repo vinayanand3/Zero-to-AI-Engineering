@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('posts')).sort((a, b) => a.data.order - b.data.order);
+
+  return posts.map((post, index) => ({
+    params: { slug: post.data.slug },
+    props: {
+      post,
+      previousPost: posts[index - 1] ?? null,
+      nextPost: posts[index + 1] ?? null
+    }
+  }));
+}
+
+const { post, previousPost, nextPost } = Astro.props;
+const { Content } = await render(post);
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<BaseLayout title={`${post.data.title} | Zero to AI Engineering`} description={post.data.description}>
+  <article class="article">
+    <a class="back-link" href={base}>Back to all posts</a>
+    <p class="eyebrow">Article {String(post.data.order).padStart(2, '0')} · Season {post.data.season}</p>
+    <h1>{post.data.title}</h1>
+    <Content />
+    <nav class="post-nav" aria-label="Article navigation">
+      {previousPost ? (
+        <a class="post-nav-link previous" href={`${base}posts/${previousPost.data.slug}/`}>
+          <span>Previous</span>
+          {previousPost.data.title}
+        </a>
+      ) : (
+        <span class="post-nav-link is-disabled">
+          <span>Previous</span>
+          Start of series
+        </span>
+      )}
+
+      {nextPost ? (
+        <a class="post-nav-link next" href={`${base}posts/${nextPost.data.slug}/`}>
+          <span>Next</span>
+          {nextPost.data.title}
+        </a>
+      ) : (
+        <span class="post-nav-link is-disabled next">
+          <span>Next</span>
+          End of series
+        </span>
+      )}
+    </nav>
+  </article>
+</BaseLayout>
